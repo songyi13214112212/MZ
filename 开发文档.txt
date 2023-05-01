@@ -1,19 +1,19 @@
  
---************必须修改custom f_dm varchar(20)手动修改
+--************必须修改CUSTOM F_DM VARCHAR(20)手动修改
  
---更改销售明细帐custom varchar(10) -> varchar(20)
-alter table xsmxz alter column f_custom varchar(20) null
---储位 F_local 值 必须只能有一行 默认 *
+--更改销售明细帐CUSTOM VARCHAR(10) -> VARCHAR(20)
+ALTER TABLE XSMXZ ALTER COLUMN F_CUSTOM VARCHAR(20) NULL
+--储位 F_LOCAL 值 必须只能有一行 默认 *
 
  
---*********处方Fyxm 需要更改一个 字段 必须有一个默认设置
+--*********处方FYXM 需要更改一个 字段 必须有一个默认设置
 
---修改处方Recipe增加关联字段 F_DJH0
+--修改处方RECIPE增加关联字段 F_DJH0
 
-alter table Recipe add  F_DJH0 int null
-alter table Recipe2 add  F_DJH0 int null
+ALTER TABLE RECIPE ADD  F_DJH0 INT NULL
+ALTER TABLE RECIPE2 ADD  F_DJH0 INT NULL
 
---修改处方明细Recipemx ，Recipemx2 增加分组号F_group 并且设置为 主键
+--修改处方明细RECIPEMX ，RECIPEMX2 增加分组号F_GROUP 并且设置为 主键
 
 DECLARE @PK VARCHAR(100),@PK1 VARCHAR(100),@TABLENAME1 VARCHAR(100),@TABLENAME2 VARCHAR(100) ; 
 SET @TABLENAME1 ='RECIPEMX'
@@ -115,7 +115,7 @@ GO
 ALTER TABLE [DBO].[YSSKDMX] CHECK CONSTRAINT [FK_YSSKDMX_YSSKD_00001]
 GO
 --修改YSJSD2 字段F_SKR 长度 10
-alter table YSJSD2 alter column F_SKR varchar(10) null
+ALTER TABLE YSJSD2 ALTER COLUMN F_SKR VARCHAR(10) NULL
  
 --增加诊疗项目类别表
 IF OBJECT_ID('ZLLB') IS NULL  
@@ -152,20 +152,20 @@ CREATE TABLE ZLXM
 	F_IFPS			BIT			NULL,		--是否皮试
 	F_IFZK			BIT			NULL,		--是否折扣	
 	F_IFENV			BIT			NULL,		--是否设置
-	F_IFSPLIT			BIT			NULL,		--是否拆分
-	F_USEDTJ			VARCHAR(20)		NULL,		--给药途径
+	F_IFSPLIT		BIT			NULL,		--是否拆分
+	F_USEDTJ		VARCHAR(20)		NULL,		--给药途径
 	F_USEDPC		VARCHAR(20)		NULL,		--给药频次
 	F_USEDMD		VARCHAR(20)		NULL,		--给药目地
 	F_DW			VARCHAR(6)		NULL,		--单位
 	F_DW2			VARCHAR(6)		NULL,		--大单位
 	F_USEDDW		VARCHAR(6)		NULL,		--使用小单位
-	F_USEDJL			FLOAT			NULL,		--小单位计量
+	F_USEDJL		FLOAT			NULL,		--小单位计量
 	F_YBLB			VARCHAR(30)		NULL,		--医保类别
 	F_ZFBL			FLOAT			NULL,		--支付比例
 	F_JX			VARCHAR(10)		NULL,		--剂型
 	F_DEPART		VARCHAR(10)		NULL,		--科室
 	F_BGY			VARCHAR(10)		NULL,		--保管员
-                F_CF			VARCHAR(50)		NULL,		--成分
+    F_CF			VARCHAR(50)		NULL,		--成分
 	F_XZ			VARCHAR(50)		NULL,		--性状
 	F_SYZ			TEXT			NULL,		--造应症
 	F_YSYL			TEXT			NULL,		--用法用量
@@ -184,7 +184,7 @@ CREATE TABLE ZLXM
 	F_DJ10			FLOAT			NULL,		--售价10
 	F_MAXJJ			FLOAT			NULL,		--最高进价
 	F_MINJJ			FLOAT			NULL,		--最低进价	
-	F_RECENTLYJJ		FLOAT			NULL,		--最近进价
+	F_RECENTLYJJ	FLOAT			NULL,		--最近进价
 	F_AVGJJ			FLOAT			NULL,		--平均进价
 	F_MAXKC			FLOAT			NULL,		--最大库存
 	F_MINKC			FLOAT			NULL,		--最小库存
@@ -225,7 +225,7 @@ CREATE TABLE ZLXM
 	FOREIGN KEY(F_DEPART) REFERENCES BM(F_DM),
 	FOREIGN KEY(F_BGY)	  REFERENCES YWY(F_DM),
 )
---增加挂号注册表 (RegGHB)
+--增加挂号注册表 (REGGHB)
 IF OBJECT_ID('REGGHB')IS NULL 
 CREATE TABLE REGGHB
 (
@@ -256,3 +256,53 @@ CREATE TABLE REGGHB
 	FOREIGN KEY(F_DOCTOR) REFERENCES YWY(F_DM),				--医师关系
 	FOREIGN KEY(F_LB)	  REFERENCES GHLB(F_DM),			--挂号类别关系
 )
+--重新增加患者表代替CUSTOM 表格
+IF OBJECT_ID('PATIENT')IS NULL 
+CREATE TABLE PATIENT
+(
+	F_DM			VARCHAR(30)			NOT NULL,		--代码
+	F_IMAGES		IMAGE				NULL,			--照片
+	F_MC			VARCHAR(50)			NULL,			--姓名
+	F_ZJM			VARCHAR(50)			NULL,			--助记码
+	F_LB			VARCHAR(10)			NULL,			--类别
+	F_GENDER		VARCHAR(2)			NULL,			--性别
+	F_BIRTHDAY		VARCHAR(10)			NULL,			--出生日期
+	F_YBK			VARCHAR(50)			NULL,			--医保卡
+	F_TEL			VARCHAR(20)			NULL,			--电话
+	F_IDCARD		VARCHAR(20)			NULL,			--身份证
+	F_VIP			VARCHAR(30)			NULL,			--VIP
+	F_ACTIVEDATE	VARCHAR(20)			NULL,			--激活日期
+	F_DEPOSTIT		FLOAT	DEFAULT		0,				--押金
+	F_PASSWORD		VARCHAR(20)			NULL,			--密码
+	F_LB1			VARCHAR(10)			NULL,			--类别1
+	F_LB2			VARCHAR(10)			NULL,			--类别2
+	F_LB3			VARCHAR(10)			NULL,			--类别3
+	F_LB4			VARCHAR(10)			NULL,			--类别4
+	F_LB5			VARCHAR(10)			NULL,			--类别5
+	F_XX			VARCHAR(6)			NULL,			--血型
+	F_LJCS			INT	DEFAULT			0,				--累计次数
+	F_LJXF			FLOAT	DEFAULT		0,				--累计消费
+	F_GRADE			INT		DEFAULT		0,				--等级
+	PRIMARY KEY(F_DM ASC),
+
+)
+--修改挂号REGGHB 增加与患者表PATIENT 关系
+ALTER TABLE REGGHB ADD CONSTRAINT REGGHDF_PATIENT_PATIENTF_DM_0001 FOREIGN KEY (F_PATIENT)	REFERENCES PATIENT(F_DM)
+--增加病人记录单表
+IF OBJECT_ID('PATIENT_ORDER')IS NULL
+CREATE TABLE PATIENT_ORDER
+(
+ 	F_DJH						INT							NOT NULL,		--单据号
+ 	F_DATE						VARCHAR(20)					NOT NULL,		--日期
+	F_DJLX						VARCHAR(10)					NULL,			--单据类型
+	F_ZY						VARCHAR(200)				NULL,			--摘要
+ 	F_JE						FLOAT						NOT NULL,		--单据金额
+ 	F_PATIENT					VARCHAR(30)					NOT NULL,		--患者编号
+)
+--修改业务员表增加密码字段
+ALTER TABLE YWY ADD F_PASSWORD VARCHAR(20)		DEFAULT '123456'		--增加密码
+ALTER TABLE YWY ADD F_QX	   VARCHAR(10)		NULL					--增加权限
+ALTER TABLE	YWY	ADD	F_CFQL	   BIT				NULL					--处方权力
+ALTER TABLE	YWY	ADD	F_ZC	   VARCHAR(20)		NULL					--增加职称
+--科室业修改主营业务科室字段
+ALTER	TABLE	BM	ADD	F_MAIN	INT CHECK(F_MAIN IN (1,2))				--主要业务科室
