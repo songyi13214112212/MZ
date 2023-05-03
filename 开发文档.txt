@@ -372,22 +372,23 @@ CREATE TABLE PRESCRIPTIONDETALIED(
 	F_USEDPC		VARCHAR(20)		NULL,		--给药频次
 	F_USEDMD		VARCHAR(20)		NULL,		--给药目地
 	F_DW			VARCHAR(6)		NULL,		--单位
+	F_DAYS			INT				NULL,		--天数
 	F_SL			FLOAT			NULL,		--数量
+	F_JL			FLOAT			NULL,		--使用计量
 	F_DW2			VARCHAR(6)		NULL,		--大单位
 	F_USEDDW		VARCHAR(6)		NULL,		--使用小单位
 	F_USEDJL		FLOAT			NULL,		--小单位计量
 	F_YBLB			VARCHAR(30)		NULL,		--医保类别
 	F_ZFBL			FLOAT			NULL,		--支付比例
 	F_JX			VARCHAR(10)		NULL,		--剂型
-	F_DEPART		VARCHAR(10)		NULL,		--科室
-	F_BGY			VARCHAR(10)		NULL,		--保管员
     F_CF			VARCHAR(50)		NULL,		--成分
 	F_XZ			VARCHAR(50)		NULL,		--性状
 	F_SYZ			TEXT			NULL,		--造应症
 	F_YSYL			TEXT			NULL,		--用法用量
 	F_BLFY			TEXT			NULL,		--不良反应
-	F_CC			VARCHAR(20)		NULL,		--储藏
-	F_BZ			VARCHAR(50)		NULL,		--包装
+	F_DATE			VARCHAR(10)		NULL,		--当前开单设时间
+
+ 
 	PRIMARY KEY(F_DJH,F_HC ASC),
 	FOREIGN KEY(F_ZLXM)	REFERENCES	ZLXM(F_DM),
 )
