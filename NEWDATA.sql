@@ -18,61 +18,61 @@ ALTER TABLE [dbo].[ZZMBMX] DROP CONSTRAINT [FK__ZZMBMX__F_SPBH1__63A3C44B]
 GO
 ALTER TABLE [dbo].[ZZMBMX] DROP CONSTRAINT [FK__ZZMBMX__F_SPBH1__62AFA012]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW2__5EDF0F2E]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW2__7C6F7215]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW2__5DEAEAF5]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW2__7B7B4DDC]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW1__5CF6C6BC]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW1__7A8729A3]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW1__5C02A283]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_HW1__7993056A]
 GO
 ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DRUGBH__5DEAEAF5]
 GO
 ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DRUGBH__5CF6C6BC]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DEPT__592635D8]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DEPT__76B698BF]
 GO
-ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DEPT__5832119F]
+ALTER TABLE [dbo].[ZZD2] DROP CONSTRAINT [FK__ZZD2__F_DEPT__75C27486]
 GO
-ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW2__573DED66]
+ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW2__74CE504D]
 GO
-ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW2__5649C92D]
+ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW2__73DA2C14]
 GO
-ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW1__5555A4F4]
+ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW1__72E607DB]
 GO
-ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW1__546180BB]
+ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_HW1__71F1E3A2]
 GO
 ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_DRUGBH__5649C92D]
 GO
 ALTER TABLE [dbo].[ZZD] DROP CONSTRAINT [FK__ZZD__F_DRUGBH__5555A4F4]
 GO
-ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_HW__51851410]
+ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_HW__6F1576F7]
 GO
-ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_HW__5090EFD7]
+ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_HW__6E2152BE]
 GO
 ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_DRUGBH__5090EFD7]
 GO
 ALTER TABLE [dbo].[XSZZ] DROP CONSTRAINT [FK__XSZZ__F_DRUGBH__4F9CCB9E]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_HW__4DB4832C]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_HW__6B44E613]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_HW__4CC05EF3]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_HW__6A50C1DA]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_EMP__4BCC3ABA]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_EMP__695C9DA1]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_EMP__4AD81681]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_EMP__68687968]
 GO
 ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DRUGBH__4AD81681]
 GO
 ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DRUGBH__49E3F248]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DEPT__47FBA9D6]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DEPT__658C0CBD]
 GO
-ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DEPT__4707859D]
+ALTER TABLE [dbo].[XSMXZ] DROP CONSTRAINT [FK__XSMXZ__F_DEPT__6497E884]
 GO
-ALTER TABLE [dbo].[SPPC] DROP CONSTRAINT [FK__SPPC__F_HW__46136164]
+ALTER TABLE [dbo].[SPPC] DROP CONSTRAINT [FK__SPPC__F_HW__63A3C44B]
 GO
-ALTER TABLE [dbo].[SPPC] DROP CONSTRAINT [FK__SPPC__F_HW__451F3D2B]
+ALTER TABLE [dbo].[SPPC] DROP CONSTRAINT [FK__SPPC__F_HW__62AFA012]
 GO
 ALTER TABLE [dbo].[SPPC] DROP CONSTRAINT [FK__SPPC__F_DRUGBH__451F3D2B]
 GO
@@ -86,47 +86,47 @@ ALTER TABLE [dbo].[RKDMX] DROP CONSTRAINT [FK__RKDMX__F_DRUGBH__414EAC47]
 GO
 ALTER TABLE [dbo].[RKDMX] DROP CONSTRAINT [FK__RKDMX__F_DRUGBH__405A880E]
 GO
-ALTER TABLE [dbo].[RKD2] DROP CONSTRAINT [FK__RKD2__F_HW__3E723F9C]
+ALTER TABLE [dbo].[RKD2] DROP CONSTRAINT [FK__RKD2__F_HW__5C02A283]
 GO
-ALTER TABLE [dbo].[RKD2] DROP CONSTRAINT [FK__RKD2__F_HW__3D7E1B63]
+ALTER TABLE [dbo].[RKD2] DROP CONSTRAINT [FK__RKD2__F_HW__5B0E7E4A]
 GO
-ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [FK__RKD__F_HW__3C89F72A]
+ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [FK__RKD__F_HW__5A1A5A11]
 GO
-ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [FK__RKD__F_HW__3B95D2F1]
+ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [FK__RKD__F_HW__592635D8]
 GO
-ALTER TABLE [dbo].[RECIPEMX] DROP CONSTRAINT [FK__RECIPEMX__F_DRUG__01F34141]
+ALTER TABLE [dbo].[RECIPEMX] DROP CONSTRAINT [FK__RECIPEMX__F_DRUG__5832119F]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_ZLBH__3E3D3572]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_ZLBH__573DED66]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_TYPE__420DC656]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_TYPE__5649C92D]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_REGHB__3D491139]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_REGHB__5555A4F4]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_PATIEN__3F3159AB]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_PATIEN__546180BB]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_EMP__4119A21D]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_EMP__536D5C82]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_DEPT__40257DE4]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [FK__RECIPE__F_DEPT__52793849]
 GO
-ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_HW__3AA1AEB8]
+ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_HW__51851410]
 GO
-ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_HW__39AD8A7F]
+ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_HW__5090EFD7]
 GO
 ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_DRUGBH__39AD8A7F]
 GO
 ALTER TABLE [dbo].[KCZZ] DROP CONSTRAINT [FK__KCZZ__F_DRUGBH__38B96646]
 GO
-ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_HW__36D11DD4]
+ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_HW__4DB4832C]
 GO
-ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_HW__35DCF99B]
+ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_HW__4CC05EF3]
 GO
 ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_DRUGBH__35DCF99B]
 GO
 ALTER TABLE [dbo].[KCMXZ] DROP CONSTRAINT [FK__KCMXZ__F_DRUGBH__34E8D562]
 GO
-ALTER TABLE [dbo].[JHZZ] DROP CONSTRAINT [FK__JHZZ__F_HW__33008CF0]
+ALTER TABLE [dbo].[JHZZ] DROP CONSTRAINT [FK__JHZZ__F_HW__49E3F248]
 GO
-ALTER TABLE [dbo].[JHZZ] DROP CONSTRAINT [FK__JHZZ__F_HW__320C68B7]
+ALTER TABLE [dbo].[JHZZ] DROP CONSTRAINT [FK__JHZZ__F_HW__48EFCE0F]
 GO
 ALTER TABLE [dbo].[JHZZ] DROP CONSTRAINT [FK__JHZZ__F_DRUGBH__320C68B7]
 GO
@@ -140,51 +140,53 @@ ALTER TABLE [dbo].[JHDMX] DROP CONSTRAINT [FK__JHDMX__F_DRUGBH__2E3BD7D3]
 GO
 ALTER TABLE [dbo].[JHDMX] DROP CONSTRAINT [FK__JHDMX__F_DRUGBH__2D47B39A]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_VENDOR__2B5F6B28]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_VENDOR__4242D080]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_VENDOR__2A6B46EF]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_VENDOR__414EAC47]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_HW__297722B6]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_HW__405A880E]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_HW__2882FE7D]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_HW__3F6663D5]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_DEPT__278EDA44]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_DEPT__3E723F9C]
 GO
-ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_DEPT__269AB60B]
+ALTER TABLE [dbo].[JHD2] DROP CONSTRAINT [FK__JHD2__F_DEPT__3D7E1B63]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_VENDOR__25A691D2]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_VENDOR__3C89F72A]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_VENDOR__24B26D99]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_VENDOR__3B95D2F1]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_HW__23BE4960]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_HW__3AA1AEB8]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_HW__22CA2527]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_HW__39AD8A7F]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_DEPT__21D600EE]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_DEPT__38B96646]
 GO
-ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_DEPT__20E1DCB5]
+ALTER TABLE [dbo].[JHD] DROP CONSTRAINT [FK__JHD__F_DEPT__37C5420D]
 GO
-ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_HW__1FEDB87C]
+ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_HW__36D11DD4]
 GO
-ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_HW__1EF99443]
+ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_HW__35DCF99B]
 GO
 ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_DRUGBH__1EF99443]
 GO
 ALTER TABLE [dbo].[JGZZ] DROP CONSTRAINT [FK__JGZZ__F_DRUGBH__1E05700A]
 GO
-ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [FK__EMPPASSWOR__F_DM__1C1D2798]
+ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [FK__EMPPASSWOR__F_DM__33008CF0]
 GO
-ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [FK__EMPPASSWOR__F_DM__1B29035F]
+ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [FK__EMPPASSWOR__F_DM__320C68B7]
 GO
 ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK_EMP_F_GHLB_4BCC3A23]
 GO
-ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK__EMP__F_DEPT__1A34DF26]
+ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK_EMP_EMP_2F2FFC0CSFD]
 GO
-ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK__EMP__F_DEPT__1940BAED]
+ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK__EMP__F_DEPT__30242045]
 GO
-ALTER TABLE [dbo].[DBZZ] DROP CONSTRAINT [FK__DBZZ__F_HW__184C96B4]
+ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [FK__EMP__F_DEPT__2F2FFC0C]
 GO
-ALTER TABLE [dbo].[DBZZ] DROP CONSTRAINT [FK__DBZZ__F_HW__1758727B]
+ALTER TABLE [dbo].[DBZZ] DROP CONSTRAINT [FK__DBZZ__F_HW__2E3BD7D3]
+GO
+ALTER TABLE [dbo].[DBZZ] DROP CONSTRAINT [FK__DBZZ__F_HW__2D47B39A]
 GO
 ALTER TABLE [dbo].[DBZZ] DROP CONSTRAINT [FK__DBZZ__F_DRUGBH__1940BAED]
 GO
@@ -198,21 +200,21 @@ ALTER TABLE [dbo].[DBDMX] DROP CONSTRAINT [FK__DBDMX__F_DRUGBH__15702A09]
 GO
 ALTER TABLE [dbo].[DBDMX] DROP CONSTRAINT [FK__DBDMX__F_DRUGBH__147C05D0]
 GO
-ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW2__10AB74EC]
+ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW2__269AB60B]
 GO
-ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW2__0FB750B3]
+ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW2__25A691D2]
 GO
-ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW1__0EC32C7A]
+ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW1__24B26D99]
 GO
-ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW1__0DCF0841]
+ALTER TABLE [dbo].[DBD2] DROP CONSTRAINT [FK__DBD2__F_HW1__23BE4960]
 GO
-ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW2__0CDAE408]
+ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW2__22CA2527]
 GO
-ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW2__0BE6BFCF]
+ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW2__21D600EE]
 GO
-ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW1__0AF29B96]
+ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW1__20E1DCB5]
 GO
-ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW1__09FE775D]
+ALTER TABLE [dbo].[DBD] DROP CONSTRAINT [FK__DBD__F_HW1__1FEDB87C]
 GO
 ALTER TABLE [dbo].[CKDMX2] DROP CONSTRAINT [FK__CKDMX2__F_DRUGBH__0BE6BFCF]
 GO
@@ -222,13 +224,13 @@ ALTER TABLE [dbo].[CKDMX] DROP CONSTRAINT [FK__CKDMX__F_DRUGBH__09FE775D]
 GO
 ALTER TABLE [dbo].[CKDMX] DROP CONSTRAINT [FK__CKDMX__F_DRUGBH__090A5324]
 GO
-ALTER TABLE [dbo].[CKD2] DROP CONSTRAINT [FK__CKD2__F_HW__0539C240]
+ALTER TABLE [dbo].[CKD2] DROP CONSTRAINT [FK__CKD2__F_HW__1B29035F]
 GO
-ALTER TABLE [dbo].[CKD2] DROP CONSTRAINT [FK__CKD2__F_HW__04459E07]
+ALTER TABLE [dbo].[CKD2] DROP CONSTRAINT [FK__CKD2__F_HW__1A34DF26]
 GO
-ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [FK__CKD__F_HW__035179CE]
+ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [FK__CKD__F_HW__1940BAED]
 GO
-ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [FK__CKD__F_HW__025D5595]
+ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [FK__CKD__F_HW__184C96B4]
 GO
 ALTER TABLE [dbo].[ZZDMX3] DROP CONSTRAINT [DF__ZZDMX3__F_JE__15460CD7]
 GO
@@ -410,17 +412,17 @@ ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [DF__RKD__F_SL2__6DA22FD1]
 GO
 ALTER TABLE [dbo].[RKD] DROP CONSTRAINT [DF__RKD__F_FPXZ__6CAE0B98]
 GO
-ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GHGBF__369C13AA]
+ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GHGBF__4183B671]
 GO
-ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GHJE__35A7EF71]
+ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GHJE__408F9238]
 GO
-ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GENDER__34B3CB38]
+ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_GENDER__3F9B6DFF]
 GO
-ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_ZLSTATE__32CB82C6]
+ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_ZLSTATE__3EA749C6]
 GO
-ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_ISJZ__30E33A54]
+ALTER TABLE [dbo].[REGHB] DROP CONSTRAINT [DF__REGHB__F_ISJZ__3DB3258D]
 GO
-ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [DF__RECIPE__F_ISSAVE__3C54ED00]
+ALTER TABLE [dbo].[RECIPE] DROP CONSTRAINT [DF__RECIPE__F_ISSAVE__3CBF0154]
 GO
 ALTER TABLE [dbo].[PDDMX3] DROP CONSTRAINT [DF__PDDMX3__F_DJ2__7F76C749]
 GO
@@ -784,7 +786,7 @@ ALTER TABLE [dbo].[GHLB] DROP CONSTRAINT [DF_GHLB_F_GHGBF]
 GO
 ALTER TABLE [dbo].[GHLB] DROP CONSTRAINT [DF_GHLB_F_GHJE]
 GO
-ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [DF__EMPPASSWO__F_PAS__00DF2177]
+ALTER TABLE [dbo].[EMPPASSWORD] DROP CONSTRAINT [DF__EMPPASSWO__F_PAS__0F2D40CE]
 GO
 ALTER TABLE [dbo].[EMP] DROP CONSTRAINT [DF_EMP_F_MAXDE]
 GO
@@ -1044,299 +1046,299 @@ ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [DF__CKD__F_SL2__74EE4BDE]
 GO
 ALTER TABLE [dbo].[CKD] DROP CONSTRAINT [DF__CKD__F_FPXZ__73FA27A5]
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZMBMX]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZMBMX]
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZMB]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZMB]
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZDMX3]
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZDMX2]
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZDMX]
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZD3]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZD3]
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZD2]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZD2]
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZZD]') AND type in (N'U'))
 DROP TABLE [dbo].[ZZD]
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZTCS]') AND type in (N'U'))
 DROP TABLE [dbo].[ZTCS]
 GO
-/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZLSC]') AND type in (N'U'))
 DROP TABLE [dbo].[ZLSC]
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[XSZZ]') AND type in (N'U'))
 DROP TABLE [dbo].[XSZZ]
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[XSMXZ]') AND type in (N'U'))
 DROP TABLE [dbo].[XSMXZ]
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[XSLB]') AND type in (N'U'))
 DROP TABLE [dbo].[XSLB]
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VIP2]') AND type in (N'U'))
 DROP TABLE [dbo].[VIP2]
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VIP]') AND type in (N'U'))
 DROP TABLE [dbo].[VIP]
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VENDORLB]') AND type in (N'U'))
 DROP TABLE [dbo].[VENDORLB]
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VENDOR]') AND type in (N'U'))
 DROP TABLE [dbo].[VENDOR]
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[VEN_SP]') AND type in (N'U'))
 DROP TABLE [dbo].[VEN_SP]
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SPPC]') AND type in (N'U'))
 DROP TABLE [dbo].[SPPC]
 GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[SFZY]') AND type in (N'U'))
 DROP TABLE [dbo].[SFZY]
 GO
-/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[RKDMX3]
 GO
-/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[RKDMX2]
 GO
-/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[RKDMX]
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKD3]') AND type in (N'U'))
 DROP TABLE [dbo].[RKD3]
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKD2]') AND type in (N'U'))
 DROP TABLE [dbo].[RKD2]
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKD]') AND type in (N'U'))
 DROP TABLE [dbo].[RKD]
 GO
-/****** Object:  Table [dbo].[REGHB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[REGHB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[REGHB]') AND type in (N'U'))
 DROP TABLE [dbo].[REGHB]
 GO
-/****** Object:  Table [dbo].[RECIPETYPE]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RECIPETYPE]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPETYPE]') AND type in (N'U'))
 DROP TABLE [dbo].[RECIPETYPE]
 GO
-/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPEMX]') AND type in (N'U'))
 DROP TABLE [dbo].[RECIPEMX]
 GO
-/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPE]') AND type in (N'U'))
 DROP TABLE [dbo].[RECIPE]
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[PDDMX3]
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[PDDMX2]
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[PDDMX]
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDD3]') AND type in (N'U'))
 DROP TABLE [dbo].[PDD3]
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDD2]') AND type in (N'U'))
 DROP TABLE [dbo].[PDD2]
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PDD]') AND type in (N'U'))
 DROP TABLE [dbo].[PDD]
 GO
-/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[PATIENT]') AND type in (N'U'))
 DROP TABLE [dbo].[PATIENT]
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[KJQJ]') AND type in (N'U'))
 DROP TABLE [dbo].[KJQJ]
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[KCZZ]') AND type in (N'U'))
 DROP TABLE [dbo].[KCZZ]
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[KCYE]') AND type in (N'U'))
 DROP TABLE [dbo].[KCYE]
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[KCMXZ]') AND type in (N'U'))
 DROP TABLE [dbo].[KCMXZ]
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JSFS]') AND type in (N'U'))
 DROP TABLE [dbo].[JSFS]
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHZZ]') AND type in (N'U'))
 DROP TABLE [dbo].[JHZZ]
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[JHDMX3]
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[JHDMX2]
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[JHDMX]
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHD3]') AND type in (N'U'))
 DROP TABLE [dbo].[JHD3]
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHD2]') AND type in (N'U'))
 DROP TABLE [dbo].[JHD2]
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JHD]') AND type in (N'U'))
 DROP TABLE [dbo].[JHD]
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JGZZ]') AND type in (N'U'))
 DROP TABLE [dbo].[JGZZ]
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[HW]') AND type in (N'U'))
 DROP TABLE [dbo].[HW]
 GO
-/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[GHLB]') AND type in (N'U'))
 DROP TABLE [dbo].[GHLB]
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ENV]') AND type in (N'U'))
 DROP TABLE [dbo].[ENV]
 GO
-/****** Object:  Table [dbo].[EMPPASSWORD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[EMPPASSWORD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[EMPPASSWORD]') AND type in (N'U'))
 DROP TABLE [dbo].[EMPPASSWORD]
 GO
-/****** Object:  Table [dbo].[EMP]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[EMP]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[EMP]') AND type in (N'U'))
 DROP TABLE [dbo].[EMP]
 GO
-/****** Object:  Table [dbo].[DRUGSPLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DRUGSPLB]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DRUGSPLB]') AND type in (N'U'))
 DROP TABLE [dbo].[DRUGSPLB]
 GO
-/****** Object:  Table [dbo].[DRUG]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DRUG]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DRUG]') AND type in (N'U'))
 DROP TABLE [dbo].[DRUG]
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DJH]') AND type in (N'U'))
 DROP TABLE [dbo].[DJH]
 GO
-/****** Object:  Table [dbo].[DEPT]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DEPT]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DEPT]') AND type in (N'U'))
 DROP TABLE [dbo].[DEPT]
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBZZ]') AND type in (N'U'))
 DROP TABLE [dbo].[DBZZ]
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[DBDMX3]
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[DBDMX2]
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[DBDMX]
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBD3]') AND type in (N'U'))
 DROP TABLE [dbo].[DBD3]
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBD2]') AND type in (N'U'))
 DROP TABLE [dbo].[DBD2]
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DBD]') AND type in (N'U'))
 DROP TABLE [dbo].[DBD]
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CUSTOMDJ]') AND type in (N'U'))
 DROP TABLE [dbo].[CUSTOMDJ]
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKDMX3]') AND type in (N'U'))
 DROP TABLE [dbo].[CKDMX3]
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKDMX2]') AND type in (N'U'))
 DROP TABLE [dbo].[CKDMX2]
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKDMX]') AND type in (N'U'))
 DROP TABLE [dbo].[CKDMX]
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKD3]') AND type in (N'U'))
 DROP TABLE [dbo].[CKD3]
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKD2]') AND type in (N'U'))
 DROP TABLE [dbo].[CKD2]
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/7 0:01:33 ******/
 IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CKD]') AND type in (N'U'))
 DROP TABLE [dbo].[CKD]
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1362,7 +1364,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1388,7 +1390,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1414,7 +1416,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1449,7 +1451,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1484,7 +1486,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1519,7 +1521,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1541,7 +1543,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1562,7 +1564,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1583,7 +1585,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1604,7 +1606,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1637,7 +1639,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1670,7 +1672,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1703,7 +1705,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1766,7 +1768,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DEPT]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DEPT]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1783,7 +1785,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1815,14 +1817,14 @@ CREATE TABLE [dbo].[DJH](
 	[F_GHB] [int] NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DRUG]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DRUG]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[DRUG](
 	[F_DRUGTM] [varchar](30) NULL,
-	[F_DRUGBH] [varchar](30) NOT NULL,
+	[F_DRUGDM] [varchar](30) NOT NULL,
 	[F_DRUGMC] [varchar](50) NOT NULL,
 	[F_DRUGGG] [varchar](50) NULL,
 	[F_DRUGCD] [varchar](50) NULL,
@@ -1888,11 +1890,11 @@ CREATE TABLE [dbo].[DRUG](
 	[F_RATE] [float] NULL,
  CONSTRAINT [PK__DRUG__A5C2304757CF8320] PRIMARY KEY CLUSTERED 
 (
-	[F_DRUGBH] ASC
+	[F_DRUGDM] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[DRUGSPLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[DRUGSPLB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1909,7 +1911,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EMP]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[EMP]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1918,17 +1920,18 @@ CREATE TABLE [dbo].[EMP](
 	[F_DM] [varchar](30) NOT NULL,
 	[F_EMPMC] [varchar](50) NOT NULL,
 	[F_DEPT] [varchar](30) NOT NULL,
+	[F_HW] [varchar](30) NULL,
 	[F_MINDE] [float] NULL,
 	[F_MAXDE] [float] NULL,
 	[F_ZN] [varchar](1) NULL,
 	[F_GHLB] [varchar](30) NULL,
-PRIMARY KEY CLUSTERED 
+ CONSTRAINT [PK__EMP__2C6EEFB658BEF792] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[EMPPASSWORD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[EMPPASSWORD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1943,7 +1946,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1958,7 +1961,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1974,7 +1977,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1989,7 +1992,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2052,7 +2055,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2083,7 +2086,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2114,7 +2117,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2145,7 +2148,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2185,7 +2188,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2216,16 +2219,16 @@ CREATE TABLE [dbo].[JHDMX2](
 	[F_HSDJ] [float] NULL,
 	[F_KL] [int] NULL,
 	[F_ISCB] [varchar](1) NULL,
-	[F_JGF] [float] NULL,
 	[F_YLF] [float] NULL,
-PRIMARY KEY CLUSTERED 
+	[F_JGF] [float] NULL,
+ CONSTRAINT [PK__JHDMX2__FEDF803EC34740E4] PRIMARY KEY CLUSTERED 
 (
 	[F_DJH] ASC,
 	[F_HC] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2265,7 +2268,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/5 22:58:15 ******/
+/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2316,7 +2319,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2331,7 +2334,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2351,7 +2354,7 @@ CREATE TABLE [dbo].[KCMXZ](
 	[F_CX] [int] NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2367,7 +2370,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2437,7 +2440,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2453,7 +2456,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2478,7 +2481,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2495,7 +2498,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2512,7 +2515,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2529,7 +2532,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2553,7 +2556,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2577,7 +2580,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2601,7 +2604,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2628,7 +2631,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2669,7 +2672,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RECIPETYPE]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RECIPETYPE]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2685,7 +2688,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[REGHB]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[REGHB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2723,7 +2726,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2749,7 +2752,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2775,7 +2778,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2801,7 +2804,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2837,7 +2840,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2873,7 +2876,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2909,7 +2912,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2924,7 +2927,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2944,7 +2947,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2967,7 +2970,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3030,7 +3033,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3045,7 +3048,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3075,7 +3078,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3105,7 +3108,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3120,7 +3123,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3143,7 +3146,7 @@ CREATE TABLE [dbo].[XSMXZ](
 	[F_CX] [int] NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3206,7 +3209,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3222,7 +3225,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3262,7 +3265,7 @@ CREATE TABLE [dbo].[ZTCS](
 	[F_YC] [varchar](1) NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3297,7 +3300,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3332,7 +3335,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3367,7 +3370,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3403,7 +3406,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3439,7 +3442,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3475,7 +3478,7 @@ CREATE TABLE [dbo].[ZZDMX3](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3486,7 +3489,7 @@ CREATE TABLE [dbo].[ZZMB](
 	[F_DW] [varchar](6) NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/5 22:58:16 ******/
+/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/7 0:01:33 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4328,22 +4331,22 @@ ALTER TABLE [dbo].[CKD2]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[CKDMX]  WITH CHECK ADD  CONSTRAINT [FK__CKDMX__F_DRUGBH__090A5324] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[CKDMX] CHECK CONSTRAINT [FK__CKDMX__F_DRUGBH__090A5324]
 GO
 ALTER TABLE [dbo].[CKDMX]  WITH CHECK ADD  CONSTRAINT [FK__CKDMX__F_DRUGBH__09FE775D] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[CKDMX] CHECK CONSTRAINT [FK__CKDMX__F_DRUGBH__09FE775D]
 GO
 ALTER TABLE [dbo].[CKDMX2]  WITH CHECK ADD  CONSTRAINT [FK__CKDMX2__F_DRUGBH__0AF29B96] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[CKDMX2] CHECK CONSTRAINT [FK__CKDMX2__F_DRUGBH__0AF29B96]
 GO
 ALTER TABLE [dbo].[CKDMX2]  WITH CHECK ADD  CONSTRAINT [FK__CKDMX2__F_DRUGBH__0BE6BFCF] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[CKDMX2] CHECK CONSTRAINT [FK__CKDMX2__F_DRUGBH__0BE6BFCF]
 GO
@@ -4372,32 +4375,32 @@ ALTER TABLE [dbo].[DBD2]  WITH CHECK ADD FOREIGN KEY([F_HW2])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[DBDMX]  WITH CHECK ADD  CONSTRAINT [FK__DBDMX__F_DRUGBH__147C05D0] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBDMX] CHECK CONSTRAINT [FK__DBDMX__F_DRUGBH__147C05D0]
 GO
 ALTER TABLE [dbo].[DBDMX]  WITH CHECK ADD  CONSTRAINT [FK__DBDMX__F_DRUGBH__15702A09] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBDMX] CHECK CONSTRAINT [FK__DBDMX__F_DRUGBH__15702A09]
 GO
 ALTER TABLE [dbo].[DBDMX2]  WITH CHECK ADD  CONSTRAINT [FK__DBDMX2__F_DRUGBH__16644E42] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBDMX2] CHECK CONSTRAINT [FK__DBDMX2__F_DRUGBH__16644E42]
 GO
 ALTER TABLE [dbo].[DBDMX2]  WITH CHECK ADD  CONSTRAINT [FK__DBDMX2__F_DRUGBH__1758727B] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBDMX2] CHECK CONSTRAINT [FK__DBDMX2__F_DRUGBH__1758727B]
 GO
 ALTER TABLE [dbo].[DBZZ]  WITH CHECK ADD  CONSTRAINT [FK__DBZZ__F_DRUGBH__184C96B4] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBZZ] CHECK CONSTRAINT [FK__DBZZ__F_DRUGBH__184C96B4]
 GO
 ALTER TABLE [dbo].[DBZZ]  WITH CHECK ADD  CONSTRAINT [FK__DBZZ__F_DRUGBH__1940BAED] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[DBZZ] CHECK CONSTRAINT [FK__DBZZ__F_DRUGBH__1940BAED]
 GO
@@ -4407,30 +4410,43 @@ GO
 ALTER TABLE [dbo].[DBZZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
-ALTER TABLE [dbo].[EMP]  WITH CHECK ADD FOREIGN KEY([F_DEPT])
+ALTER TABLE [dbo].[EMP]  WITH CHECK ADD  CONSTRAINT [FK__EMP__F_DEPT__2F2FFC0C] FOREIGN KEY([F_DEPT])
 REFERENCES [dbo].[DEPT] ([F_DM])
 GO
-ALTER TABLE [dbo].[EMP]  WITH CHECK ADD FOREIGN KEY([F_DEPT])
+ALTER TABLE [dbo].[EMP] CHECK CONSTRAINT [FK__EMP__F_DEPT__2F2FFC0C]
+GO
+ALTER TABLE [dbo].[EMP]  WITH CHECK ADD  CONSTRAINT [FK__EMP__F_DEPT__30242045] FOREIGN KEY([F_DEPT])
 REFERENCES [dbo].[DEPT] ([F_DM])
+GO
+ALTER TABLE [dbo].[EMP] CHECK CONSTRAINT [FK__EMP__F_DEPT__30242045]
+GO
+ALTER TABLE [dbo].[EMP]  WITH CHECK ADD  CONSTRAINT [FK_EMP_EMP_2F2FFC0CSFD] FOREIGN KEY([F_HW])
+REFERENCES [dbo].[HW] ([F_DM])
+GO
+ALTER TABLE [dbo].[EMP] CHECK CONSTRAINT [FK_EMP_EMP_2F2FFC0CSFD]
 GO
 ALTER TABLE [dbo].[EMP]  WITH CHECK ADD  CONSTRAINT [FK_EMP_F_GHLB_4BCC3A23] FOREIGN KEY([F_GHLB])
 REFERENCES [dbo].[GHLB] ([F_DM])
 GO
 ALTER TABLE [dbo].[EMP] CHECK CONSTRAINT [FK_EMP_F_GHLB_4BCC3A23]
 GO
-ALTER TABLE [dbo].[EMPPASSWORD]  WITH CHECK ADD FOREIGN KEY([F_DM])
+ALTER TABLE [dbo].[EMPPASSWORD]  WITH CHECK ADD  CONSTRAINT [FK__EMPPASSWOR__F_DM__320C68B7] FOREIGN KEY([F_DM])
 REFERENCES [dbo].[EMP] ([F_DM])
 GO
-ALTER TABLE [dbo].[EMPPASSWORD]  WITH CHECK ADD FOREIGN KEY([F_DM])
+ALTER TABLE [dbo].[EMPPASSWORD] CHECK CONSTRAINT [FK__EMPPASSWOR__F_DM__320C68B7]
+GO
+ALTER TABLE [dbo].[EMPPASSWORD]  WITH CHECK ADD  CONSTRAINT [FK__EMPPASSWOR__F_DM__33008CF0] FOREIGN KEY([F_DM])
 REFERENCES [dbo].[EMP] ([F_DM])
+GO
+ALTER TABLE [dbo].[EMPPASSWORD] CHECK CONSTRAINT [FK__EMPPASSWOR__F_DM__33008CF0]
 GO
 ALTER TABLE [dbo].[JGZZ]  WITH CHECK ADD  CONSTRAINT [FK__JGZZ__F_DRUGBH__1E05700A] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JGZZ] CHECK CONSTRAINT [FK__JGZZ__F_DRUGBH__1E05700A]
 GO
 ALTER TABLE [dbo].[JGZZ]  WITH CHECK ADD  CONSTRAINT [FK__JGZZ__F_DRUGBH__1EF99443] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JGZZ] CHECK CONSTRAINT [FK__JGZZ__F_DRUGBH__1EF99443]
 GO
@@ -4477,32 +4493,32 @@ ALTER TABLE [dbo].[JHD2]  WITH CHECK ADD FOREIGN KEY([F_VENDOR])
 REFERENCES [dbo].[VENDOR] ([F_DM])
 GO
 ALTER TABLE [dbo].[JHDMX]  WITH CHECK ADD  CONSTRAINT [FK__JHDMX__F_DRUGBH__2D47B39A] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHDMX] CHECK CONSTRAINT [FK__JHDMX__F_DRUGBH__2D47B39A]
 GO
 ALTER TABLE [dbo].[JHDMX]  WITH CHECK ADD  CONSTRAINT [FK__JHDMX__F_DRUGBH__2E3BD7D3] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHDMX] CHECK CONSTRAINT [FK__JHDMX__F_DRUGBH__2E3BD7D3]
 GO
 ALTER TABLE [dbo].[JHDMX2]  WITH CHECK ADD  CONSTRAINT [FK__JHDMX2__F_DRUGBH__2F2FFC0C] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHDMX2] CHECK CONSTRAINT [FK__JHDMX2__F_DRUGBH__2F2FFC0C]
 GO
 ALTER TABLE [dbo].[JHDMX2]  WITH CHECK ADD  CONSTRAINT [FK__JHDMX2__F_DRUGBH__30242045] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHDMX2] CHECK CONSTRAINT [FK__JHDMX2__F_DRUGBH__30242045]
 GO
 ALTER TABLE [dbo].[JHZZ]  WITH CHECK ADD  CONSTRAINT [FK__JHZZ__F_DRUGBH__3118447E] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHZZ] CHECK CONSTRAINT [FK__JHZZ__F_DRUGBH__3118447E]
 GO
 ALTER TABLE [dbo].[JHZZ]  WITH CHECK ADD  CONSTRAINT [FK__JHZZ__F_DRUGBH__320C68B7] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[JHZZ] CHECK CONSTRAINT [FK__JHZZ__F_DRUGBH__320C68B7]
 GO
@@ -4513,12 +4529,12 @@ ALTER TABLE [dbo].[JHZZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[KCMXZ]  WITH CHECK ADD  CONSTRAINT [FK__KCMXZ__F_DRUGBH__34E8D562] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[KCMXZ] CHECK CONSTRAINT [FK__KCMXZ__F_DRUGBH__34E8D562]
 GO
 ALTER TABLE [dbo].[KCMXZ]  WITH CHECK ADD  CONSTRAINT [FK__KCMXZ__F_DRUGBH__35DCF99B] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[KCMXZ] CHECK CONSTRAINT [FK__KCMXZ__F_DRUGBH__35DCF99B]
 GO
@@ -4529,12 +4545,12 @@ ALTER TABLE [dbo].[KCMXZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[KCZZ]  WITH CHECK ADD  CONSTRAINT [FK__KCZZ__F_DRUGBH__38B96646] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[KCZZ] CHECK CONSTRAINT [FK__KCZZ__F_DRUGBH__38B96646]
 GO
 ALTER TABLE [dbo].[KCZZ]  WITH CHECK ADD  CONSTRAINT [FK__KCZZ__F_DRUGBH__39AD8A7F] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[KCZZ] CHECK CONSTRAINT [FK__KCZZ__F_DRUGBH__39AD8A7F]
 GO
@@ -4547,8 +4563,10 @@ GO
 ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD FOREIGN KEY([F_DEPT])
 REFERENCES [dbo].[DEPT] ([F_DM])
 GO
-ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD FOREIGN KEY([F_EMP])
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK__RECIPE__F_EMP__536D5C82] FOREIGN KEY([F_EMP])
 REFERENCES [dbo].[EMP] ([F_DM])
+GO
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK__RECIPE__F_EMP__536D5C82]
 GO
 ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD FOREIGN KEY([F_PATIENT])
 REFERENCES [dbo].[PATIENT] ([F_DM])
@@ -4563,7 +4581,7 @@ ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD FOREIGN KEY([F_ZLBH])
 REFERENCES [dbo].[ZLSC] ([F_ZLBH])
 GO
 ALTER TABLE [dbo].[RECIPEMX]  WITH CHECK ADD FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[RKD]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
@@ -4578,32 +4596,32 @@ ALTER TABLE [dbo].[RKD2]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[RKDMX]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX__F_DRUGBH__405A880E] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[RKDMX] CHECK CONSTRAINT [FK__RKDMX__F_DRUGBH__405A880E]
 GO
 ALTER TABLE [dbo].[RKDMX]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX__F_DRUGBH__414EAC47] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[RKDMX] CHECK CONSTRAINT [FK__RKDMX__F_DRUGBH__414EAC47]
 GO
 ALTER TABLE [dbo].[RKDMX2]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX2__F_DRUGBH__4242D080] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[RKDMX2] CHECK CONSTRAINT [FK__RKDMX2__F_DRUGBH__4242D080]
 GO
 ALTER TABLE [dbo].[RKDMX2]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX2__F_DRUGBH__4336F4B9] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[RKDMX2] CHECK CONSTRAINT [FK__RKDMX2__F_DRUGBH__4336F4B9]
 GO
 ALTER TABLE [dbo].[SPPC]  WITH CHECK ADD  CONSTRAINT [FK__SPPC__F_DRUGBH__442B18F2] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[SPPC] CHECK CONSTRAINT [FK__SPPC__F_DRUGBH__442B18F2]
 GO
 ALTER TABLE [dbo].[SPPC]  WITH CHECK ADD  CONSTRAINT [FK__SPPC__F_DRUGBH__451F3D2B] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[SPPC] CHECK CONSTRAINT [FK__SPPC__F_DRUGBH__451F3D2B]
 GO
@@ -4620,20 +4638,24 @@ ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD FOREIGN KEY([F_DEPT])
 REFERENCES [dbo].[DEPT] ([F_DM])
 GO
 ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD  CONSTRAINT [FK__XSMXZ__F_DRUGBH__49E3F248] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[XSMXZ] CHECK CONSTRAINT [FK__XSMXZ__F_DRUGBH__49E3F248]
 GO
 ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD  CONSTRAINT [FK__XSMXZ__F_DRUGBH__4AD81681] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[XSMXZ] CHECK CONSTRAINT [FK__XSMXZ__F_DRUGBH__4AD81681]
 GO
-ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD FOREIGN KEY([F_EMP])
+ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD  CONSTRAINT [FK__XSMXZ__F_EMP__68687968] FOREIGN KEY([F_EMP])
 REFERENCES [dbo].[EMP] ([F_DM])
 GO
-ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD FOREIGN KEY([F_EMP])
+ALTER TABLE [dbo].[XSMXZ] CHECK CONSTRAINT [FK__XSMXZ__F_EMP__68687968]
+GO
+ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD  CONSTRAINT [FK__XSMXZ__F_EMP__695C9DA1] FOREIGN KEY([F_EMP])
 REFERENCES [dbo].[EMP] ([F_DM])
+GO
+ALTER TABLE [dbo].[XSMXZ] CHECK CONSTRAINT [FK__XSMXZ__F_EMP__695C9DA1]
 GO
 ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
@@ -4642,12 +4664,12 @@ ALTER TABLE [dbo].[XSMXZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[XSZZ]  WITH CHECK ADD  CONSTRAINT [FK__XSZZ__F_DRUGBH__4F9CCB9E] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[XSZZ] CHECK CONSTRAINT [FK__XSZZ__F_DRUGBH__4F9CCB9E]
 GO
 ALTER TABLE [dbo].[XSZZ]  WITH CHECK ADD  CONSTRAINT [FK__XSZZ__F_DRUGBH__5090EFD7] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[XSZZ] CHECK CONSTRAINT [FK__XSZZ__F_DRUGBH__5090EFD7]
 GO
@@ -4658,12 +4680,12 @@ ALTER TABLE [dbo].[XSZZ]  WITH CHECK ADD FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[ZZD]  WITH CHECK ADD  CONSTRAINT [FK__ZZD__F_DRUGBH__5555A4F4] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZD] CHECK CONSTRAINT [FK__ZZD__F_DRUGBH__5555A4F4]
 GO
 ALTER TABLE [dbo].[ZZD]  WITH CHECK ADD  CONSTRAINT [FK__ZZD__F_DRUGBH__5649C92D] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZD] CHECK CONSTRAINT [FK__ZZD__F_DRUGBH__5649C92D]
 GO
@@ -4686,12 +4708,12 @@ ALTER TABLE [dbo].[ZZD2]  WITH CHECK ADD FOREIGN KEY([F_DEPT])
 REFERENCES [dbo].[DEPT] ([F_DM])
 GO
 ALTER TABLE [dbo].[ZZD2]  WITH CHECK ADD  CONSTRAINT [FK__ZZD2__F_DRUGBH__5CF6C6BC] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZD2] CHECK CONSTRAINT [FK__ZZD2__F_DRUGBH__5CF6C6BC]
 GO
 ALTER TABLE [dbo].[ZZD2]  WITH CHECK ADD  CONSTRAINT [FK__ZZD2__F_DRUGBH__5DEAEAF5] FOREIGN KEY([F_DRUGBH])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZD2] CHECK CONSTRAINT [FK__ZZD2__F_DRUGBH__5DEAEAF5]
 GO
@@ -4708,22 +4730,22 @@ ALTER TABLE [dbo].[ZZD2]  WITH CHECK ADD FOREIGN KEY([F_HW2])
 REFERENCES [dbo].[HW] ([F_DM])
 GO
 ALTER TABLE [dbo].[ZZMBMX]  WITH CHECK ADD  CONSTRAINT [FK__ZZMBMX__F_SPBH1__62AFA012] FOREIGN KEY([F_SPBH1])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZMBMX] CHECK CONSTRAINT [FK__ZZMBMX__F_SPBH1__62AFA012]
 GO
 ALTER TABLE [dbo].[ZZMBMX]  WITH CHECK ADD  CONSTRAINT [FK__ZZMBMX__F_SPBH1__63A3C44B] FOREIGN KEY([F_SPBH1])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZMBMX] CHECK CONSTRAINT [FK__ZZMBMX__F_SPBH1__63A3C44B]
 GO
 ALTER TABLE [dbo].[ZZMBMX]  WITH CHECK ADD  CONSTRAINT [FK__ZZMBMX__F_SPBH2__6497E884] FOREIGN KEY([F_SPBH2])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZMBMX] CHECK CONSTRAINT [FK__ZZMBMX__F_SPBH2__6497E884]
 GO
 ALTER TABLE [dbo].[ZZMBMX]  WITH CHECK ADD  CONSTRAINT [FK__ZZMBMX__F_SPBH2__658C0CBD] FOREIGN KEY([F_SPBH2])
-REFERENCES [dbo].[DRUG] ([F_DRUGBH])
+REFERENCES [dbo].[DRUG] ([F_DRUGDM])
 GO
 ALTER TABLE [dbo].[ZZMBMX] CHECK CONSTRAINT [FK__ZZMBMX__F_SPBH2__658C0CBD]
 GO
