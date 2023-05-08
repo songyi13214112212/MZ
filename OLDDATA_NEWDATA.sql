@@ -11,7 +11,7 @@
 
 USE [DATA]
 GO
-/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[AINPUTSOURCE]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -28,7 +28,7 @@ CREATE TABLE [dbo].[AINPUTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述：报表变量 [dbo].[BBVAR]       脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -62,7 +62,7 @@ CREATE TABLE [dbo].[BBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述：部门 [dbo].[BM]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -72,8 +72,7 @@ BEGIN
 CREATE TABLE [dbo].[BM](
 	[F_DM] [varchar](30) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_MC] [varchar](100) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_DE] [float] NULL,
-	[F_HW] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DE] [float] NULL, 
  CONSTRAINT [PK__BM__2C6EEFB6F2B3725D] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -81,7 +80,7 @@ CREATE TABLE [dbo].[BM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[BM3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -98,7 +97,7 @@ CREATE TABLE [dbo].[BM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CBPOWER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -119,7 +118,7 @@ CREATE TABLE [dbo].[CBPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -148,7 +147,7 @@ CREATE TABLE [dbo].[CGD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -177,7 +176,7 @@ CREATE TABLE [dbo].[CGD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -206,7 +205,7 @@ CREATE TABLE [dbo].[CGD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -243,7 +242,7 @@ CREATE TABLE [dbo].[CGDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -280,7 +279,7 @@ CREATE TABLE [dbo].[CGDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CGDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -317,7 +316,7 @@ CREATE TABLE [dbo].[CGDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -346,7 +345,7 @@ CREATE TABLE [dbo].[CKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -375,7 +374,7 @@ CREATE TABLE [dbo].[CKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -404,7 +403,7 @@ CREATE TABLE [dbo].[CKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -442,7 +441,7 @@ CREATE TABLE [dbo].[CKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -480,7 +479,7 @@ CREATE TABLE [dbo].[CKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CKDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -518,7 +517,7 @@ CREATE TABLE [dbo].[CKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[COMBBVAR]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -549,7 +548,7 @@ CREATE TABLE [dbo].[COMBBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[COMFIELD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -567,7 +566,7 @@ CREATE TABLE [dbo].[COMFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[COMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -593,7 +592,7 @@ CREATE TABLE [dbo].[COMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUS_SP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -616,7 +615,7 @@ CREATE TABLE [dbo].[CUS_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOM]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -684,7 +683,7 @@ CREATE TABLE [dbo].[CUSTOM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOM3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -701,7 +700,7 @@ CREATE TABLE [dbo].[CUSTOM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOMDJ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -726,7 +725,7 @@ CREATE TABLE [dbo].[CUSTOMDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOMGRADE]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -745,7 +744,7 @@ CREATE TABLE [dbo].[CUSTOMGRADE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOMGROUP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -762,7 +761,7 @@ CREATE TABLE [dbo].[CUSTOMGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[CUSTOMLB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -780,7 +779,7 @@ CREATE TABLE [dbo].[CUSTOMLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -804,7 +803,7 @@ CREATE TABLE [dbo].[DBD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -828,7 +827,7 @@ CREATE TABLE [dbo].[DBD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -852,7 +851,7 @@ CREATE TABLE [dbo].[DBD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -888,7 +887,7 @@ CREATE TABLE [dbo].[DBDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -924,7 +923,7 @@ CREATE TABLE [dbo].[DBDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -960,7 +959,7 @@ CREATE TABLE [dbo].[DBDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DBZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1026,7 +1025,7 @@ CREATE TABLE [dbo].[DBZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DELETED]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1043,7 +1042,7 @@ CREATE TABLE [dbo].[DELETED](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1077,7 +1076,7 @@ CREATE TABLE [dbo].[DHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1111,7 +1110,7 @@ CREATE TABLE [dbo].[DHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1145,7 +1144,7 @@ CREATE TABLE [dbo].[DHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1190,7 +1189,7 @@ CREATE TABLE [dbo].[DHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1235,7 +1234,7 @@ CREATE TABLE [dbo].[DHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DHDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1280,7 +1279,7 @@ CREATE TABLE [dbo].[DHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DJH]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1314,7 +1313,7 @@ CREATE TABLE [dbo].[DJH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[DROPSOURCE]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1335,7 +1334,7 @@ CREATE TABLE [dbo].[DROPSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ENEMYXX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1358,7 +1357,7 @@ CREATE TABLE [dbo].[ENEMYXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ENV]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1376,7 +1375,7 @@ CREATE TABLE [dbo].[ENV](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[EVENT]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1397,7 +1396,7 @@ CREATE TABLE [dbo].[EVENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[FJXX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1416,7 +1415,7 @@ CREATE TABLE [dbo].[FJXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[FPCOL]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1438,7 +1437,7 @@ CREATE TABLE [dbo].[FPCOL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[FPITEM]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1461,7 +1460,7 @@ CREATE TABLE [dbo].[FPITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[FPMODEL]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1490,7 +1489,7 @@ CREATE TABLE [dbo].[FPMODEL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[HW]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1508,7 +1507,7 @@ CREATE TABLE [dbo].[HW](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[HW3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1525,7 +1524,7 @@ CREATE TABLE [dbo].[HW3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JGZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1591,7 +1590,7 @@ CREATE TABLE [dbo].[JGZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHBB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1628,7 +1627,7 @@ CREATE TABLE [dbo].[JHBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1659,7 +1658,7 @@ CREATE TABLE [dbo].[JHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1690,7 +1689,7 @@ CREATE TABLE [dbo].[JHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1721,7 +1720,7 @@ CREATE TABLE [dbo].[JHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1761,7 +1760,7 @@ CREATE TABLE [dbo].[JHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1801,7 +1800,7 @@ CREATE TABLE [dbo].[JHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1841,7 +1840,7 @@ CREATE TABLE [dbo].[JHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JHZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1895,7 +1894,7 @@ CREATE TABLE [dbo].[JHZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JSFS]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1913,7 +1912,7 @@ CREATE TABLE [dbo].[JSFS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBB1]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1952,7 +1951,7 @@ CREATE TABLE [dbo].[JXCBB1](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBB2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2013,7 +2012,7 @@ CREATE TABLE [dbo].[JXCBB2](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBBCOLS]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2050,7 +2049,7 @@ CREATE TABLE [dbo].[JXCBBCOLS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBBDIC]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2067,7 +2066,7 @@ CREATE TABLE [dbo].[JXCBBDIC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBBHEADERS]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2088,7 +2087,7 @@ CREATE TABLE [dbo].[JXCBBHEADERS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBBPAGEFOOTER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2109,7 +2108,7 @@ CREATE TABLE [dbo].[JXCBBPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCBBPAGEHEADER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2130,7 +2129,7 @@ CREATE TABLE [dbo].[JXCBBPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[JXCMENU]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2154,7 +2153,7 @@ CREATE TABLE [dbo].[JXCMENU](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[KCMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2177,7 +2176,7 @@ CREATE TABLE [dbo].[KCMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[KCYE]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2196,7 +2195,7 @@ CREATE TABLE [dbo].[KCYE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[KCZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2269,7 +2268,7 @@ CREATE TABLE [dbo].[KCZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[KJQJ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2288,7 +2287,7 @@ CREATE TABLE [dbo].[KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[LSH]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2309,7 +2308,7 @@ CREATE TABLE [dbo].[LSH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[OPERATOR]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2330,7 +2329,7 @@ CREATE TABLE [dbo].[OPERATOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PAD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2347,7 +2346,7 @@ CREATE TABLE [dbo].[PAD](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2367,7 +2366,7 @@ CREATE TABLE [dbo].[PDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2387,7 +2386,7 @@ CREATE TABLE [dbo].[PDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2407,7 +2406,7 @@ CREATE TABLE [dbo].[PDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2434,7 +2433,7 @@ CREATE TABLE [dbo].[PDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2461,7 +2460,7 @@ CREATE TABLE [dbo].[PDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PDDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2488,7 +2487,7 @@ CREATE TABLE [dbo].[PDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[POWER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2508,7 +2507,7 @@ CREATE TABLE [dbo].[POWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[POWERITEM]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2523,7 +2522,7 @@ CREATE TABLE [dbo].[POWERITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTCOLHEADER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2546,7 +2545,7 @@ CREATE TABLE [dbo].[PRINTCOLHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTFIELD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2578,7 +2577,7 @@ CREATE TABLE [dbo].[PRINTFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTMACRO]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2597,7 +2596,7 @@ CREATE TABLE [dbo].[PRINTMACRO](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTPAGEFOOTER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2629,7 +2628,7 @@ CREATE TABLE [dbo].[PRINTPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTPAGEHEADER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2660,7 +2659,7 @@ CREATE TABLE [dbo].[PRINTPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTPARAM]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2690,7 +2689,7 @@ CREATE TABLE [dbo].[PRINTPARAM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PRINTPARAME]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2738,7 +2737,7 @@ CREATE TABLE [dbo].[PRINTPARAME](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PSD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2757,7 +2756,7 @@ CREATE TABLE [dbo].[PSD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[PSDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2791,7 +2790,7 @@ CREATE TABLE [dbo].[PSDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2816,7 +2815,7 @@ CREATE TABLE [dbo].[QDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2841,7 +2840,7 @@ CREATE TABLE [dbo].[QDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2866,7 +2865,7 @@ CREATE TABLE [dbo].[QDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2899,7 +2898,7 @@ CREATE TABLE [dbo].[QDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2932,7 +2931,7 @@ CREATE TABLE [dbo].[QDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[QDDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2965,7 +2964,7 @@ CREATE TABLE [dbo].[QDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAIL]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3001,7 +3000,7 @@ CREATE TABLE [dbo].[RETAIL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAIL11]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3037,7 +3036,7 @@ CREATE TABLE [dbo].[RETAIL11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAIL2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3073,7 +3072,7 @@ CREATE TABLE [dbo].[RETAIL2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAILC]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3088,7 +3087,7 @@ CREATE TABLE [dbo].[RETAILC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAILC11]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3103,7 +3102,7 @@ CREATE TABLE [dbo].[RETAILC11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAILC2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3118,7 +3117,7 @@ CREATE TABLE [dbo].[RETAILC2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RETAILDJ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3135,7 +3134,7 @@ CREATE TABLE [dbo].[RETAILDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3164,7 +3163,7 @@ CREATE TABLE [dbo].[RKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3193,7 +3192,7 @@ CREATE TABLE [dbo].[RKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3222,7 +3221,7 @@ CREATE TABLE [dbo].[RKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3261,7 +3260,7 @@ CREATE TABLE [dbo].[RKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3300,7 +3299,7 @@ CREATE TABLE [dbo].[RKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[RKDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3339,7 +3338,7 @@ CREATE TABLE [dbo].[RKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SFZY]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3357,7 +3356,7 @@ CREATE TABLE [dbo].[SFZY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SJMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3377,7 +3376,7 @@ CREATE TABLE [dbo].[SJMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SJZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3429,7 +3428,7 @@ CREATE TABLE [dbo].[SJZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3502,7 +3501,7 @@ CREATE TABLE [dbo].[SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SP2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3521,7 +3520,7 @@ CREATE TABLE [dbo].[SP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SP3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3538,7 +3537,7 @@ CREATE TABLE [dbo].[SP3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SPDOWN]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3615,7 +3614,7 @@ CREATE TABLE [dbo].[SPDOWN](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SPLB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3635,7 +3634,7 @@ CREATE TABLE [dbo].[SPLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SPPC]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3658,7 +3657,7 @@ CREATE TABLE [dbo].[SPPC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SPSHORT]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3684,7 +3683,7 @@ CREATE TABLE [dbo].[SPSHORT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[SYZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3762,7 +3761,7 @@ CREATE TABLE [dbo].[SYZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TEXTSOURCE]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3779,7 +3778,7 @@ CREATE TABLE [dbo].[TEXTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3798,7 +3797,7 @@ CREATE TABLE [dbo].[TJD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3817,7 +3816,7 @@ CREATE TABLE [dbo].[TJD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3836,7 +3835,7 @@ CREATE TABLE [dbo].[TJD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJDDOWNLOAD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3855,7 +3854,7 @@ CREATE TABLE [dbo].[TJDDOWNLOAD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3890,7 +3889,7 @@ CREATE TABLE [dbo].[TJDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3925,7 +3924,7 @@ CREATE TABLE [dbo].[TJDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TJDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3960,7 +3959,7 @@ CREATE TABLE [dbo].[TJDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[TRANSPORT]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3989,7 +3988,7 @@ CREATE TABLE [dbo].[TRANSPORT](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VEN_SP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4015,7 +4014,7 @@ CREATE TABLE [dbo].[VEN_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VENDOR]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4081,7 +4080,7 @@ CREATE TABLE [dbo].[VENDOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VENDOR3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4098,7 +4097,7 @@ CREATE TABLE [dbo].[VENDOR3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VENDORGROUP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4111,7 +4110,7 @@ CREATE TABLE [dbo].[VENDORGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VENDORLB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4129,7 +4128,7 @@ CREATE TABLE [dbo].[VENDORLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VIP]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4162,7 +4161,7 @@ CREATE TABLE [dbo].[VIP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[VIP2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4195,7 +4194,7 @@ CREATE TABLE [dbo].[VIP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4229,7 +4228,7 @@ CREATE TABLE [dbo].[XHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4263,7 +4262,7 @@ CREATE TABLE [dbo].[XHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4297,7 +4296,7 @@ CREATE TABLE [dbo].[XHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4343,7 +4342,7 @@ CREATE TABLE [dbo].[XHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4389,7 +4388,7 @@ CREATE TABLE [dbo].[XHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XHDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4435,7 +4434,7 @@ CREATE TABLE [dbo].[XHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XSBB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4472,7 +4471,7 @@ CREATE TABLE [dbo].[XSBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XSLB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4490,7 +4489,7 @@ CREATE TABLE [dbo].[XSLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XSMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4516,7 +4515,7 @@ CREATE TABLE [dbo].[XSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[XSZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4582,7 +4581,7 @@ CREATE TABLE [dbo].[XSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YFHXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4603,7 +4602,7 @@ CREATE TABLE [dbo].[YFHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YFJSD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4632,7 +4631,7 @@ CREATE TABLE [dbo].[YFJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YFMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4654,7 +4653,7 @@ CREATE TABLE [dbo].[YFMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YFZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4698,7 +4697,7 @@ CREATE TABLE [dbo].[YFZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YSHXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4719,7 +4718,7 @@ CREATE TABLE [dbo].[YSHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YSJSD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4748,7 +4747,7 @@ CREATE TABLE [dbo].[YSJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YSMXZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4770,7 +4769,7 @@ CREATE TABLE [dbo].[YSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YSZZ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4814,7 +4813,7 @@ CREATE TABLE [dbo].[YSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YWY]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4833,7 +4832,7 @@ CREATE TABLE [dbo].[YWY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[YWY3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4850,7 +4849,7 @@ CREATE TABLE [dbo].[YWY3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_C_DAY]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4870,7 +4869,7 @@ CREATE TABLE [dbo].[ZLFX_C_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_C_KJQJ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4890,7 +4889,7 @@ CREATE TABLE [dbo].[ZLFX_C_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_C_YEAR]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4910,7 +4909,7 @@ CREATE TABLE [dbo].[ZLFX_C_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_V_DAY]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4930,7 +4929,7 @@ CREATE TABLE [dbo].[ZLFX_V_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_V_KJQJ]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4950,7 +4949,7 @@ CREATE TABLE [dbo].[ZLFX_V_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZLFX_V_YEAR]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4970,7 +4969,7 @@ CREATE TABLE [dbo].[ZLFX_V_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZNPOWER]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4988,7 +4987,7 @@ CREATE TABLE [dbo].[ZNPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZNXX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5005,7 +5004,7 @@ CREATE TABLE [dbo].[ZNXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZTCS]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5048,7 +5047,7 @@ CREATE TABLE [dbo].[ZTCS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZD]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5086,7 +5085,7 @@ CREATE TABLE [dbo].[ZZD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZD2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5124,7 +5123,7 @@ CREATE TABLE [dbo].[ZZD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZD3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5162,7 +5161,7 @@ CREATE TABLE [dbo].[ZZD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZDMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5201,7 +5200,7 @@ CREATE TABLE [dbo].[ZZDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZDMX2]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5240,7 +5239,7 @@ CREATE TABLE [dbo].[ZZDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZDMX3]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5279,7 +5278,7 @@ CREATE TABLE [dbo].[ZZDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZMB]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5293,7 +5292,7 @@ CREATE TABLE [dbo].[ZZMB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/8 15:00:34 ******/
+/****** 对像:  表   描述： [dbo].[ZZMBMX]     脚本     时间： 2023/5/8 15:00:34 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -9441,10 +9440,6 @@ IF NOT EXISTS (SELECT * FROM SYS.OBJECTS WHERE OBJECT_ID = OBJECT_ID(N'[DBO].[DF
 BEGIN
 ALTER TABLE [DBO].[ZZDMX3] ADD  CONSTRAINT [DF__ZZDMX3__F_JE__15460CD7]  DEFAULT ((0)) FOR [F_JE]
 END
-GO
-IF NOT EXISTS (SELECT * FROM SYS.FOREIGN_KEYS WHERE OBJECT_ID = OBJECT_ID(N'[DBO].[FK_BM_F_HW_5G5H4D]') AND PARENT_OBJECT_ID = OBJECT_ID(N'[DBO].[BM]'))
-ALTER TABLE [DBO].[BM]  WITH CHECK ADD  CONSTRAINT [FK_BM_F_HW_5G5H4D] FOREIGN KEY([F_HW])
-REFERENCES [DBO].[HW] ([F_DM])
 GO
 IF  EXISTS (SELECT * FROM SYS.FOREIGN_KEYS WHERE OBJECT_ID = OBJECT_ID(N'[DBO].[FK_BM_F_HW_5G5H4D]') AND PARENT_OBJECT_ID = OBJECT_ID(N'[DBO].[BM]'))
 ALTER TABLE [DBO].[BM] CHECK CONSTRAINT [FK_BM_F_HW_5G5H4D]
