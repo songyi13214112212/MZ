@@ -1,17 +1,6 @@
-/*    ==脚本参数==
-
-    源服务器版本 : SQL Server 2012 (11.0.2100)
-    源数据库引擎版本 : Microsoft SQL Server Standard Edition
-    源数据库引擎类型 : 独立的 SQL Server
-
-    目标服务器版本 : SQL Server 2012
-    目标数据库引擎版本 : Microsoft SQL Server Standard Edition
-    目标数据库引擎类型 : 独立的 SQL Server
-*/
-
 USE [DATA]
 GO
-/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -28,7 +17,7 @@ CREATE TABLE [dbo].[AINPUTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -62,7 +51,7 @@ CREATE TABLE [dbo].[BBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -80,7 +69,7 @@ CREATE TABLE [dbo].[BM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -97,7 +86,7 @@ CREATE TABLE [dbo].[BM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -118,7 +107,7 @@ CREATE TABLE [dbo].[CBPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -147,7 +136,7 @@ CREATE TABLE [dbo].[CGD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -176,7 +165,7 @@ CREATE TABLE [dbo].[CGD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -205,7 +194,7 @@ CREATE TABLE [dbo].[CGD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -242,7 +231,7 @@ CREATE TABLE [dbo].[CGDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -279,7 +268,7 @@ CREATE TABLE [dbo].[CGDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -316,7 +305,7 @@ CREATE TABLE [dbo].[CGDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -345,7 +334,7 @@ CREATE TABLE [dbo].[CKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -374,7 +363,7 @@ CREATE TABLE [dbo].[CKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -403,7 +392,7 @@ CREATE TABLE [dbo].[CKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -441,7 +430,7 @@ CREATE TABLE [dbo].[CKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -479,7 +468,7 @@ CREATE TABLE [dbo].[CKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -517,7 +506,7 @@ CREATE TABLE [dbo].[CKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -548,7 +537,7 @@ CREATE TABLE [dbo].[COMBBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -566,7 +555,7 @@ CREATE TABLE [dbo].[COMFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -592,7 +581,7 @@ CREATE TABLE [dbo].[COMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -615,7 +604,7 @@ CREATE TABLE [dbo].[CUS_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -683,7 +672,7 @@ CREATE TABLE [dbo].[CUSTOM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -700,7 +689,7 @@ CREATE TABLE [dbo].[CUSTOM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -725,7 +714,7 @@ CREATE TABLE [dbo].[CUSTOMDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -744,7 +733,7 @@ CREATE TABLE [dbo].[CUSTOMGRADE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -761,7 +750,7 @@ CREATE TABLE [dbo].[CUSTOMGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -779,7 +768,7 @@ CREATE TABLE [dbo].[CUSTOMLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -803,7 +792,7 @@ CREATE TABLE [dbo].[DBD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -827,7 +816,7 @@ CREATE TABLE [dbo].[DBD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -851,7 +840,7 @@ CREATE TABLE [dbo].[DBD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -887,7 +876,7 @@ CREATE TABLE [dbo].[DBDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -923,7 +912,7 @@ CREATE TABLE [dbo].[DBDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -959,7 +948,7 @@ CREATE TABLE [dbo].[DBDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1025,7 +1014,7 @@ CREATE TABLE [dbo].[DBZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1042,7 +1031,7 @@ CREATE TABLE [dbo].[DELETED](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1076,7 +1065,7 @@ CREATE TABLE [dbo].[DHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1110,7 +1099,7 @@ CREATE TABLE [dbo].[DHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1144,7 +1133,7 @@ CREATE TABLE [dbo].[DHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1189,7 +1178,7 @@ CREATE TABLE [dbo].[DHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1234,7 +1223,7 @@ CREATE TABLE [dbo].[DHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1279,7 +1268,7 @@ CREATE TABLE [dbo].[DHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DIAGNOSTICMANUAL]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DIAGNOSTICMANUAL]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1297,7 +1286,7 @@ CREATE TABLE [dbo].[DIAGNOSTICMANUAL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1305,6 +1294,8 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DJH]') AND type in (N'U'))
 BEGIN
 CREATE TABLE [dbo].[DJH](
+	[F_REISGHB] [int] NULL,
+	[F_RECIPE] [int] NULL,
 	[F_JHD] [int] NULL,
 	[F_XHD] [int] NULL,
 	[F_CGD] [int] NULL,
@@ -1331,7 +1322,7 @@ CREATE TABLE [dbo].[DJH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1352,7 +1343,7 @@ CREATE TABLE [dbo].[DROPSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1375,7 +1366,7 @@ CREATE TABLE [dbo].[ENEMYXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1393,7 +1384,7 @@ CREATE TABLE [dbo].[ENV](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1414,7 +1405,7 @@ CREATE TABLE [dbo].[EVENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1433,7 +1424,7 @@ CREATE TABLE [dbo].[FJXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1455,7 +1446,7 @@ CREATE TABLE [dbo].[FPCOL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1478,7 +1469,7 @@ CREATE TABLE [dbo].[FPITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1507,7 +1498,7 @@ CREATE TABLE [dbo].[FPMODEL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1526,7 +1517,7 @@ CREATE TABLE [dbo].[GHLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1544,7 +1535,7 @@ CREATE TABLE [dbo].[HW](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1561,7 +1552,7 @@ CREATE TABLE [dbo].[HW3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1627,7 +1618,7 @@ CREATE TABLE [dbo].[JGZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1664,7 +1655,7 @@ CREATE TABLE [dbo].[JHBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1695,7 +1686,7 @@ CREATE TABLE [dbo].[JHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1726,7 +1717,7 @@ CREATE TABLE [dbo].[JHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1757,7 +1748,7 @@ CREATE TABLE [dbo].[JHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1797,7 +1788,7 @@ CREATE TABLE [dbo].[JHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1837,7 +1828,7 @@ CREATE TABLE [dbo].[JHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1877,7 +1868,7 @@ CREATE TABLE [dbo].[JHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1931,7 +1922,7 @@ CREATE TABLE [dbo].[JHZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1949,7 +1940,7 @@ CREATE TABLE [dbo].[JSFS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1988,7 +1979,7 @@ CREATE TABLE [dbo].[JXCBB1](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2049,7 +2040,7 @@ CREATE TABLE [dbo].[JXCBB2](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2086,7 +2077,7 @@ CREATE TABLE [dbo].[JXCBBCOLS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2103,7 +2094,7 @@ CREATE TABLE [dbo].[JXCBBDIC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2124,7 +2115,7 @@ CREATE TABLE [dbo].[JXCBBHEADERS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2145,7 +2136,7 @@ CREATE TABLE [dbo].[JXCBBPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2166,7 +2157,7 @@ CREATE TABLE [dbo].[JXCBBPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2190,7 +2181,7 @@ CREATE TABLE [dbo].[JXCMENU](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2213,7 +2204,7 @@ CREATE TABLE [dbo].[KCMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2232,7 +2223,7 @@ CREATE TABLE [dbo].[KCYE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2305,7 +2296,7 @@ CREATE TABLE [dbo].[KCZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2324,7 +2315,7 @@ CREATE TABLE [dbo].[KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2345,7 +2336,7 @@ CREATE TABLE [dbo].[LSH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2366,7 +2357,7 @@ CREATE TABLE [dbo].[OPERATOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2383,7 +2374,7 @@ CREATE TABLE [dbo].[PAD](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2408,7 +2399,7 @@ CREATE TABLE [dbo].[PATIENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2428,7 +2419,7 @@ CREATE TABLE [dbo].[PDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2448,7 +2439,7 @@ CREATE TABLE [dbo].[PDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2468,7 +2459,7 @@ CREATE TABLE [dbo].[PDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2495,7 +2486,7 @@ CREATE TABLE [dbo].[PDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2522,7 +2513,7 @@ CREATE TABLE [dbo].[PDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2549,7 +2540,7 @@ CREATE TABLE [dbo].[PDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2569,7 +2560,7 @@ CREATE TABLE [dbo].[POWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2584,7 +2575,7 @@ CREATE TABLE [dbo].[POWERITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2607,7 +2598,7 @@ CREATE TABLE [dbo].[PRINTCOLHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2639,7 +2630,7 @@ CREATE TABLE [dbo].[PRINTFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2658,7 +2649,7 @@ CREATE TABLE [dbo].[PRINTMACRO](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2690,7 +2681,7 @@ CREATE TABLE [dbo].[PRINTPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2721,7 +2712,7 @@ CREATE TABLE [dbo].[PRINTPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2751,7 +2742,7 @@ CREATE TABLE [dbo].[PRINTPARAM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2799,7 +2790,7 @@ CREATE TABLE [dbo].[PRINTPARAME](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2818,7 +2809,7 @@ CREATE TABLE [dbo].[PSD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2852,7 +2843,7 @@ CREATE TABLE [dbo].[PSDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2877,7 +2868,7 @@ CREATE TABLE [dbo].[QDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2902,7 +2893,7 @@ CREATE TABLE [dbo].[QDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2927,7 +2918,7 @@ CREATE TABLE [dbo].[QDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2960,7 +2951,7 @@ CREATE TABLE [dbo].[QDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2993,7 +2984,7 @@ CREATE TABLE [dbo].[QDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3026,7 +3017,250 @@ CREATE TABLE [dbo].[QDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPE]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPE](
+	[F_DJH] [int] NOT NULL,
+	[F_DATETIME] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DIAGNOSTICMANUAL] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PATIENT] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_STATE] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISJZ] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_BM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YWY] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZD] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DJH0] [int] NULL,
+	[F_CX] [int] NULL,
+	[F_SAVE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DONE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JIE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SK] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK__RECIPE__3C196CCDE3C45065] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[RECIPE2]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPE2]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPE2](
+	[F_DJH] [int] NOT NULL,
+	[F_DATETIME] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DIAGNOSTICMANUAL] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PATIENT] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_STATE] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISJZ] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_BM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YWY] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZD] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DJH0] [int] NULL,
+	[F_CX] [int] NULL,
+	[F_SAVE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DONE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JIE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SK] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK__RECIPE2__3C196CCD2A448EAA] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[RECIPE3]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPE3]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPE3](
+	[F_DJH] [int] NOT NULL,
+	[F_DATETIME] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DIAGNOSTICMANUAL] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PATIENT] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_STATE] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISJZ] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_BM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YWY] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZD] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DJH0] [int] NULL,
+	[F_CX] [int] NULL,
+	[F_SAVE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DONE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JIE] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SK] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+ CONSTRAINT [PK__RECIPE3__3C196CCDE0C19E0E] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPEMX]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPEMX](
+	[F_DJH] [int] NOT NULL,
+	[F_HC] [int] NOT NULL,
+	[F_GROUP] [int] NOT NULL,
+	[F_TM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SL] [float] NULL,
+	[F_USDW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_USJL] [float] NULL,
+	[F_PH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DQ] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYMD] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYTJ] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYPC] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GNZZ] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YF] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_FUNCTION] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PZWH] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_CB] [float] NULL,
+	[F_DJ] [float] NULL,
+	[F_DJ1] [float] NULL,
+	[F_DJ2] [float] NULL,
+	[F_DJ3] [float] NULL,
+	[F_DJ4] [float] NULL,
+	[F_DJ5] [float] NULL,
+	[F_DW2] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PHCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISPS] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISKC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISZZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UN] [float] NULL,
+ CONSTRAINT [PK__RECIPEMX__92B2CDEF9D86117E] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC,
+	[F_HC] ASC,
+	[F_GROUP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[RECIPEMX2]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPEMX2]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPEMX2](
+	[F_DJH] [int] NOT NULL,
+	[F_HC] [int] NOT NULL,
+	[F_GROUP] [int] NOT NULL,
+	[F_TM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SL] [float] NULL,
+	[F_USDW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_USJL] [float] NULL,
+	[F_PH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DQ] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYMD] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYTJ] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYPC] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GNZZ] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YF] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_FUNCTION] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PZWH] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_CB] [float] NULL,
+	[F_DJ] [float] NULL,
+	[F_DJ1] [float] NULL,
+	[F_DJ2] [float] NULL,
+	[F_DJ3] [float] NULL,
+	[F_DJ4] [float] NULL,
+	[F_DJ5] [float] NULL,
+	[F_DW2] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PHCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISPS] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISKC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISZZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UN] [float] NULL,
+ CONSTRAINT [PK__RECIPEMX__92B2CDEFC4B48514] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC,
+	[F_HC] ASC,
+	[F_GROUP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[RECIPEMX3]    Script Date: 2023/5/12 21:10:10 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RECIPEMX3]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[RECIPEMX3](
+	[F_DJH] [int] NOT NULL,
+	[F_HC] [int] NOT NULL,
+	[F_GROUP] [int] NOT NULL,
+	[F_TM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SL] [float] NULL,
+	[F_USDW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_USJL] [float] NULL,
+	[F_PH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_DQ] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYMD] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYTJ] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GYPC] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GNZZ] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_YF] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_FUNCTION] [varchar](1000) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PZWH] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_CB] [float] NULL,
+	[F_DJ] [float] NULL,
+	[F_DJ1] [float] NULL,
+	[F_DJ2] [float] NULL,
+	[F_DJ3] [float] NULL,
+	[F_DJ4] [float] NULL,
+	[F_DJ5] [float] NULL,
+	[F_DW2] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_PHCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISPS] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISKC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ISZZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_UN] [float] NULL,
+ CONSTRAINT [PK__RECIPEMX__92B2CDEF75905619] PRIMARY KEY CLUSTERED 
+(
+	[F_DJH] ASC,
+	[F_HC] ASC,
+	[F_GROUP] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3057,7 +3291,7 @@ CREATE TABLE [dbo].[REISGHB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3093,7 +3327,7 @@ CREATE TABLE [dbo].[RETAIL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3129,7 +3363,7 @@ CREATE TABLE [dbo].[RETAIL11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3165,7 +3399,7 @@ CREATE TABLE [dbo].[RETAIL2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3180,7 +3414,7 @@ CREATE TABLE [dbo].[RETAILC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3195,7 +3429,7 @@ CREATE TABLE [dbo].[RETAILC11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3210,7 +3444,7 @@ CREATE TABLE [dbo].[RETAILC2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3227,7 +3461,7 @@ CREATE TABLE [dbo].[RETAILDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3256,7 +3490,7 @@ CREATE TABLE [dbo].[RKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3285,7 +3519,7 @@ CREATE TABLE [dbo].[RKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3314,124 +3548,7 @@ CREATE TABLE [dbo].[RKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/11 14:35:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX]') AND type in (N'U'))
-BEGIN
-CREATE TABLE [dbo].[RKDMX](
-	[F_DJH] [int] NOT NULL,
-	[F_HC] [int] NOT NULL,
-	[F_TM] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_SL] [float] NULL,
-	[F_DJ] [float] NULL,
-	[F_JE] [float] NULL,
-	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_PH] [varchar](40) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_DQ] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_ISCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UN] [float] NULL,
-	[F_YLF] [float] NULL,
-	[F_JGF] [float] NULL,
-	[F_DJ1] [float] NULL,
-	[F_DJ2] [float] NULL,
-	[F_DJ3] [float] NULL,
-	[F_DJ4] [float] NULL,
-	[F_DJ5] [float] NULL,
-	[F_SLJC] [float] NULL,
-	[F_SL2] [float] NULL,
-	[F_KL] [int] NULL,
- CONSTRAINT [PK__RKDMX__FEDF803E8349DAD5] PRIMARY KEY CLUSTERED 
-(
-	[F_DJH] ASC,
-	[F_HC] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-END
-GO
-/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/11 14:35:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX2]') AND type in (N'U'))
-BEGIN
-CREATE TABLE [dbo].[RKDMX2](
-	[F_DJH] [int] NOT NULL,
-	[F_HC] [int] NOT NULL,
-	[F_TM] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_SL] [float] NULL,
-	[F_DJ] [float] NULL,
-	[F_JE] [float] NULL,
-	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_PH] [varchar](40) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_DQ] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_ISCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UN] [float] NULL,
-	[F_YLF] [float] NULL,
-	[F_JGF] [float] NULL,
-	[F_DJ1] [float] NULL,
-	[F_DJ2] [float] NULL,
-	[F_DJ3] [float] NULL,
-	[F_DJ4] [float] NULL,
-	[F_DJ5] [float] NULL,
-	[F_SLJC] [float] NULL,
-	[F_SL2] [float] NULL,
-	[F_KL] [int] NULL,
- CONSTRAINT [PK__RKDMX2__FEDF803EE4CFA788] PRIMARY KEY CLUSTERED 
-(
-	[F_DJH] ASC,
-	[F_HC] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-END
-GO
-/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/11 14:35:18 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[RKDMX3]') AND type in (N'U'))
-BEGIN
-CREATE TABLE [dbo].[RKDMX3](
-	[F_DJH] [int] NOT NULL,
-	[F_HC] [int] NOT NULL,
-	[F_TM] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_SPBH] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_SL] [float] NULL,
-	[F_DJ] [float] NULL,
-	[F_JE] [float] NULL,
-	[F_DW] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_PH] [varchar](40) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_DQ] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_ISCB] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UC] [varchar](200) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_UN] [float] NULL,
-	[F_YLF] [float] NULL,
-	[F_JGF] [float] NULL,
-	[F_DJ1] [float] NULL,
-	[F_DJ2] [float] NULL,
-	[F_DJ3] [float] NULL,
-	[F_DJ4] [float] NULL,
-	[F_DJ5] [float] NULL,
-	[F_SLJC] [float] NULL,
-	[F_SL2] [float] NULL,
-	[F_KL] [int] NULL,
- CONSTRAINT [PK__RKDMX3__FEDF803E55D1C872] PRIMARY KEY CLUSTERED 
-(
-	[F_DJH] ASC,
-	[F_HC] ASC
-)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
-END
-GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3449,7 +3566,7 @@ CREATE TABLE [dbo].[SFZY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3469,7 +3586,7 @@ CREATE TABLE [dbo].[SJMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3521,7 +3638,7 @@ CREATE TABLE [dbo].[SJZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3607,7 +3724,7 @@ CREATE TABLE [dbo].[SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3626,7 +3743,7 @@ CREATE TABLE [dbo].[SP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3643,7 +3760,7 @@ CREATE TABLE [dbo].[SP3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3715,7 +3832,7 @@ CREATE TABLE [dbo].[SPDOWN](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3735,7 +3852,7 @@ CREATE TABLE [dbo].[SPLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3758,7 +3875,7 @@ CREATE TABLE [dbo].[SPPC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3784,7 +3901,7 @@ CREATE TABLE [dbo].[SPSHORT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3862,7 +3979,7 @@ CREATE TABLE [dbo].[SYZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3879,7 +3996,7 @@ CREATE TABLE [dbo].[TEXTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3898,7 +4015,7 @@ CREATE TABLE [dbo].[TJD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3917,7 +4034,7 @@ CREATE TABLE [dbo].[TJD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3936,7 +4053,7 @@ CREATE TABLE [dbo].[TJD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3955,7 +4072,7 @@ CREATE TABLE [dbo].[TJDDOWNLOAD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3990,7 +4107,7 @@ CREATE TABLE [dbo].[TJDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4025,7 +4142,7 @@ CREATE TABLE [dbo].[TJDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4060,7 +4177,7 @@ CREATE TABLE [dbo].[TJDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4089,7 +4206,7 @@ CREATE TABLE [dbo].[TRANSPORT](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4115,7 +4232,7 @@ CREATE TABLE [dbo].[VEN_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/11 14:35:18 ******/
+/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4181,7 +4298,7 @@ CREATE TABLE [dbo].[VENDOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4198,7 +4315,7 @@ CREATE TABLE [dbo].[VENDOR3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4211,7 +4328,7 @@ CREATE TABLE [dbo].[VENDORGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4229,7 +4346,7 @@ CREATE TABLE [dbo].[VENDORLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4262,7 +4379,7 @@ CREATE TABLE [dbo].[VIP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4295,7 +4412,7 @@ CREATE TABLE [dbo].[VIP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4329,7 +4446,7 @@ CREATE TABLE [dbo].[XHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4363,7 +4480,7 @@ CREATE TABLE [dbo].[XHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4397,7 +4514,7 @@ CREATE TABLE [dbo].[XHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4443,7 +4560,7 @@ CREATE TABLE [dbo].[XHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4489,7 +4606,7 @@ CREATE TABLE [dbo].[XHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4535,7 +4652,7 @@ CREATE TABLE [dbo].[XHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4572,7 +4689,7 @@ CREATE TABLE [dbo].[XSBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4590,7 +4707,7 @@ CREATE TABLE [dbo].[XSLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4616,7 +4733,7 @@ CREATE TABLE [dbo].[XSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4682,7 +4799,7 @@ CREATE TABLE [dbo].[XSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4703,7 +4820,7 @@ CREATE TABLE [dbo].[YFHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4732,7 +4849,7 @@ CREATE TABLE [dbo].[YFJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4754,7 +4871,7 @@ CREATE TABLE [dbo].[YFMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4798,7 +4915,7 @@ CREATE TABLE [dbo].[YFZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4819,7 +4936,7 @@ CREATE TABLE [dbo].[YSHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4848,7 +4965,7 @@ CREATE TABLE [dbo].[YSJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4870,7 +4987,7 @@ CREATE TABLE [dbo].[YSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4914,7 +5031,7 @@ CREATE TABLE [dbo].[YSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4933,7 +5050,7 @@ CREATE TABLE [dbo].[YWY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4950,7 +5067,7 @@ CREATE TABLE [dbo].[YWY3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4970,7 +5087,7 @@ CREATE TABLE [dbo].[ZLFX_C_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4990,7 +5107,7 @@ CREATE TABLE [dbo].[ZLFX_C_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5010,7 +5127,7 @@ CREATE TABLE [dbo].[ZLFX_C_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5030,7 +5147,7 @@ CREATE TABLE [dbo].[ZLFX_V_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5050,7 +5167,7 @@ CREATE TABLE [dbo].[ZLFX_V_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5070,7 +5187,7 @@ CREATE TABLE [dbo].[ZLFX_V_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5088,7 +5205,7 @@ CREATE TABLE [dbo].[ZNPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5105,7 +5222,7 @@ CREATE TABLE [dbo].[ZNXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5148,7 +5265,7 @@ CREATE TABLE [dbo].[ZTCS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5186,7 +5303,7 @@ CREATE TABLE [dbo].[ZZD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5224,7 +5341,7 @@ CREATE TABLE [dbo].[ZZD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5262,7 +5379,7 @@ CREATE TABLE [dbo].[ZZD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5301,7 +5418,7 @@ CREATE TABLE [dbo].[ZZDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5340,7 +5457,7 @@ CREATE TABLE [dbo].[ZZDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5379,7 +5496,7 @@ CREATE TABLE [dbo].[ZZDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5397,7 +5514,7 @@ CREATE TABLE [dbo].[ZZMB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/12 21:10:10 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5426,15 +5543,9 @@ INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE]) VALUES (N'02', N'儿科', 0)
 GO
 INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE]) VALUES (N'03', N'妇科', 0)
 GO
-INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'100001', N'2023-05-10 15:38:06', N'100001')
+INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'100001', N'2023-05-11 20:26:44', N'100001')
 GO
-INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'1000010', N'2023-05-11 09:06:10', N'1000010')
-GO
-INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'10000101', N'2023-05-11 09:09:39', N'10000101')
-GO
-INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'100002', N'2023-05-10 15:39:42', N'100002')
-GO
-INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'110001', N'2023-05-11 10:41:41', N'110001')
+INSERT [dbo].[DJH] ([F_REISGHB], [F_RECIPE], [F_JHD], [F_XHD], [F_CGD], [F_RKD], [F_CKD], [F_DBD], [F_XSBB], [F_PC], [F_YSJSD], [F_YFJSD], [F_ZZD], [F_TJD], [F_PSD], [F_JIEZ], [F_DHD], [F_YSQC], [F_YFQC], [F_CX], [F_QDD], [F_NEWSP], [F_ENEMY], [F_PDD], [F_SP]) VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 0)
 GO
 INSERT [dbo].[GHLB] ([F_DM], [F_GHLBMC], [F_FEE], [F_GBF]) VALUES (N'01', N'专家', 5, 0)
 GO
@@ -5450,43 +5561,31 @@ INSERT [dbo].[OPERATOR] ([F_DM], [F_NAME], [F_PASSWORD], [F_BM], [F_ZN], [F_RED]
 GO
 INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'100001', N'宋易', N'男', 44, N'210281198009301219', N'13214112212', NULL, N'-', N'-', NULL)
 GO
-INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'1000010', N'张三', N'男', 44, N'210281198009301219', N'13214112212', NULL, N'-', N'-', NULL)
+INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1454089046, N'2023-05-11 20:26:44', N'初诊', N'平诊', N'01', N'100001', N'100001', N'02', N'01', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
 GO
-INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'10000101', N'沐风', N'男', 44, N'210281198009301219', N'13214112212', NULL, N'-', N'-', NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100001', N'注射用美洛西林钠(二叶)', N'1.0g', N'苏州二叶', N'支', NULL, N'g', 1, N'ZSYMLXLN(EY)', N'01', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 1.8, 0, 0, 0, 0, 0, 0, 0, 8, 1.4, 1.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'', NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'100002', N'刘畅', N'女', 43, N'210281198105216428', N'18640805160', NULL, N'-', N'-', NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100002', N'注射用头孢替唑钠(哈药）', N'1.0g', N'哈药集团', N'支', N'', N'g', NULL, N'ZSYTBTZN(H', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 38, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 12, 6, 6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'110001', N'宋安', N'男', 44, N'210281198009301219', N'13214112212', NULL, N'-', N'-', NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100003', N'硫酸特布他林雾化液', N'2ML*5MG', N'瑞典', N'支', N'', N'g', NULL, N'LSTBTLWHY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 6.5, 0, 0, 1.68, 0, 0, 0, 0, 0, 0, 0, 9.5, 0.81, 4.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1454065861, N'2023-05-11 09:06:10', N'初诊', N'平诊', N'01', N'1000010', N'1000010', N'01', N'01', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100004', N'盐酸氨溴索葡萄糖注射液', N'50ml:15mg:2.5g', N'安徽双鹤            ', N'瓶', N'      ', N'g', NULL, N'YSAXSPTTZSY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 13, 0, 0, 1.5, 0, 0, 0, 0, 0, 0, 0, 2.5, 1.4, 2.1, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1454065971, N'2023-05-11 09:09:39', N'初诊', N'平诊', N'01', N'10000101', N'10000101', N'02', N'02', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100005', N'喜炎平注射液', N'2ML:50MG', N'江西青峰药业有限公司', N'支', N'      ', N'g', NULL, N'XYPZSY', N'                    ', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 28.6, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 24.87, 14, 16, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1454069044, N'2023-05-11 10:41:41', N'初诊', N'平诊', N'01', N'110001', N'110001', N'02', N'01', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100006', N'葡萄糖酸钙注射液', N'10ML', N'国药集团容生制药有限', N'支', N'', N'g', NULL, N'PTTSGZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 9.6, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 18.135, 0.22, 7, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100001', N'注射用美洛西林钠(二叶)', N'1.0g', N'苏州二叶', N'支', NULL, N'g', 1, N'ZSYMLXLN(EY)', N'01', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 1.8, 0, 0, 0, 0, 0, 0, 0, 8, 1.4, 1.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'', NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100007', N'50%葡萄糖注射液', N'20ml:10g', N'国药集团', N'支', N'', N'g', NULL, N'50PTTZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.7, 0, 0, 0.376, 0, 0, 0, 0, 0, 0, 0, 1.9, 0.26, 0.56, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100002', N'注射用头孢替唑钠(哈药）', N'1.0g', N'哈药集团', N'支', N'', N'g', NULL, N'ZSYTBTZN(H', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 38, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 12, 6, 6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100008', N'维生素C注射液', N'20ml:2.5g', N'山东新华制药', N'支', N'', N'g', NULL, N'WSSCZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4.7, 0.26, 0.78, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100003', N'硫酸特布他林雾化液', N'2ML*5MG', N'瑞典', N'支', N'', N'g', NULL, N'LSTBTLWHY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 6.5, 0, 0, 1.68, 0, 0, 0, 0, 0, 0, 0, 9.5, 0.81, 4.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100009', N'地塞米松磷酸钠注射液', N'1ml:2mg', N'郑州卓峰药业', N'支', N'', N'g', NULL, N'DSMSLSNZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.11, 0, 0, 0, 0, 0, 0, 0, 1.08, 0.075, 0.09, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100004', N'盐酸氨溴索葡萄糖注射液', N'50ml:15mg:2.5g', N'安徽双鹤            ', N'瓶', N'      ', NULL, NULL, N'YSAXSPTTZSY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 13, 0, 0, 1.5, 0, 0, 0, 0, 0, 0, 0, 2.5, 1.4, 2.1, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100010', N'利巴韦林注射液<病毒唑>', N'2ml:0.1g', N'华润双鹤利民药业', N'支', N'', N'g', NULL, N'LBWLZSY[BD', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.4, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 4.5, 0.0791, 0.18, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100005', N'喜炎平注射液', N'2ML:50MG', N'江西青峰药业有限公司', N'支', N'      ', N'g', NULL, N'XYPZSY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 28.6, 0, 0, 16, 0, 0, 0, 0, 0, 0, 0, 24.87, 14, 16, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100011', N'盐酸消旋山莨菪碱注射液<654-2>', N'1ml:10mg', N'杭州民生药业', N'支', N'', N'g', NULL, N'YSXXSLDJZS', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.8, 0, 0, 2.2, 0, 0, 0, 0, 0, 0, 0, 2.3, 0.1, 2.2, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100006', N'葡萄糖酸钙注射液', N'10ML', N'国药集团容生制药有限', N'支', N'', N'g', NULL, N'PTTSGZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 9.6, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 18.135, 0.22, 7, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100007', N'50%葡萄糖注射液', N'20ml:10g', N'国药集团', N'支', N'', N'g', NULL, N'50PTTZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.7, 0, 0, 0.376, 0, 0, 0, 0, 0, 0, 0, 1.9, 0.26, 0.56, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100008', N'维生素C注射液', N'20ml:2.5g', N'山东新华制药', N'支', N'', N'g', NULL, N'WSSCZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 4.7, 0.26, 0.78, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100009', N'地塞米松磷酸钠注射液', N'1ml:2mg', N'郑州卓峰药业', N'支', N'', N'g', NULL, N'DSMSLSNZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.11, 0, 0, 0, 0, 0, 0, 0, 1.08, 0.075, 0.09, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100010', N'利巴韦林注射液<病毒唑>', N'2ml:0.1g', N'华润双鹤利民药业', N'支', N'', N'g', NULL, N'LBWLZSY[BD', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.4, 0, 0, 0.2, 0, 0, 0, 0, 0, 0, 0, 4.5, 0.0791, 0.18, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100011', N'盐酸消旋山莨菪碱注射液<654-2>', N'1ml:10mg', N'杭州民生药业', N'支', N'', N'g', NULL, N'YSXXSLDJZS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.8, 0, 0, 2.2, 0, 0, 0, 0, 0, 0, 0, 2.3, 0.1, 2.2, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
-GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100012', N'维生素B6注射液', N'2ml:0.1g', N'山东方明', N'支', NULL, N'g', NULL, N'WSSB6ZSY', NULL, N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.6, 0, 0, 0.4, 0, 0, 0, 0, 0, 0, 0, 0.9, 0.1, 0.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100012', N'维生素B6注射液', N'2ml:0.1g', N'山东方明', N'支', NULL, N'g', NULL, N'WSSB6ZSY', NULL, N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.6, 0, 0, 0.4, 0, 0, 0, 0, 0, 0, 0, 0.9, 0.1, 0.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100013', N'三磷酸腺苷二钠注射液<ATP>', N'2ml:20mg', N'国药集团            ', N'支', N'      ', N'g', NULL, N'SLSXGENZSY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.7, 0, 0, 0.16, 0, 0, 0, 0, 0, 0, 0, 1.58, 0.11, 0.64, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5494,9 +5593,9 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100015', N'灭菌注射用水', N'5ml', N'山东华鲁制药        ', N'支', N'      ', N'ml', NULL, N'MJZSYS', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.1, 0, 0, 0, 0, 0, 0, 0, 8.83666666666667, 0.1, 0.116, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100016', N'(喘定)二羟丙茶碱注射液', N'2ML:0.25G', N'国药', N'支', N'', N'g', NULL, N'(CD)EQBCJZ', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 5, 0, 0, 0.57, 0, 0, 0, 0, 0, 0, 0, 6, 0.513, 0.52, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100016', N'(喘定)二羟丙茶碱注射液', N'2ML:0.25G', N'国药', N'支', N'', N'g', NULL, N'(CD)EQBCJZ', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 5, 0, 0, 0.57, 0, 0, 0, 0, 0, 0, 0, 6, 0.513, 0.52, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100017', N'肝素钠注射液', N'2ml:1.25Ug', N'国药集团容生制药有限', N'支', N'', N'g', NULL, N'GSNZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 13, 0, 0, 8.3, 0, 0, 0, 0, 0, 0, 0, 10, 5.8, 5.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100017', N'肝素钠注射液', N'2ml:1.25Ug', N'国药集团容生制药有限', N'支', N'', N'g', NULL, N'GSNZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 13, 0, 0, 8.3, 0, 0, 0, 0, 0, 0, 0, 10, 5.8, 5.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100018', N'美罗西林钠舒巴坦钠', N'1.25G', N'山西仟源            ', N'支', N'      ', N'g', NULL, N'MLXLNSBTN', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 46, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 10, 6.5, 6.5, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5506,25 +5605,25 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100021', N'注射用赖安匹林<来比林>', N'0.5G', N'国药国瑞            ', N'支', N'      ', N'g', NULL, N'ZSYLAPL[LB', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 4.5, 0, 0, 1.25, 0, 0, 0, 0, 0, 0, 0, 2.3, 1.17, 1.2, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100022', N'西咪替丁注射液', N'0.2G*2ML', N'山东方明', N'支', N'', N'ml', NULL, N'XMTDZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.8, 0, 0, 0.6, 0, 0, 0, 0, 0, 0, 0, 13.5, 0.08, 0.59, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100022', N'西咪替丁注射液', N'0.2G*2ML', N'山东方明', N'支', N'', N'ml', NULL, N'XMTDZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.8, 0, 0, 0.6, 0, 0, 0, 0, 0, 0, 0, 13.5, 0.08, 0.59, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100023', N'地塞米松磷酸钠针', N'1ml:5mg', N'辰欣药业', N'支', N'', N'mg', NULL, N'DSMSLSNZ', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.135, 0, 0, 0, 0, 0, 0, 0, 1.4, 0.11, 0.12, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'100023', N'地塞米松磷酸钠针', N'1ml:5mg', N'辰欣药业', N'支', N'', N'mg', NULL, N'DSMSLSNZ', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.135, 0, 0, 0, 0, 0, 0, 0, 1.4, 0.11, 0.12, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100024', N'盐酸氨溴索葡萄糖注射液', N'100ml:30mg:5g', N'安徽双鹤', N'瓶', N'', N'g', NULL, N'YSAXSPTTZS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 12, 0, 0, 1.5, 0, 0, 0, 0, 0, 0, 0, 3.45, 1.17, 1.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100024', N'盐酸氨溴索葡萄糖注射液', N'100ml:30mg:5g', N'安徽双鹤', N'瓶', N'', N'g', NULL, N'YSAXSPTTZS', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 12, 0, 0, 1.5, 0, 0, 0, 0, 0, 0, 0, 3.45, 1.17, 1.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'100025', N'注射用磷霉素钠', N'2.0g', N'东北总厂            ', N'支', N'      ', N'g', NULL, N'ZSYLMSN', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 5, 0, 0, 3.16, 0, 0, 0, 0, 0, 0, 0, 29.296, 2, 3.06, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100026', N'注射用乳糖酸红霉素', N'25万u', N'美罗药业股份有限公司', N'支', N'', N'万u', NULL, N'ZSYRTSHMS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 9.5, 0, 0, 0.98, 0, 0, 0, 0, 0, 0, 0, 4.5, 0.1, 4.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100026', N'注射用乳糖酸红霉素', N'25万u', N'美罗药业股份有限公司', N'支', N'', N'万u', NULL, N'ZSYRTSHMS', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 9.5, 0, 0, 0.98, 0, 0, 0, 0, 0, 0, 0, 4.5, 0.1, 4.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100028', N'注射用辅酶A', N'100单位', N'国药集团            ', N'支', N'      ', NULL, NULL, N'ZSYFMA', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 3.4, 0, 0, 1.3, 0, 0, 0, 0, 0, 0, 0, 15.81, 0.65, 1.58, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100029', N'复方氨林巴比妥注射液', N'2ML', N'郑州卓峰制药', N'支', N'', NULL, NULL, N'FFALBBTZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.44, 0, 0, 0, 0, 0, 0, 0, 1.86, 0.13, 0.36, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100029', N'复方氨林巴比妥注射液', N'2ML', N'郑州卓峰制药', N'支', N'', NULL, NULL, N'FFALBBTZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.44, 0, 0, 0, 0, 0, 0, 0, 1.86, 0.13, 0.36, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100030', N'氨茶碱注射液', N'2ML:0.25G', N'河南润弘', N'支', N'', NULL, NULL, N'ACJZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.8, 1, 0, 0.6, 0, 0, 0, 0, 0, 0, 0, 1, 0.1, 0.55, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100030', N'氨茶碱注射液', N'2ML:0.25G', N'河南润弘', N'支', N'', NULL, NULL, N'ACJZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.8, 1, 0, 0.6, 0, 0, 0, 0, 0, 0, 0, 1, 0.1, 0.55, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100031', N'氯化钾注射液', N'10ML:1G', N'济南利民            ', N'支', N'      ', NULL, NULL, N'LHJZSY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.4, 0, 0, 0.28, 0, 0, 0, 0, 0, 0, 0, 1.2, 0.18, 0.24, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100032', N'马来酸氯苯那敏注射液', N'1ML:10MG', N'国药集团荣生制药', N'支', N'', NULL, NULL, N'MLSLBNMZSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 1, 0, 0.147, 0, 0, 0, 0, 0, 0, 0, 1.86, 0.06, 0.55, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100032', N'马来酸氯苯那敏注射液', N'1ML:10MG', N'国药集团荣生制药', N'支', N'', NULL, NULL, N'MLSLBNMZSY', N'', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 1, 0, 0.147, 0, 0, 0, 0, 0, 0, 0, 1.86, 0.06, 0.55, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100033', N'<胃复安>盐酸甲氧氯普胺注射液', N'1ML:10MG', N'河南润弘', N'支', N'', NULL, NULL, N'<WFA>YSJYL', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.6, 0, 0, 0.5, 0, 0, 0, 0, 0, 0, 0, 1.4, 0.18, 1.33, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5618,11 +5717,11 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100081', N'吸入用盐酸氨溴索溶液', N'24支*2ml：15mg', N'北京韩美药品有限公司', N'支', N'', NULL, NULL, N'XRYYSAXSRY', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 11, 11, 11, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101001', N'阿苯达唑片<史克肠虫清>', N'0.2g', N'中美史克', N'片', NULL, NULL, NULL, N'ABDZP[SKCC', NULL, N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.5, 0, 0, 0.158, 0, 0, 0, 0, 0, 0, 0, 1.0925, 0.14, 1.09, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101001', N'(史克肠虫清)阿苯达唑片', N'0.2g', N'中美史克', N'片', NULL, NULL, NULL, N'ABDZP[SKCC', NULL, N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.5, 0, 0, 0.158, 0, 0, 0, 0, 0, 0, 0, 1.0925, 0.14, 1.09, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101002', N'制霉素片', N'50ug', N'山东鲁抗医药', N'片', N'', NULL, NULL, N'ZMSP', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.5, 0, 0, 0.205, 0, 0, 0, 0, 0, 0, 0, 21.4, 0.15, 0.275, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101003', N'盐酸小檗碱片<黄连素>', N'0.1g*100T', N'东北制药总厂', N'瓶', N'', NULL, NULL, N'YSXBJP[HLS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 15, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 13.2, 3.2, 13.2, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101003', N'(黄连素)盐酸小檗碱片', N'0.1g*100T', N'东北制药总厂', N'瓶', N'', NULL, NULL, N'YSXBJP[HLS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 15, 0, 0, 11, 0, 0, 0, 0, 0, 0, 0, 13.2, 3.2, 13.2, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'                    ', N'101004', N'维生素B1片', N'10mg*100T', N'东北总厂            ', N'瓶', N'      ', NULL, NULL, N'WSSB1P', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2, 0, 0, 0.9, 0, 0, 0, 0, 0, 0, 0, 0.9, 0.5, 0.8, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'101                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5634,13 +5733,13 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101008', N'对乙酰氨基酚片<扑热息痛片>', N'0.5g', N'东北制药总厂', N'片', N'', NULL, NULL, N'DYXAJFP[PR', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.1, 0, 0, 0.02, 0, 0, 0, 0, 0, 0, 0, 8.37, 0.019525, 0.055, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101009', N'<非那根>盐酸异丙嗪片', N'25mg', N'山西省临汾健民制药', N'片', N'', NULL, NULL, N'<FNG>YSYBQ', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.2, 0, 0, 0.03, 0, 0, 0, 0, 0, 0, 0, 0.2, 0.0158, 0.054, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101009', N'(非那根)盐酸异丙嗪片', N'25mg', N'山西省临汾健民制药', N'片', N'', NULL, NULL, N'<FNG>YSYBQ', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.2, 0, 0, 0.03, 0, 0, 0, 0, 0, 0, 0, 0.2, 0.0158, 0.054, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'101010', N'孟鲁司特钠咀嚼片<顺尔宁>', N'4mg*5T', N'杭州默沙东', N'盒', N'', NULL, NULL, N'MLSTNJJP[S', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 41, 0, 0, 29.4, 0, 0, 0, 0, 0, 0, 0, 37.35, 27, 29.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101012', N'地榆升白片', N'0.1G*20T', N'成都地奥            ', N'盒', N'      ', NULL, NULL, N'DYSBP', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 36, 0, 0, 24.4, 0, 0, 0, 0, 0, 0, 0, 27, 23.4, 23.8, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'101                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101013', N'（美普清片）盐酸丙卡特罗片', N'25Ug*10T', N'浙江大冢', N'盒', N'', NULL, NULL, N'MPQPYSBKTL', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 13, 13.8, 0, 0, 11.16, 0, 0, 0, 0, 0, 0, 0, 13, 10.6, 10.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101013', N'(美普清片)盐酸丙卡特罗片', N'25Ug*10T', N'浙江大冢', N'盒', N'', NULL, NULL, N'MPQPYSBKTL', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 13, 13.8, 0, 0, 11.16, 0, 0, 0, 0, 0, 0, 0, 13, 10.6, 10.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101014', N'阿奇霉素分散片', N'0.25g*6片装', N'哈药集团            ', N'盒', N'      ', NULL, NULL, N'AQMSFSP', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 13, 0, 0, 2.7, 0, 0, 0, 0, 0, 0, 0, 4.84, 2.7, 2.9, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'101                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5652,7 +5751,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101018', N'乙酰吉他霉素含片', N'24片', N'云南永安制药有限公司', N'盒', N'', NULL, NULL, N'YXJTMSHP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 39.8, 0, 0, 15.5, 0, 0, 0, 0, 0, 0, 0, 16, 10, 15.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101019', N'（感康）复方氨酚烷胺片', N'12片', N'吉林吴太', N'盒', N'', NULL, NULL, N'GKFFAFWAP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 16, 0, 0, 12.2, 0, 0, 0, 0, 0, 0, 0, 12.2, 10.98, 12, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101019', N'(感康)复方氨酚烷胺片', N'12片', N'吉林吴太', N'盒', N'', NULL, NULL, N'GKFFAFWAP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 16, 0, 0, 12.2, 0, 0, 0, 0, 0, 0, 0, 12.2, 10.98, 12, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101020', N'头孢泊肟酯片', N'100MG*6片', N'海南海灵', N'盒', N'', NULL, NULL, N'TBBWZP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 31, 0, 0, 7.7, 0, 0, 0, 0, 0, 0, 0, 7.7, 7.7, 7.7, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5674,7 +5773,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101030', N'金莲清热泡腾片', N'12片', N'天津中盛海天制药有限', N'片', N'', NULL, NULL, N'JLQRPTP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 46, 0, 0, 26, 0, 0, 0, 0, 0, 0, 0, 42, 27, 42, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101031', N'赖氨葡锌（比比高）', N'18片*2板', N'四川德峰药业', N'盒', N'', NULL, NULL, N'LAPXBBG', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 68, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 46, 28, 28, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101031', N'赖氨葡锌(比比高)', N'18片*2板', N'四川德峰药业', N'盒', N'', NULL, NULL, N'LAPXBBG', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 68, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 46, 28, 28, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101032', N'赖氨葡锌片', N'18片*2板*3盒', N'四川德峰药业', N'盒', N'', NULL, NULL, N'LAPXP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 298, 0, 0, 138, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5682,7 +5781,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101034', N'(顺尔宁)孟鲁司特钠咀嚼片', N'5mg*5片', N'杭州默沙东制药有限公', N'盒', N'', NULL, NULL, N'(SEN)MLSTN', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 48, 0, 0, 37.62, 0, 0, 0, 0, 0, 0, 0, 38, 31.35, 32, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101035', N'头孢克肟分散片（莎普爱思）', N'100mg*6片', N'浙江莎普爱思药业股份', N'盒', N'', NULL, NULL, N'TBKWFSPSPA', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4.3, 3.9, 4.3, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101035', N'(莎普爱思)头孢克肟分散片', N'100mg*6片', N'浙江莎普爱思药业股份', N'盒', N'', NULL, NULL, N'TBKWFSPSPA', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4.3, 3.9, 4.3, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'101036', N'葡萄糖电解质泡腾片', N'片', N'百利药业', N'片', N'', NULL, NULL, N'PTTDJZPTP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 7.5, 0, 0, 3.25, 0, 0, 0, 0, 0, 0, 0, 4, 3.25, 4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5894,7 +5993,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'103051', N'蒲地蓝消炎口服液', N'10ml*10支', N'济川药业集团有限公司', N'盒', N'', NULL, NULL, N'PDLXYKFY', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 36, 0, 49, 0, 0, 30, 0, 0, 0, 0, 0, 0, 0, 38, 30, 36.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'103', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'103052', N'（大美林）布洛芬混悬液', N'100ml：2g', N'上海强生制药有限公司', N'盒', N'', NULL, NULL, N'DMLBLFHXY', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 36, 0, 28.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 17.8, 22, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'103', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'103052', N'(大美林)布洛芬混悬液', N'100ml：2g', N'上海强生制药有限公司', N'盒', N'', NULL, NULL, N'DMLBLFHXY', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 36, 0, 28.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 17.8, 22, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'103', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'103053', N'转移因子口服溶液', N'6支/盒', N'大连百利天华制药有限', N'盒', N'', NULL, NULL, N'ZYYZKFRY', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 36, 0, 28.3, 0, 0, 6.2, 0, 0, 0, 0, 0, 0, 0, 7.6, 6.2, 7.3, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'103', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5952,7 +6051,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'107004', N'乳酸依沙吖啶溶液', N'100ML', N'吉林省博大制药有限责', N'瓶', N'', NULL, NULL, N'RSYSADRY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 2.5, 0, 0, 1.65, 0, 0, 0, 0, 0, 0, 0, 2.8, 0.45, 2.8, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'107005', N'过氧化氢抑菌洗剂（双氧水）', N'100ML', N'山东瑞泰奇有限公司', N'瓶', N'', NULL, NULL, N'GYHQYJXJSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 0, 0, 0.42, 0, 0, 0, 0, 0, 0, 0, 1, 0.3, 0.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'107005', N'过氧化氢抑菌洗剂(双氧水)', N'100ML', N'山东瑞泰奇有限公司', N'瓶', N'', NULL, NULL, N'GYHQYJXJSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 0, 0, 0.42, 0, 0, 0, 0, 0, 0, 0, 1, 0.3, 0.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'107006', N'口腔炎喷雾剂', N'15ML', N'黑龙江天龙药业', N'瓶', N'', NULL, NULL, N'KQYPWJ', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 37, 0, 0, 8.5, 0, 0, 0, 0, 0, 0, 0, 22.1, 7.6, 9.9, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5964,7 +6063,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (N'', N'107010', N'苯扎氯铵贴<邦迪>', N'1t', N'上海', N'帖', N'', NULL, NULL, N'BZLAT<BD>', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 0.25, 0, 0, 0.17, 0, 0, 0, 0, 0, 0, 0, 0.2251, 0.155, 0.175, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107011', N'过氧化氢抑菌洗剂（双氧水）', N'100ml', N'山东瑞泰奇有限公司', N'瓶', N'', NULL, NULL, N'GYHQYJXJSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 0, 0, 0.42, 0, 0, 0, 0, 0, 0, 0, 0.9, 0.5, 0.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107011', N'过氧化氢抑菌洗剂(双氧水)', N'100ml', N'山东瑞泰奇有限公司', N'瓶', N'', NULL, NULL, N'GYHQYJXJSY', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1.5, 0, 0, 0.42, 0, 0, 0, 0, 0, 0, 0, 0.9, 0.5, 0.5, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107012', N'氧氟沙星滴耳液', N'5ML', N'郑州卓峰            ', N'瓶', N'      ', NULL, NULL, N'YFSXDEY', N'                    ', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 5.4, 0, 0, 1.95, 0, 0, 0, 0, 0, 0, 0, 2.1, 1.44, 1.8, 1, 0, 0, 0, NULL, NULL, N'                    ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'107                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -5988,7 +6087,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107023', N'珍珠冰硼散(立竿停)', N'3g', N'宿州亿帆药业', N'瓶', N'', NULL, NULL, N'ZZBPS(LGT)', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 29.8, 0, 0, 9.5, 0, 0, 0, 0, 0, 0, 0, 14, 9.5, 10, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107024', N'儿童退热贴(三九）', N'3贴', N'桂林华润', N'盒', N'', NULL, NULL, N'ETTRT(SJ', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 25, 0, 0, 7.1, 0, 0, 0, 0, 0, 0, 0, 71, 4.2, 71, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107024', N'儿童退热贴(三九)', N'3贴', N'桂林华润', N'盒', N'', NULL, NULL, N'ETTRT(SJ', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 25, 0, 0, 7.1, 0, 0, 0, 0, 0, 0, 0, 71, 4.2, 71, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107025', N'(新康泰克)通气鼻贴(儿童型)8T', N'8T', N'中美史克', N'盒', N'', NULL, NULL, N'(XKTK)TQBT', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 19.5, 0, 0, 13.2, 0, 0, 0, 0, 0, 0, 0, 13.3, 12.65, 13.3, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -6006,11 +6105,11 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107032', N'复方一枝黄花喷雾剂', N'15ML', N'贵州百灵', N'瓶', N'', NULL, NULL, N'FFYZHHPWJ', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 28, 0, 0, 11.2, 0, 0, 0, 0, 0, 0, 0, 11.2, 11.2, 11.2, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107033', N'开塞露（儿童）', N'10ML', N'上海佳运黄埔制药', N'支', N'', NULL, NULL, N'KSLET', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0.465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107033', N'开塞露(儿童)', N'10ML', N'上海佳运黄埔制药', N'支', N'', NULL, NULL, N'KSLET', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 1, 0, 0, 0.465, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107034', N'儿泻康贴膜', N'3贴/盒', N'双鹤药业', N'盒', N'', NULL, NULL, N'EXKTM', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 26.5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 22, 13, 13, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107035', N'小羚羊型医用退热贴（葵花之霸）', N'4贴/盒', N'广州金护士医疗', N'盒', N'', NULL, NULL, N'XLYXYYTRTK', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5.9, 5.9, 5.9, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107035', N'小羚羊型医用退热贴(葵花之霸)', N'4贴/盒', N'广州金护士医疗', N'盒', N'', NULL, NULL, N'XLYXYYTRTK', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5.9, 5.9, 5.9, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'107036', N'重组人干扰素a2b喷雾剂', N'20ml：200万iu（240喷', N'天津未名生物医药有限', N'盒', N'', NULL, NULL, N'ZZRGRSa2bP', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 52, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 43.35, 43.35, 43.35, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -6018,9 +6117,9 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2]
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108002', N'王氏保赤丸', N'0.15G*60丸', N'精华制药集团股份有限', N'瓶', N'', NULL, NULL, N'WSBCW', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 7.2, 4.5, 0, 0, 1.685, 0, 0, 0, 0, 0, 0, 0, 8, 1.685, 3.45, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108003', N'（伊可新0-）维生素AD滴剂', N'30粒', N'山东达因海洋生物', N'盒', N'', NULL, NULL, N'YKX0-WSSAD', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 40, 0, 0, 25.11, 0, 0, 0, 0, 0, 0, 0, 31, 22.5, 29.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108003', N'(伊可新0)维生素AD滴剂', N'30粒', N'山东达因海洋生物', N'盒', N'', NULL, NULL, N'YKX0-WSSAD', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 40, 0, 0, 25.11, 0, 0, 0, 0, 0, 0, 0, 31, 22.5, 29.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108004', N'（伊可新1岁以上）维生素AD滴剂', N'30粒', N'山东达因海洋生物', N'盒', N'', NULL, NULL, N'YKX1SYSWSS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 40, 0, 0, 25.11, 0, 0, 0, 0, 0, 0, 0, 31, 18.6, 29.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108004', N'(伊可新1岁以上)维生素AD滴剂', N'30粒', N'山东达因海洋生物', N'盒', N'', NULL, NULL, N'YKX1SYSWSS', N'', N' ', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 40, 0, 0, 25.11, 0, 0, 0, 0, 0, 0, 0, 31, 18.6, 29.6, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'108005', N'咽炎清丸', N'0.3g', N'陕西中医药制药厂', N'盒', N'', NULL, NULL, N'YYQW', N'', N'', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 30, 0, 0, 12, 0, 0, 0, 0, 0, 0, 0, 12, 12, 12, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'1', N'108', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -6116,6 +6215,26 @@ INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'1
 GO
 INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'110', N'输液', NULL, NULL, 2)
 GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'111', N'生物制剂', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'2', N'中成药', NULL, NULL, 1)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'200', N'丸剂', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'201', N'水丸剂', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'3', N'中草药', NULL, NULL, 1)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'300', N'器械', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'A', N'诊疗项目', NULL, NULL, 1)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'A00', N'基本诊疗项目', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'A01', N'化验项目', NULL, NULL, 2)
+GO
+INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'A02', N'影像项目', NULL, NULL, 2)
+GO
 INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE]) VALUES (N'01', N'李医师', N'02', 0)
 GO
 INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE]) VALUES (N'02', N'王医师', N'02', 0)
@@ -6126,7 +6245,7 @@ INSERT [dbo].[ZTCS] ([F_ZTBH], [F_NAME], [F_LBLENGTH], [F_LB1], [F_LB2], [F_LB3]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/11 14:35:19 ******/
+/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/12 21:10:11 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SPDOWN]') AND name = N'PK_SPDOWN')
 ALTER TABLE [dbo].[SPDOWN] ADD  CONSTRAINT [PK_SPDOWN] PRIMARY KEY NONCLUSTERED 
 (
@@ -6972,6 +7091,16 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__DIAGNOSTI__F_DAT__1308BEAA]') AND type = 'D')
 BEGIN
 ALTER TABLE [dbo].[DIAGNOSTICMANUAL] ADD  CONSTRAINT [DF__DIAGNOSTI__F_DAT__1308BEAA]  DEFAULT (CONVERT([varchar](20),getdate(),(120))) FOR [F_DATETIME]
+END
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF_DJH_F_REISGHB]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[DJH] ADD  CONSTRAINT [DF_DJH_F_REISGHB]  DEFAULT ((0)) FOR [F_REISGHB]
+END
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF_DJH_F_RECIPE]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[DJH] ADD  CONSTRAINT [DF_DJH_F_RECIPE]  DEFAULT ((0)) FOR [F_RECIPE]
 END
 GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__DJH__F_JHD__6D181FEC]') AND type = 'D')
@@ -8622,86 +8751,6 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKD3__f_sl2__7172C0B5]') AND type = 'D')
 BEGIN
 ALTER TABLE [dbo].[RKD3] ADD  CONSTRAINT [DF__RKD3__f_sl2__7172C0B5]  DEFAULT ((0)) FOR [F_SL2]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_SL__7266E4EE]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_SL__7266E4EE]  DEFAULT ((0)) FOR [F_SL]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_DJ__735B0927]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_DJ__735B0927]  DEFAULT ((0)) FOR [F_DJ]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_JE__744F2D60]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_JE__744F2D60]  DEFAULT ((0)) FOR [F_JE]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_UN__75435199]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_UN__75435199]  DEFAULT ((0)) FOR [F_UN]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_YLF__763775D2]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_YLF__763775D2]  DEFAULT ((0)) FOR [F_YLF]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__F_JGF__772B9A0B]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__F_JGF__772B9A0B]  DEFAULT ((0)) FOR [F_JGF]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX__f_sl2__781FBE44]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__RKDMX__f_sl2__781FBE44]  DEFAULT ((0)) FOR [F_SL2]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__rkdmx__f_kl__7B663F43]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX] ADD  CONSTRAINT [DF__rkdmx__f_kl__7B663F43]  DEFAULT ((0)) FOR [F_KL]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX2__F_SL__7913E27D]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__RKDMX2__F_SL__7913E27D]  DEFAULT ((0)) FOR [F_SL]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX2__F_DJ__7A0806B6]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__RKDMX2__F_DJ__7A0806B6]  DEFAULT ((0)) FOR [F_DJ]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX2__F_JE__7AFC2AEF]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__RKDMX2__F_JE__7AFC2AEF]  DEFAULT ((0)) FOR [F_JE]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX2__F_UN__7BF04F28]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__RKDMX2__F_UN__7BF04F28]  DEFAULT ((0)) FOR [F_UN]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX2__f_sl2__7CE47361]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__RKDMX2__f_sl2__7CE47361]  DEFAULT ((0)) FOR [F_SL2]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__rkdmx2__f_kl__7C5A637C]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX2] ADD  CONSTRAINT [DF__rkdmx2__f_kl__7C5A637C]  DEFAULT ((0)) FOR [F_KL]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RKDMX3__f_sl2__7DD8979A]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX3] ADD  CONSTRAINT [DF__RKDMX3__f_sl2__7DD8979A]  DEFAULT ((0)) FOR [F_SL2]
-END
-GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__rkdmx3__f_kl__7D4E87B5]') AND type = 'D')
-BEGIN
-ALTER TABLE [dbo].[RKDMX3] ADD  CONSTRAINT [DF__rkdmx3__f_kl__7D4E87B5]  DEFAULT ((0)) FOR [F_KL]
 END
 GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__SJMXZ__F_JXSE__7ECCBBD3]') AND type = 'D')
@@ -10594,20 +10643,6 @@ GO
 IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKD2__F_HW__0524B3A7]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKD2]'))
 ALTER TABLE [dbo].[RKD2] CHECK CONSTRAINT [FK__RKD2__F_HW__0524B3A7]
 GO
-IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKDMX__F_SPBH__0618D7E0]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKDMX]'))
-ALTER TABLE [dbo].[RKDMX]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX__F_SPBH__0618D7E0] FOREIGN KEY([F_SPBH])
-REFERENCES [dbo].[SP] ([F_SPBH])
-GO
-IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKDMX__F_SPBH__0618D7E0]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKDMX]'))
-ALTER TABLE [dbo].[RKDMX] CHECK CONSTRAINT [FK__RKDMX__F_SPBH__0618D7E0]
-GO
-IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKDMX2__F_SPBH__070CFC19]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKDMX2]'))
-ALTER TABLE [dbo].[RKDMX2]  WITH CHECK ADD  CONSTRAINT [FK__RKDMX2__F_SPBH__070CFC19] FOREIGN KEY([F_SPBH])
-REFERENCES [dbo].[SP] ([F_SPBH])
-GO
-IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKDMX2__F_SPBH__070CFC19]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKDMX2]'))
-ALTER TABLE [dbo].[RKDMX2] CHECK CONSTRAINT [FK__RKDMX2__F_SPBH__070CFC19]
-GO
 IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__SPPC__F_HW__08012052]') AND parent_object_id = OBJECT_ID(N'[dbo].[SPPC]'))
 ALTER TABLE [dbo].[SPPC]  WITH CHECK ADD  CONSTRAINT [FK__SPPC__F_HW__08012052] FOREIGN KEY([F_HW])
 REFERENCES [dbo].[HW] ([F_DM])
@@ -10956,6 +10991,42 @@ ALTER TABLE [dbo].[PATIENT]  WITH CHECK ADD  CONSTRAINT [7897SDAT_897987ASFWE] C
 GO
 IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[7897SDAT_897987ASFWE]') AND parent_object_id = OBJECT_ID(N'[dbo].[PATIENT]'))
 ALTER TABLE [dbo].[PATIENT] CHECK CONSTRAINT [7897SDAT_897987ASFWE]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[AA00963C-AFCF-4FD5-BB50-C678225DBF12]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [AA00963C-AFCF-4FD5-BB50-C678225DBF12] CHECK  (([F_STATE]='复诊' OR [F_STATE]='初诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[AA00963C-AFCF-4FD5-BB50-C678225DBF12]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [AA00963C-AFCF-4FD5-BB50-C678225DBF12]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[EF5D1B5D-3A7D-4E4A-9435-EE9E3708345C]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [EF5D1B5D-3A7D-4E4A-9435-EE9E3708345C] CHECK  (([F_ISJZ]='平诊' OR [F_ISJZ]='急诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[EF5D1B5D-3A7D-4E4A-9435-EE9E3708345C]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [EF5D1B5D-3A7D-4E4A-9435-EE9E3708345C]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[858E6B83-37BF-4B14-B247-6121306FA201]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE2]'))
+ALTER TABLE [dbo].[RECIPE2]  WITH CHECK ADD  CONSTRAINT [858E6B83-37BF-4B14-B247-6121306FA201] CHECK  (([F_ISJZ]='平诊' OR [F_ISJZ]='急诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[858E6B83-37BF-4B14-B247-6121306FA201]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE2]'))
+ALTER TABLE [dbo].[RECIPE2] CHECK CONSTRAINT [858E6B83-37BF-4B14-B247-6121306FA201]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[A404E7EC-C77A-40C3-B169-C607ADD442EB]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE2]'))
+ALTER TABLE [dbo].[RECIPE2]  WITH CHECK ADD  CONSTRAINT [A404E7EC-C77A-40C3-B169-C607ADD442EB] CHECK  (([F_STATE]='复诊' OR [F_STATE]='初诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[A404E7EC-C77A-40C3-B169-C607ADD442EB]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE2]'))
+ALTER TABLE [dbo].[RECIPE2] CHECK CONSTRAINT [A404E7EC-C77A-40C3-B169-C607ADD442EB]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[08EB0B91-14B4-4E54-B08A-8C5722968317]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE3]'))
+ALTER TABLE [dbo].[RECIPE3]  WITH CHECK ADD  CONSTRAINT [08EB0B91-14B4-4E54-B08A-8C5722968317] CHECK  (([F_STATE]='复诊' OR [F_STATE]='初诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[08EB0B91-14B4-4E54-B08A-8C5722968317]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE3]'))
+ALTER TABLE [dbo].[RECIPE3] CHECK CONSTRAINT [08EB0B91-14B4-4E54-B08A-8C5722968317]
+GO
+IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[2C08A139-C685-4779-BD53-F3F3CD225E39]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE3]'))
+ALTER TABLE [dbo].[RECIPE3]  WITH CHECK ADD  CONSTRAINT [2C08A139-C685-4779-BD53-F3F3CD225E39] CHECK  (([F_ISJZ]='平诊' OR [F_ISJZ]='急诊'))
+GO
+IF  EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[2C08A139-C685-4779-BD53-F3F3CD225E39]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE3]'))
+ALTER TABLE [dbo].[RECIPE3] CHECK CONSTRAINT [2C08A139-C685-4779-BD53-F3F3CD225E39]
 GO
 IF NOT EXISTS (SELECT * FROM sys.check_constraints WHERE object_id = OBJECT_ID(N'[dbo].[REISGHB_CHECK_9U98723H]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
 ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [REISGHB_CHECK_9U98723H] CHECK  (([F_ISJZ]='平诊' OR [F_ISJZ]='急诊'))
