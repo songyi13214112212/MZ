@@ -1,6 +1,6 @@
 USE [DATA]
 GO
-/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/14 13:30:15 ******/
+/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -17,7 +17,7 @@ CREATE TABLE [dbo].[AINPUTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -51,7 +51,7 @@ CREATE TABLE [dbo].[BBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -69,7 +69,7 @@ CREATE TABLE [dbo].[BM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -86,7 +86,7 @@ CREATE TABLE [dbo].[BM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -107,7 +107,7 @@ CREATE TABLE [dbo].[CBPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -136,7 +136,7 @@ CREATE TABLE [dbo].[CGD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -165,7 +165,7 @@ CREATE TABLE [dbo].[CGD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -194,7 +194,7 @@ CREATE TABLE [dbo].[CGD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -231,7 +231,7 @@ CREATE TABLE [dbo].[CGDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -268,7 +268,7 @@ CREATE TABLE [dbo].[CGDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -305,7 +305,7 @@ CREATE TABLE [dbo].[CGDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -334,7 +334,7 @@ CREATE TABLE [dbo].[CKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -363,7 +363,7 @@ CREATE TABLE [dbo].[CKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -392,7 +392,7 @@ CREATE TABLE [dbo].[CKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -430,7 +430,7 @@ CREATE TABLE [dbo].[CKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -468,7 +468,7 @@ CREATE TABLE [dbo].[CKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -506,7 +506,7 @@ CREATE TABLE [dbo].[CKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -537,7 +537,7 @@ CREATE TABLE [dbo].[COMBBVAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -555,7 +555,7 @@ CREATE TABLE [dbo].[COMFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -581,7 +581,7 @@ CREATE TABLE [dbo].[COMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -604,7 +604,7 @@ CREATE TABLE [dbo].[CUS_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -672,7 +672,7 @@ CREATE TABLE [dbo].[CUSTOM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -689,7 +689,7 @@ CREATE TABLE [dbo].[CUSTOM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -714,7 +714,7 @@ CREATE TABLE [dbo].[CUSTOMDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -733,7 +733,7 @@ CREATE TABLE [dbo].[CUSTOMGRADE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -750,7 +750,7 @@ CREATE TABLE [dbo].[CUSTOMGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -768,7 +768,7 @@ CREATE TABLE [dbo].[CUSTOMLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -792,7 +792,7 @@ CREATE TABLE [dbo].[DBD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -816,7 +816,7 @@ CREATE TABLE [dbo].[DBD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -840,7 +840,7 @@ CREATE TABLE [dbo].[DBD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -876,7 +876,7 @@ CREATE TABLE [dbo].[DBDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -912,7 +912,7 @@ CREATE TABLE [dbo].[DBDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -948,7 +948,7 @@ CREATE TABLE [dbo].[DBDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1014,7 +1014,7 @@ CREATE TABLE [dbo].[DBZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1031,7 +1031,7 @@ CREATE TABLE [dbo].[DELETED](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1065,7 +1065,7 @@ CREATE TABLE [dbo].[DHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1099,7 +1099,7 @@ CREATE TABLE [dbo].[DHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1133,7 +1133,7 @@ CREATE TABLE [dbo].[DHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1178,7 +1178,7 @@ CREATE TABLE [dbo].[DHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1223,7 +1223,7 @@ CREATE TABLE [dbo].[DHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1268,7 +1268,7 @@ CREATE TABLE [dbo].[DHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DIAGNOSTICMANUAL]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DIAGNOSTICMANUAL]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1286,7 +1286,7 @@ CREATE TABLE [dbo].[DIAGNOSTICMANUAL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1322,7 +1322,7 @@ CREATE TABLE [dbo].[DJH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1343,7 +1343,7 @@ CREATE TABLE [dbo].[DROPSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1366,7 +1366,7 @@ CREATE TABLE [dbo].[ENEMYXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1384,7 +1384,7 @@ CREATE TABLE [dbo].[ENV](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1405,7 +1405,7 @@ CREATE TABLE [dbo].[EVENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1424,7 +1424,7 @@ CREATE TABLE [dbo].[FJXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1446,7 +1446,7 @@ CREATE TABLE [dbo].[FPCOL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1469,7 +1469,7 @@ CREATE TABLE [dbo].[FPITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1498,7 +1498,7 @@ CREATE TABLE [dbo].[FPMODEL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1517,7 +1517,7 @@ CREATE TABLE [dbo].[GHLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1535,7 +1535,7 @@ CREATE TABLE [dbo].[HW](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1552,7 +1552,7 @@ CREATE TABLE [dbo].[HW3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1618,7 +1618,7 @@ CREATE TABLE [dbo].[JGZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1655,7 +1655,7 @@ CREATE TABLE [dbo].[JHBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1686,7 +1686,7 @@ CREATE TABLE [dbo].[JHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1717,7 +1717,7 @@ CREATE TABLE [dbo].[JHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1748,7 +1748,7 @@ CREATE TABLE [dbo].[JHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1788,7 +1788,7 @@ CREATE TABLE [dbo].[JHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1828,7 +1828,7 @@ CREATE TABLE [dbo].[JHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1868,7 +1868,7 @@ CREATE TABLE [dbo].[JHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1922,7 +1922,7 @@ CREATE TABLE [dbo].[JHZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1940,7 +1940,7 @@ CREATE TABLE [dbo].[JSFS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1979,7 +1979,7 @@ CREATE TABLE [dbo].[JXCBB1](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2040,7 +2040,7 @@ CREATE TABLE [dbo].[JXCBB2](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2077,7 +2077,7 @@ CREATE TABLE [dbo].[JXCBBCOLS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2094,7 +2094,7 @@ CREATE TABLE [dbo].[JXCBBDIC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2115,7 +2115,7 @@ CREATE TABLE [dbo].[JXCBBHEADERS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2136,7 +2136,7 @@ CREATE TABLE [dbo].[JXCBBPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2157,7 +2157,7 @@ CREATE TABLE [dbo].[JXCBBPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2181,7 +2181,7 @@ CREATE TABLE [dbo].[JXCMENU](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2204,7 +2204,7 @@ CREATE TABLE [dbo].[KCMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2223,7 +2223,7 @@ CREATE TABLE [dbo].[KCYE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2296,7 +2296,7 @@ CREATE TABLE [dbo].[KCZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2315,7 +2315,7 @@ CREATE TABLE [dbo].[KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2336,7 +2336,7 @@ CREATE TABLE [dbo].[LSH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2357,7 +2357,7 @@ CREATE TABLE [dbo].[OPERATOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2374,7 +2374,7 @@ CREATE TABLE [dbo].[PAD](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2399,7 +2399,7 @@ CREATE TABLE [dbo].[PATIENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2419,7 +2419,7 @@ CREATE TABLE [dbo].[PDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2439,7 +2439,7 @@ CREATE TABLE [dbo].[PDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2459,7 +2459,7 @@ CREATE TABLE [dbo].[PDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2486,7 +2486,7 @@ CREATE TABLE [dbo].[PDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2513,7 +2513,7 @@ CREATE TABLE [dbo].[PDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2540,7 +2540,7 @@ CREATE TABLE [dbo].[PDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2560,7 +2560,7 @@ CREATE TABLE [dbo].[POWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2575,7 +2575,7 @@ CREATE TABLE [dbo].[POWERITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2598,7 +2598,7 @@ CREATE TABLE [dbo].[PRINTCOLHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2630,7 +2630,7 @@ CREATE TABLE [dbo].[PRINTFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2649,7 +2649,7 @@ CREATE TABLE [dbo].[PRINTMACRO](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2681,7 +2681,7 @@ CREATE TABLE [dbo].[PRINTPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2712,7 +2712,7 @@ CREATE TABLE [dbo].[PRINTPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2742,7 +2742,7 @@ CREATE TABLE [dbo].[PRINTPARAM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2790,7 +2790,7 @@ CREATE TABLE [dbo].[PRINTPARAME](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2809,7 +2809,7 @@ CREATE TABLE [dbo].[PSD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2843,7 +2843,7 @@ CREATE TABLE [dbo].[PSDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2868,7 +2868,7 @@ CREATE TABLE [dbo].[QDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2893,7 +2893,7 @@ CREATE TABLE [dbo].[QDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2918,7 +2918,7 @@ CREATE TABLE [dbo].[QDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2951,7 +2951,7 @@ CREATE TABLE [dbo].[QDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2984,7 +2984,7 @@ CREATE TABLE [dbo].[QDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3017,7 +3017,7 @@ CREATE TABLE [dbo].[QDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3049,7 +3049,7 @@ CREATE TABLE [dbo].[RECIPE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPE2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3081,7 +3081,7 @@ CREATE TABLE [dbo].[RECIPE2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPE3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3113,7 +3113,7 @@ CREATE TABLE [dbo].[RECIPE3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3157,6 +3157,7 @@ CREATE TABLE [dbo].[RECIPEMX](
 	[F_HJ] [float] NULL,
 	[F_SLJC] [float] NULL,
 	[F_DAYS] [int] NULL,
+	[f_JL] [float] NULL,
  CONSTRAINT [PK__RECIPEMX__92B2CDEF9D86117E] PRIMARY KEY CLUSTERED 
 (
 	[F_DJH] ASC,
@@ -3166,7 +3167,7 @@ CREATE TABLE [dbo].[RECIPEMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPEMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3210,6 +3211,7 @@ CREATE TABLE [dbo].[RECIPEMX2](
 	[F_HJ] [float] NULL,
 	[F_SLJC] [float] NULL,
 	[F_DAYS] [int] NULL,
+	[f_JL] [float] NULL,
  CONSTRAINT [PK__RECIPEMX__92B2CDEFC4B48514] PRIMARY KEY CLUSTERED 
 (
 	[F_DJH] ASC,
@@ -3219,7 +3221,7 @@ CREATE TABLE [dbo].[RECIPEMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RECIPEMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3263,6 +3265,7 @@ CREATE TABLE [dbo].[RECIPEMX3](
 	[F_HJ] [float] NULL,
 	[F_SLJC] [float] NULL,
 	[F_DAYS] [int] NULL,
+	[f_JL] [float] NULL,
  CONSTRAINT [PK__RECIPEMX__92B2CDEF75905619] PRIMARY KEY CLUSTERED 
 (
 	[F_DJH] ASC,
@@ -3272,7 +3275,7 @@ CREATE TABLE [dbo].[RECIPEMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3303,7 +3306,7 @@ CREATE TABLE [dbo].[REISGHB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3339,7 +3342,7 @@ CREATE TABLE [dbo].[RETAIL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3375,7 +3378,7 @@ CREATE TABLE [dbo].[RETAIL11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3411,7 +3414,7 @@ CREATE TABLE [dbo].[RETAIL2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3426,7 +3429,7 @@ CREATE TABLE [dbo].[RETAILC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3441,7 +3444,7 @@ CREATE TABLE [dbo].[RETAILC11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3456,7 +3459,7 @@ CREATE TABLE [dbo].[RETAILC2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3473,7 +3476,7 @@ CREATE TABLE [dbo].[RETAILDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3502,7 +3505,7 @@ CREATE TABLE [dbo].[RKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3531,7 +3534,7 @@ CREATE TABLE [dbo].[RKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3560,7 +3563,7 @@ CREATE TABLE [dbo].[RKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3570,7 +3573,7 @@ BEGIN
 CREATE TABLE [dbo].[SFZY](
 	[F_DM] [varchar](30) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_SFZYMC] [varchar](100) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_SF] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_SF] [varchar](2) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__SFZY__2C6EEFB6197DE2C1] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -3578,7 +3581,7 @@ CREATE TABLE [dbo].[SFZY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3598,7 +3601,7 @@ CREATE TABLE [dbo].[SJMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3650,7 +3653,7 @@ CREATE TABLE [dbo].[SJZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3736,7 +3739,7 @@ CREATE TABLE [dbo].[SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3755,7 +3758,7 @@ CREATE TABLE [dbo].[SP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3772,7 +3775,7 @@ CREATE TABLE [dbo].[SP3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3844,7 +3847,7 @@ CREATE TABLE [dbo].[SPDOWN](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3864,7 +3867,7 @@ CREATE TABLE [dbo].[SPLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3887,7 +3890,7 @@ CREATE TABLE [dbo].[SPPC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3913,7 +3916,7 @@ CREATE TABLE [dbo].[SPSHORT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3991,7 +3994,7 @@ CREATE TABLE [dbo].[SYZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4008,7 +4011,7 @@ CREATE TABLE [dbo].[TEXTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4027,7 +4030,7 @@ CREATE TABLE [dbo].[TJD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4046,7 +4049,7 @@ CREATE TABLE [dbo].[TJD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4065,7 +4068,7 @@ CREATE TABLE [dbo].[TJD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4084,7 +4087,7 @@ CREATE TABLE [dbo].[TJDDOWNLOAD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4119,7 +4122,7 @@ CREATE TABLE [dbo].[TJDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4154,7 +4157,7 @@ CREATE TABLE [dbo].[TJDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4189,7 +4192,7 @@ CREATE TABLE [dbo].[TJDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4218,7 +4221,7 @@ CREATE TABLE [dbo].[TRANSPORT](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4244,7 +4247,7 @@ CREATE TABLE [dbo].[VEN_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4310,7 +4313,7 @@ CREATE TABLE [dbo].[VENDOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4327,7 +4330,7 @@ CREATE TABLE [dbo].[VENDOR3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4340,7 +4343,7 @@ CREATE TABLE [dbo].[VENDORGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4358,7 +4361,7 @@ CREATE TABLE [dbo].[VENDORLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4391,7 +4394,7 @@ CREATE TABLE [dbo].[VIP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4424,7 +4427,7 @@ CREATE TABLE [dbo].[VIP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4458,7 +4461,7 @@ CREATE TABLE [dbo].[XHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4492,7 +4495,7 @@ CREATE TABLE [dbo].[XHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4526,7 +4529,7 @@ CREATE TABLE [dbo].[XHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4572,7 +4575,7 @@ CREATE TABLE [dbo].[XHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4618,7 +4621,7 @@ CREATE TABLE [dbo].[XHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4664,7 +4667,7 @@ CREATE TABLE [dbo].[XHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4701,7 +4704,7 @@ CREATE TABLE [dbo].[XSBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4719,7 +4722,7 @@ CREATE TABLE [dbo].[XSLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4745,7 +4748,7 @@ CREATE TABLE [dbo].[XSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4811,7 +4814,7 @@ CREATE TABLE [dbo].[XSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4832,7 +4835,7 @@ CREATE TABLE [dbo].[YFHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4861,7 +4864,7 @@ CREATE TABLE [dbo].[YFJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4883,7 +4886,7 @@ CREATE TABLE [dbo].[YFMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4927,7 +4930,7 @@ CREATE TABLE [dbo].[YFZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4948,7 +4951,7 @@ CREATE TABLE [dbo].[YSHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4977,7 +4980,7 @@ CREATE TABLE [dbo].[YSJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4999,7 +5002,7 @@ CREATE TABLE [dbo].[YSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5043,7 +5046,7 @@ CREATE TABLE [dbo].[YSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5062,7 +5065,7 @@ CREATE TABLE [dbo].[YWY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5079,7 +5082,7 @@ CREATE TABLE [dbo].[YWY3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5099,7 +5102,7 @@ CREATE TABLE [dbo].[ZLFX_C_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5119,7 +5122,7 @@ CREATE TABLE [dbo].[ZLFX_C_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5139,7 +5142,7 @@ CREATE TABLE [dbo].[ZLFX_C_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5159,7 +5162,7 @@ CREATE TABLE [dbo].[ZLFX_V_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5179,7 +5182,7 @@ CREATE TABLE [dbo].[ZLFX_V_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5199,7 +5202,7 @@ CREATE TABLE [dbo].[ZLFX_V_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5217,7 +5220,7 @@ CREATE TABLE [dbo].[ZNPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5234,7 +5237,7 @@ CREATE TABLE [dbo].[ZNXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5277,7 +5280,7 @@ CREATE TABLE [dbo].[ZTCS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5315,7 +5318,7 @@ CREATE TABLE [dbo].[ZZD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5353,7 +5356,7 @@ CREATE TABLE [dbo].[ZZD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5391,7 +5394,7 @@ CREATE TABLE [dbo].[ZZD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5430,7 +5433,7 @@ CREATE TABLE [dbo].[ZZDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5469,7 +5472,7 @@ CREATE TABLE [dbo].[ZZDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5508,7 +5511,7 @@ CREATE TABLE [dbo].[ZZDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5526,7 +5529,7 @@ CREATE TABLE [dbo].[ZZMB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/14 13:30:16 ******/
+/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/15 13:10:29 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5565,7 +5568,7 @@ INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'12
 GO
 INSERT [dbo].[DIAGNOSTICMANUAL] ([F_DM], [F_DATETIME], [F_PATIENT]) VALUES (N'4545', N'2023-05-14 10:03:02', N'1235')
 GO
-INSERT [dbo].[DJH] ([F_REISGHB], [F_RECIPE], [F_JHD], [F_XHD], [F_CGD], [F_RKD], [F_CKD], [F_DBD], [F_XSBB], [F_PC], [F_YSJSD], [F_YFJSD], [F_ZZD], [F_TJD], [F_PSD], [F_JIEZ], [F_DHD], [F_YSQC], [F_YFQC], [F_CX], [F_QDD], [F_NEWSP], [F_ENEMY], [F_PDD], [F_SP]) VALUES (7, 172, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, 65, 0, 0, 0, 0, 0)
+INSERT [dbo].[DJH] ([F_REISGHB], [F_RECIPE], [F_JHD], [F_XHD], [F_CGD], [F_RKD], [F_CKD], [F_DBD], [F_XSBB], [F_PC], [F_YSJSD], [F_YFJSD], [F_ZZD], [F_TJD], [F_PSD], [F_JIEZ], [F_DHD], [F_YSQC], [F_YFQC], [F_CX], [F_QDD], [F_NEWSP], [F_ENEMY], [F_PDD], [F_SP]) VALUES (7, 178, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, 68, 0, 0, 0, 0, 0)
 GO
 INSERT [dbo].[GHLB] ([F_DM], [F_GHLBMC], [F_FEE], [F_GBF]) VALUES (N'01', N'专家', 5, 0)
 GO
@@ -5589,11 +5592,17 @@ INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], 
 GO
 INSERT [dbo].[PATIENT] ([F_DM], [F_PATIENTMC], [F_GENDER], [F_AGE], [F_IDCRAD], [F_TELEPHONE], [F_FREEZE], [F_FAMILY], [F_ALLERGY], [F_ZJM]) VALUES (N'1235', N'鸿君老祖', N'男', 100, N'-', N'-', NULL, N'-', N'-', N'HJLZ')
 GO
+INSERT [dbo].[RECIPE] ([F_DJH], [F_DATETIME], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_STATE], [F_ISJZ], [F_BM], [F_YWY], [F_ZD], [F_DJH0], [F_CX], [F_SAVE], [F_DONE], [F_JZ], [F_JIE], [F_SK], [F_REISGHB]) VALUES (178, N'2023-05-15 10:36:54', N'1000017', N'1000017', N'初诊', N'平诊', N'02', N'02', N'SYSTEM', NULL, NULL, N'*', N'*', NULL, NULL, NULL, 1)
+GO
 INSERT [dbo].[RECIPE2] ([F_DJH], [F_DATETIME], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_STATE], [F_ISJZ], [F_BM], [F_YWY], [F_ZD], [F_DJH0], [F_CX], [F_SAVE], [F_DONE], [F_JZ], [F_JIE], [F_SK], [F_REISGHB]) VALUES (70, N'2023-05-13 11:11:16', N'1000017', N'1000017', N'初诊', N'平诊', N'02', N'02', N'SYSTEM', NULL, 11, N'*', N'*', NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[RECIPEMX2] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS]) VALUES (70, 1, 1, N'', N'100001', N'支', 10, N'g', 1, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, 20, 20, 20, 0, 0, 1.8, N'', N'', N'*', N'', N'', N'', NULL, NULL, 20, 0, 1)
+INSERT [dbo].[RECIPEMX] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS], [f_JL]) VALUES (178, 1, 1, N'', N'100026', N'支', NULL, N'万u', NULL, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, NULL, 0, 9.5, 0, 0, 0.98, N'', N'', N'*', N'', N'', N'', NULL, NULL, 0, 0, 1, NULL)
 GO
-INSERT [dbo].[RECIPEMX2] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS]) VALUES (70, 2, 2, N'', N'100002', N'支', 10, N'g', NULL, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, 38, 0, 38, 0, 0, 7, N'', N'', N'*', N'', N'', N'', NULL, NULL, 38, 0, 1)
+INSERT [dbo].[RECIPEMX] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS], [f_JL]) VALUES (178, 2, 1, N'', N'100055', N'支', NULL, N'', NULL, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, NULL, 0, 0.9, 0, 0, 0.28, N'', N'', N'*', N'', N'', N'', NULL, NULL, 0, 0, 1, NULL)
+GO
+INSERT [dbo].[RECIPEMX2] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS], [f_JL]) VALUES (70, 1, 1, N'', N'100001', N'支', 10, N'g', 1, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, 20, 20, 20, 0, 0, 1.8, N'', N'', N'*', N'', N'', N'', NULL, NULL, 20, 0, 1, NULL)
+GO
+INSERT [dbo].[RECIPEMX2] ([F_DJH], [F_HC], [F_GROUP], [F_TM], [F_SPBH], [F_DW], [F_SL], [F_USDW], [F_USJL], [F_PH], [F_DQ], [F_GYMD], [F_GYTJ], [F_GYPC], [F_GNZZ], [F_YF], [F_FUNCTION], [F_PZWH], [F_CB], [F_DJ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_DW2], [F_PHCB], [F_IFPH], [F_ISPS], [F_ISKC], [F_ISZZ], [F_UC], [F_UN], [F_HJ], [F_SLJC], [F_DAYS], [f_JL]) VALUES (70, 2, 2, N'', N'100002', N'支', 10, N'g', NULL, NULL, NULL, NULL, N'', N'', N'', N'', N'', N'', NULL, 38, 0, 38, 0, 0, 7, N'', N'', N'*', N'', N'', N'', NULL, NULL, 38, 0, 1, NULL)
 GO
 INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1, N'2023-05-13 11:11:16', N'初诊', N'平诊', N'01', N'1000017', N'1000017', N'02', N'02', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
 GO
@@ -5604,6 +5613,10 @@ GO
 INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (6, N'2023-05-14 10:03:02', N'初诊', N'平诊', N'01', N'4545', N'1235', N'02', N'02', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
 GO
 INSERT [dbo].[REISGHB] ([F_DJH], [F_DATETIME], [F_STATE], [F_ISJZ], [F_GHLB], [F_DIAGNOSTICMANUAL], [F_PATIENT], [F_BM], [F_YWY], [F_GHJE], [F_GBFJE], [F_RECEIVE], [F_SK], [F_SAVE], [F_CX], [F_ZD]) VALUES (1454089046, N'2023-05-11 20:26:44', N'初诊', N'平诊', N'01', N'100001', N'100001', N'02', N'01', 5, 0, NULL, NULL, NULL, NULL, N'SYSTEM')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'01', N'进药入库', N'收')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'02', N'销售出库', N'发')
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_CD], [F_DW], [F_DW2], [F_USDW], [F_USJL], [F_ZJM], [F_BGY], [F_IFSJ], [F_PHCB], [F_IFPH], [F_CBFF], [F_ISZZ], [F_ISPS], [F_ISKC], [F_SPECIALFLAGS], [F_FREEZE], [F_MAXPC], [F_BZQ], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_DWCB], [F_RATE], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_CS], [F_MAXSL], [F_MINSL], [F_SLV], [F_GNZZ], [F_YF], [F_FUNCTION], [F_GYTJ], [F_GYPC], [F_PZWH], [F_GMP], [F_ISO], [F_DRIPSPEED], [F_BM], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10]) VALUES (NULL, N'100001', N'注射用美洛西林钠(二叶)', N'1.0g', N'苏州二叶', N'支', NULL, N'g', 1, N'ZSYMLXLN(EY)', N'01', N'*', NULL, N'*', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, 0, 20, 0, 0, 1.8, 0, 0, 0, 0, 0, 0, 0, 8, 1.4, 1.4, 1, 0, 0, 0, NULL, NULL, N'', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'', NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -6265,6 +6278,10 @@ INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'2
 GO
 INSERT [dbo].[SPLB] ([F_LBBH], [F_LBBC], [F_QCSL], [F_QCCB], [F_JC]) VALUES (N'201', N'化验', NULL, NULL, 2)
 GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ]) VALUES (N'01', N'处方销售', 2)
+GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ]) VALUES (N'02', N'销售出库', 2)
+GO
 INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE]) VALUES (N'01', N'李医师', N'02', 0)
 GO
 INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE]) VALUES (N'02', N'王医师', N'02', 0)
@@ -6275,7 +6292,7 @@ INSERT [dbo].[ZTCS] ([F_ZTBH], [F_NAME], [F_LBLENGTH], [F_LB1], [F_LB2], [F_LB3]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/14 13:30:17 ******/
+/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/15 13:10:30 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SPDOWN]') AND name = N'PK_SPDOWN')
 ALTER TABLE [dbo].[SPDOWN] ADD  CONSTRAINT [PK_SPDOWN] PRIMARY KEY NONCLUSTERED 
 (
