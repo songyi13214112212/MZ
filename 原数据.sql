@@ -1,6 +1,17 @@
+/*    ==脚本参数==
+
+    源服务器版本 : SQL Server 2012 (11.0.2100)
+    源数据库引擎版本 : Microsoft SQL Server Standard Edition
+    源数据库引擎类型 : 独立的 SQL Server
+
+    目标服务器版本 : SQL Server 2012
+    目标数据库引擎版本 : Microsoft SQL Server Standard Edition
+    目标数据库引擎类型 : 独立的 SQL Server
+*/
+
 USE [DATA]
 GO
-/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[AINPUTSOURCE]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -17,7 +28,7 @@ CREATE TABLE [dbo].[AINPUTSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[BBVAR]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -51,7 +62,7 @@ CREATE TABLE [dbo].[BBVAR](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[BM]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -70,7 +81,7 @@ CREATE TABLE [dbo].[BM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[BM3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -87,7 +98,7 @@ CREATE TABLE [dbo].[BM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CBPOWER]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -108,7 +119,7 @@ CREATE TABLE [dbo].[CBPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGD]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -137,7 +148,7 @@ CREATE TABLE [dbo].[CGD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGD2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -166,7 +177,7 @@ CREATE TABLE [dbo].[CGD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGD3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -195,7 +206,7 @@ CREATE TABLE [dbo].[CGD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGDMX]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -232,7 +243,7 @@ CREATE TABLE [dbo].[CGDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGDMX2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -269,7 +280,7 @@ CREATE TABLE [dbo].[CGDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CGDMX3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -306,7 +317,7 @@ CREATE TABLE [dbo].[CGDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKD]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -335,7 +346,7 @@ CREATE TABLE [dbo].[CKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKD2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -364,7 +375,7 @@ CREATE TABLE [dbo].[CKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKD3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -393,7 +404,7 @@ CREATE TABLE [dbo].[CKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKDMX]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -431,7 +442,7 @@ CREATE TABLE [dbo].[CKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKDMX2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -469,7 +480,7 @@ CREATE TABLE [dbo].[CKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CKDMX3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -507,7 +518,7 @@ CREATE TABLE [dbo].[CKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[COMBBVAR]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -538,7 +549,7 @@ CREATE TABLE [dbo].[COMBBVAR](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[COMFIELD]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -556,7 +567,7 @@ CREATE TABLE [dbo].[COMFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[COMXZ]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -582,7 +593,7 @@ CREATE TABLE [dbo].[COMXZ](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUS_SP]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -605,7 +616,7 @@ CREATE TABLE [dbo].[CUS_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOM]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -673,7 +684,7 @@ CREATE TABLE [dbo].[CUSTOM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOM3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -690,7 +701,7 @@ CREATE TABLE [dbo].[CUSTOM3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOMDJ]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -715,7 +726,7 @@ CREATE TABLE [dbo].[CUSTOMDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOMGRADE]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -734,7 +745,7 @@ CREATE TABLE [dbo].[CUSTOMGRADE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOMGROUP]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -751,7 +762,7 @@ CREATE TABLE [dbo].[CUSTOMGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[CUSTOMLB]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -769,7 +780,7 @@ CREATE TABLE [dbo].[CUSTOMLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBD]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -793,7 +804,7 @@ CREATE TABLE [dbo].[DBD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBD2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -817,7 +828,7 @@ CREATE TABLE [dbo].[DBD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBD3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -841,7 +852,7 @@ CREATE TABLE [dbo].[DBD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBDMX]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -877,7 +888,7 @@ CREATE TABLE [dbo].[DBDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBDMX2]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -913,7 +924,7 @@ CREATE TABLE [dbo].[DBDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBDMX3]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -949,7 +960,7 @@ CREATE TABLE [dbo].[DBDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DBZZ]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1015,7 +1026,7 @@ CREATE TABLE [dbo].[DBZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DELETED]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1032,7 +1043,7 @@ CREATE TABLE [dbo].[DELETED](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHD]    Script Date: 2023/5/20 16:10:47 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1066,7 +1077,7 @@ CREATE TABLE [dbo].[DHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1100,7 +1111,7 @@ CREATE TABLE [dbo].[DHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1134,7 +1145,7 @@ CREATE TABLE [dbo].[DHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1179,7 +1190,7 @@ CREATE TABLE [dbo].[DHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1224,7 +1235,7 @@ CREATE TABLE [dbo].[DHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DHDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1269,7 +1280,7 @@ CREATE TABLE [dbo].[DHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DJH]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1306,7 +1317,7 @@ CREATE TABLE [dbo].[DJH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[DROPSOURCE]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1327,7 +1338,7 @@ CREATE TABLE [dbo].[DROPSOURCE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ENEMYXX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1350,7 +1361,7 @@ CREATE TABLE [dbo].[ENEMYXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ENV]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1368,7 +1379,7 @@ CREATE TABLE [dbo].[ENV](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[EVENT]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1389,7 +1400,7 @@ CREATE TABLE [dbo].[EVENT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[FJXX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1408,7 +1419,7 @@ CREATE TABLE [dbo].[FJXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[FPCOL]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1430,7 +1441,7 @@ CREATE TABLE [dbo].[FPCOL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[FPITEM]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1453,7 +1464,7 @@ CREATE TABLE [dbo].[FPITEM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[FPMODEL]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1482,7 +1493,7 @@ CREATE TABLE [dbo].[FPMODEL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[GHLB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1502,7 +1513,7 @@ CREATE TABLE [dbo].[GHLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[HW]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1521,7 +1532,7 @@ CREATE TABLE [dbo].[HW](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[HW3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1538,7 +1549,7 @@ CREATE TABLE [dbo].[HW3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JGZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1604,7 +1615,7 @@ CREATE TABLE [dbo].[JGZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHBB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1641,7 +1652,7 @@ CREATE TABLE [dbo].[JHBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1672,7 +1683,7 @@ CREATE TABLE [dbo].[JHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1703,7 +1714,7 @@ CREATE TABLE [dbo].[JHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1734,7 +1745,7 @@ CREATE TABLE [dbo].[JHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1774,7 +1785,7 @@ CREATE TABLE [dbo].[JHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1814,7 +1825,7 @@ CREATE TABLE [dbo].[JHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1854,7 +1865,7 @@ CREATE TABLE [dbo].[JHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JHZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1908,7 +1919,7 @@ CREATE TABLE [dbo].[JHZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JSFS]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1917,8 +1928,9 @@ IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[JS
 BEGIN
 CREATE TABLE [dbo].[JSFS](
 	[F_DM] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_JSFSMC] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_JSFSMC] [varchar](50) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_JC] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZJM] [varchar](50) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__JSFS__2C6EEFB64C5918A8] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -1926,7 +1938,7 @@ CREATE TABLE [dbo].[JSFS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBB1]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -1965,7 +1977,7 @@ CREATE TABLE [dbo].[JXCBB1](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBB2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2026,7 +2038,7 @@ CREATE TABLE [dbo].[JXCBB2](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBBCOLS]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2063,7 +2075,7 @@ CREATE TABLE [dbo].[JXCBBCOLS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBBDIC]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2080,7 +2092,7 @@ CREATE TABLE [dbo].[JXCBBDIC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBBHEADERS]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2101,7 +2113,7 @@ CREATE TABLE [dbo].[JXCBBHEADERS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEFOOTER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2122,7 +2134,7 @@ CREATE TABLE [dbo].[JXCBBPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCBBPAGEHEADER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2143,7 +2155,7 @@ CREATE TABLE [dbo].[JXCBBPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[JXCMENU]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2167,7 +2179,7 @@ CREATE TABLE [dbo].[JXCMENU](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[KCMXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2190,7 +2202,7 @@ CREATE TABLE [dbo].[KCMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[KCYE]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2209,7 +2221,7 @@ CREATE TABLE [dbo].[KCYE](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[KCZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2282,7 +2294,7 @@ CREATE TABLE [dbo].[KCZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[KJQJ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2301,7 +2313,7 @@ CREATE TABLE [dbo].[KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[LSH]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2322,7 +2334,7 @@ CREATE TABLE [dbo].[LSH](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[OPERATOR]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2331,10 +2343,10 @@ IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[OP
 BEGIN
 CREATE TABLE [dbo].[OPERATOR](
 	[F_BH] [varchar](2) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_NAME] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_PASSWORD] [varchar](15) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_BM] [varchar](2) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_ZN] [varchar](2) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_NAME] [varchar](50) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_PASSWORD] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_BM] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZN] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_RED] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__OPERATOR__2C6E30FAD9BB762D] PRIMARY KEY CLUSTERED 
 (
@@ -2343,7 +2355,7 @@ CREATE TABLE [dbo].[OPERATOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PAD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2360,7 +2372,7 @@ CREATE TABLE [dbo].[PAD](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PATIENT]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2407,7 +2419,7 @@ CREATE TABLE [dbo].[PATIENT](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2427,7 +2439,7 @@ CREATE TABLE [dbo].[PDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2447,7 +2459,7 @@ CREATE TABLE [dbo].[PDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2467,7 +2479,7 @@ CREATE TABLE [dbo].[PDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2494,7 +2506,7 @@ CREATE TABLE [dbo].[PDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2521,7 +2533,7 @@ CREATE TABLE [dbo].[PDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PDDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2548,7 +2560,7 @@ CREATE TABLE [dbo].[PDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[POWER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2559,7 +2571,7 @@ CREATE TABLE [dbo].[POWER](
 	[F_ZD] [varchar](20) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_ZT] [varchar](2) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_QX] [varchar](2) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_GN] [varchar](4) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_GN] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_SY] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_SH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JZ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
@@ -2568,7 +2580,7 @@ CREATE TABLE [dbo].[POWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[POWERITEM]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2576,14 +2588,14 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[POWERITEM]') AND type in (N'U'))
 BEGIN
 CREATE TABLE [dbo].[POWERITEM](
-	[F_BH] [varchar](4) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_BH] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_NAME] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_CAPTION] [varchar](40) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_CLASSNAME] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTCOLHEADER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2606,7 +2618,7 @@ CREATE TABLE [dbo].[PRINTCOLHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTFIELD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2638,7 +2650,7 @@ CREATE TABLE [dbo].[PRINTFIELD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTMACRO]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2657,7 +2669,7 @@ CREATE TABLE [dbo].[PRINTMACRO](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTPAGEFOOTER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2689,7 +2701,7 @@ CREATE TABLE [dbo].[PRINTPAGEFOOTER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTPAGEHEADER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2720,7 +2732,7 @@ CREATE TABLE [dbo].[PRINTPAGEHEADER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTPARAM]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2750,7 +2762,7 @@ CREATE TABLE [dbo].[PRINTPARAM](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PRINTPARAME]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2798,7 +2810,7 @@ CREATE TABLE [dbo].[PRINTPARAME](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PSD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2817,7 +2829,7 @@ CREATE TABLE [dbo].[PSD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[PSDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2851,7 +2863,7 @@ CREATE TABLE [dbo].[PSDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2876,7 +2888,7 @@ CREATE TABLE [dbo].[QDD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2901,7 +2913,7 @@ CREATE TABLE [dbo].[QDD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2926,7 +2938,7 @@ CREATE TABLE [dbo].[QDD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2959,7 +2971,7 @@ CREATE TABLE [dbo].[QDDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -2992,7 +3004,7 @@ CREATE TABLE [dbo].[QDDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[QDDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3025,7 +3037,7 @@ CREATE TABLE [dbo].[QDDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPE]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3067,7 +3079,7 @@ CREATE TABLE [dbo].[RECIPE](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPE2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3109,7 +3121,7 @@ CREATE TABLE [dbo].[RECIPE2](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPE3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPE3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3151,7 +3163,7 @@ CREATE TABLE [dbo].[RECIPE3](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPELB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPELB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3172,7 +3184,7 @@ CREATE TABLE [dbo].[RECIPELB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPEMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3233,7 +3245,7 @@ CREATE TABLE [dbo].[RECIPEMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPEMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3294,7 +3306,7 @@ CREATE TABLE [dbo].[RECIPEMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RECIPEMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RECIPEMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3355,7 +3367,7 @@ CREATE TABLE [dbo].[RECIPEMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[REISGHB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3368,6 +3380,7 @@ CREATE TABLE [dbo].[REISGHB](
 	[F_ISTATE] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_ISTYPE] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_ZLSC] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_GHLB] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_PATIENT] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_BM] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YWY] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
@@ -3390,7 +3403,7 @@ CREATE TABLE [dbo].[REISGHB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAIL]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3426,7 +3439,7 @@ CREATE TABLE [dbo].[RETAIL](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3462,7 +3475,7 @@ CREATE TABLE [dbo].[RETAIL11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3498,7 +3511,7 @@ CREATE TABLE [dbo].[RETAIL2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3513,7 +3526,7 @@ CREATE TABLE [dbo].[RETAILC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAILC11]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3528,7 +3541,7 @@ CREATE TABLE [dbo].[RETAILC11](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAILC2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3543,7 +3556,7 @@ CREATE TABLE [dbo].[RETAILC2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RETAILDJ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3560,7 +3573,7 @@ CREATE TABLE [dbo].[RETAILDJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3589,7 +3602,7 @@ CREATE TABLE [dbo].[RKD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3618,7 +3631,7 @@ CREATE TABLE [dbo].[RKD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3647,7 +3660,7 @@ CREATE TABLE [dbo].[RKD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3686,7 +3699,7 @@ CREATE TABLE [dbo].[RKDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3725,7 +3738,7 @@ CREATE TABLE [dbo].[RKDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[RKDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3764,7 +3777,7 @@ CREATE TABLE [dbo].[RKDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SFZY]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3782,7 +3795,7 @@ CREATE TABLE [dbo].[SFZY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SJMXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3802,7 +3815,7 @@ CREATE TABLE [dbo].[SJMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SJZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3854,7 +3867,7 @@ CREATE TABLE [dbo].[SJZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SP]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3936,7 +3949,7 @@ CREATE TABLE [dbo].[SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SP2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3955,7 +3968,7 @@ CREATE TABLE [dbo].[SP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SP3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -3972,7 +3985,7 @@ CREATE TABLE [dbo].[SP3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SPDOWN]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4044,7 +4057,7 @@ CREATE TABLE [dbo].[SPDOWN](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SPLB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4057,14 +4070,17 @@ CREATE TABLE [dbo].[SPLB](
 	[F_QCSL] [float] NULL,
 	[F_QCCB] [float] NULL,
 	[F_JC] [int] NULL,
+	[F_FIELDLIST] [varchar](max) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_FIELDWIDHT] [varchar](max) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_FIELDVISIBLE] [varchar](max) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__SPLB__BB2BA81344269034] PRIMARY KEY CLUSTERED 
 (
 	[F_LBBH] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
-) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SPPC]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4087,7 +4103,7 @@ CREATE TABLE [dbo].[SPPC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SPSHORT]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4113,7 +4129,7 @@ CREATE TABLE [dbo].[SPSHORT](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[SYZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4191,7 +4207,7 @@ CREATE TABLE [dbo].[SYZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TEXTSOURCE]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4213,7 +4229,7 @@ CREATE TABLE [dbo].[TEXTSOURCE](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4232,7 +4248,7 @@ CREATE TABLE [dbo].[TJD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4251,7 +4267,7 @@ CREATE TABLE [dbo].[TJD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4270,7 +4286,7 @@ CREATE TABLE [dbo].[TJD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJDDOWNLOAD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4289,7 +4305,7 @@ CREATE TABLE [dbo].[TJDDOWNLOAD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4324,7 +4340,7 @@ CREATE TABLE [dbo].[TJDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4359,7 +4375,7 @@ CREATE TABLE [dbo].[TJDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TJDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4394,7 +4410,7 @@ CREATE TABLE [dbo].[TJDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[TRANSPORT]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4423,7 +4439,7 @@ CREATE TABLE [dbo].[TRANSPORT](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VEN_SP]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4449,7 +4465,7 @@ CREATE TABLE [dbo].[VEN_SP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VENDOR]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4515,7 +4531,7 @@ CREATE TABLE [dbo].[VENDOR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VENDOR3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4532,7 +4548,7 @@ CREATE TABLE [dbo].[VENDOR3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VENDORGROUP]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4545,7 +4561,7 @@ CREATE TABLE [dbo].[VENDORGROUP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VENDORLB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4563,7 +4579,7 @@ CREATE TABLE [dbo].[VENDORLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VIP]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4596,7 +4612,7 @@ CREATE TABLE [dbo].[VIP](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[VIP2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4629,7 +4645,7 @@ CREATE TABLE [dbo].[VIP2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4663,7 +4679,7 @@ CREATE TABLE [dbo].[XHD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4697,7 +4713,7 @@ CREATE TABLE [dbo].[XHD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4731,7 +4747,7 @@ CREATE TABLE [dbo].[XHD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4777,7 +4793,7 @@ CREATE TABLE [dbo].[XHDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4823,7 +4839,7 @@ CREATE TABLE [dbo].[XHDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XHDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4869,7 +4885,7 @@ CREATE TABLE [dbo].[XHDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XSBB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4906,7 +4922,7 @@ CREATE TABLE [dbo].[XSBB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XSLB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4915,8 +4931,10 @@ IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[XS
 BEGIN
 CREATE TABLE [dbo].[XSLB](
 	[F_DM] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_XSLBMC] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_XSLBMC] [varchar](30) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_DJ] [int] NULL,
+	[F_DEFAULT] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_ZJM] [varchar](30) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__XSLB__2C6EEFB6A3C68C08] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -4924,7 +4942,7 @@ CREATE TABLE [dbo].[XSLB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XSMXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -4950,7 +4968,7 @@ CREATE TABLE [dbo].[XSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[XSZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5016,7 +5034,7 @@ CREATE TABLE [dbo].[XSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YFHXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5037,7 +5055,7 @@ CREATE TABLE [dbo].[YFHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YFJSD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5066,7 +5084,7 @@ CREATE TABLE [dbo].[YFJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YFMXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5088,7 +5106,7 @@ CREATE TABLE [dbo].[YFMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YFZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5132,7 +5150,7 @@ CREATE TABLE [dbo].[YFZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YSHXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5153,7 +5171,7 @@ CREATE TABLE [dbo].[YSHXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YSJSD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5182,7 +5200,7 @@ CREATE TABLE [dbo].[YSJSD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YSMXZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5204,7 +5222,7 @@ CREATE TABLE [dbo].[YSMXZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YSZZ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5248,7 +5266,7 @@ CREATE TABLE [dbo].[YSZZ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YWY]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5268,7 +5286,7 @@ CREATE TABLE [dbo].[YWY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[YWY3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5285,7 +5303,7 @@ CREATE TABLE [dbo].[YWY3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_C_DAY]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5305,7 +5323,7 @@ CREATE TABLE [dbo].[ZLFX_C_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_C_KJQJ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5325,7 +5343,7 @@ CREATE TABLE [dbo].[ZLFX_C_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_C_YEAR]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5345,7 +5363,7 @@ CREATE TABLE [dbo].[ZLFX_C_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_V_DAY]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5365,7 +5383,7 @@ CREATE TABLE [dbo].[ZLFX_V_DAY](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_V_KJQJ]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5385,7 +5403,7 @@ CREATE TABLE [dbo].[ZLFX_V_KJQJ](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLFX_V_YEAR]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5405,7 +5423,7 @@ CREATE TABLE [dbo].[ZLFX_V_YEAR](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZLSC]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5424,7 +5442,7 @@ CREATE TABLE [dbo].[ZLSC](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZNPOWER]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5432,8 +5450,8 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZNPOWER]') AND type in (N'U'))
 BEGIN
 CREATE TABLE [dbo].[ZNPOWER](
-	[F_DM] [varchar](2) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_GN] [varchar](4) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_DM] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_GN] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_SY] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_BJ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_SH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
@@ -5442,7 +5460,7 @@ CREATE TABLE [dbo].[ZNPOWER](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZNXX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5450,8 +5468,8 @@ GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[ZNXX]') AND type in (N'U'))
 BEGIN
 CREATE TABLE [dbo].[ZNXX](
-	[F_DM] [varchar](2) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_ZNXXMC] [varchar](12) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_DM] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
+	[F_ZNXXMC] [varchar](50) COLLATE Chinese_PRC_CI_AS NOT NULL,
  CONSTRAINT [PK__ZNXX__2C6EEFB6B4508846] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -5459,7 +5477,7 @@ CREATE TABLE [dbo].[ZNXX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZTCS]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5502,7 +5520,7 @@ CREATE TABLE [dbo].[ZTCS](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZD]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5540,7 +5558,7 @@ CREATE TABLE [dbo].[ZZD](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZD2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5578,7 +5596,7 @@ CREATE TABLE [dbo].[ZZD2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZD3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5616,7 +5634,7 @@ CREATE TABLE [dbo].[ZZD3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZDMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5655,7 +5673,7 @@ CREATE TABLE [dbo].[ZZDMX](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZDMX2]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5694,7 +5712,7 @@ CREATE TABLE [dbo].[ZZDMX2](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZDMX3]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5733,7 +5751,7 @@ CREATE TABLE [dbo].[ZZDMX3](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZMB]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5747,7 +5765,7 @@ CREATE TABLE [dbo].[ZZMB](
 ) ON [PRIMARY]
 END
 GO
-/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/20 14:25:47 ******/
+/****** Object:  Table [dbo].[ZZMBMX]    Script Date: 2023/5/20 16:10:48 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -5932,6 +5950,14 @@ GO
 INSERT [dbo].[BBVAR] ([F_BBBH], [F_VARNAME], [F_INDEX], [F_CAPTION], [F_TEXT], [F_TYPE], [F_INPUT], [F_ASS1], [F_ASS2], [F_ASS3], [F_DROPSOURCE], [F_DROPTABLENAME], [F_DROPFIELD1], [F_DROPFIELD2], [F_TEXTSQL], [F_TEXTSOURCE], [F_PREFIX], [F_POSTFIX]) VALUES (N'TTU', N'DATE1                                             ', 0, N'起始日期', N'                    ', 0, 2, N'                                                   ', N'                                                   ', N'                                                   ', N'                                                   ', N'', N'', N'', N'', N'', N'          ', N'          ')
 GO
 INSERT [dbo].[BBVAR] ([F_BBBH], [F_VARNAME], [F_INDEX], [F_CAPTION], [F_TEXT], [F_TYPE], [F_INPUT], [F_ASS1], [F_ASS2], [F_ASS3], [F_DROPSOURCE], [F_DROPTABLENAME], [F_DROPFIELD1], [F_DROPFIELD2], [F_TEXTSQL], [F_TEXTSOURCE], [F_PREFIX], [F_POSTFIX]) VALUES (N'TTU', N'DATE2                                             ', 1, N'截止日期', N'                    ', 0, 2, N'                                                   ', N'                                                   ', N'                                                   ', N'                                                   ', N'', N'', N'', N'', N'', N'          ', N'          ')
+GO
+INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE], [F_ZJM]) VALUES (N'01', N'医师', 0, NULL)
+GO
+INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE], [F_ZJM]) VALUES (N'02', N'药局收款', 0, NULL)
+GO
+INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE], [F_ZJM]) VALUES (N'03', N'护理', 0, NULL)
+GO
+INSERT [dbo].[BM] ([F_DM], [F_BMMC], [F_DE], [F_ZJM]) VALUES (N'07', N'儿科', 5, NULL)
 GO
 INSERT [dbo].[CUSTOMDJ] ([F_DJLX], [F_INDEX], [F_FIELD], [F_DISPLAYLABEL], [F_CAPTION], [F_WIDTH], [F_READONLY], [F_VISIBLE], [F_PANEL]) VALUES (N'CGD       ', 1, N'F_SPBH', N'商品编号', N'商品编号', 67, N'FALSE', N'TRUE ', N'FALSE')
 GO
@@ -6488,6 +6514,12 @@ GO
 INSERT [dbo].[CUSTOMDJ] ([F_DJLX], [F_INDEX], [F_FIELD], [F_DISPLAYLABEL], [F_CAPTION], [F_WIDTH], [F_READONLY], [F_VISIBLE], [F_PANEL]) VALUES (N'ZZD       ', 16, N'F_SLJC', N'数量结存', N'数量结存', 116, N'TRUE ', N'FALSE', N'TRUE ')
 GO
 INSERT [dbo].[DJH] ([F_JHD], [F_XHD], [F_CGD], [F_RKD], [F_CKD], [F_DBD], [F_XSBB], [F_PC], [F_YSJSD], [F_YFJSD], [F_ZZD], [F_TJD], [F_PSD], [F_JIEZ], [F_DHD], [F_YSQC], [F_YFQC], [F_CX], [F_QDD], [F_NEWSP], [F_ENEMY], [F_PDD], [F_SP], [F_REISGHB], [F_RETAIL], [F_RECIPE]) VALUES (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 0, NULL, NULL, NULL)
+GO
+INSERT [dbo].[JSFS] ([F_DM], [F_JSFSMC], [F_JC], [F_ZJM]) VALUES (N'01', N'人民币RMB', N'现金', NULL)
+GO
+INSERT [dbo].[JSFS] ([F_DM], [F_JSFSMC], [F_JC], [F_ZJM]) VALUES (N'02', N'银联刷卡', N'银联', NULL)
+GO
+INSERT [dbo].[JSFS] ([F_DM], [F_JSFSMC], [F_JC], [F_ZJM]) VALUES (N'03', N'医保刷卡', N'医保', NULL)
 GO
 INSERT [dbo].[JXCBB2] ([F_BH], [F_JXCBBMC], [F_SQL], [F_COLS], [F_HEADERS], [F_IFBM], [F_IFYWY], [F_IFHW], [F_IFSPFW], [F_IFSP], [F_IFDATE], [F_IFSPJB], [F_IFKJQJ], [F_SORTCOL], [F_IFCUSTOM], [F_IFVENDOR], [F_IFSPSX1], [F_IFSPSX2], [F_IFSPSX3], [F_IFSPSX4], [F_IFSPSX5], [F_TITLE], [F_TOP], [F_LEFT], [F_ROWS], [F_SIZE], [F_LENGTH], [F_WIDTH], [F_ORIENT], [F_TITLEFONT], [F_BBFONT], [F_ROWSPACE], [F_MEMO], [F_IFCUSTOMGROUP], [F_SYDW], [F_SYSM], [F_IFPAGESUM], [F_IFADDBLANK], [F_BLANKCHAR], [F_HCWIDTH], [F_HJOPTION], [F_AUTOEXPAND], [F_EXPANDSQL], [F_EXPANDLIST], [F_EXPANDCAPTION], [F_AUTODYPARAM]) VALUES (N'000', N'SDS', 0x73656C65637420665F646174652C665F637573746F6D2C73756D28665F6A652B665F73652920617320665F6A652C27312720617320665F6C780D0A66726F6D2078736D787A20776865726520665F64617465206265747765656E203A646174653120616E64203A64617465320D0A67726F757020627920665F637573746F6D2C665F646174650D0A0D0A756E696F6E20616C6C0D0A0D0A73656C65637420665F646174652C665F637573746F6D2C73756D28665F73722920617320665F6A652C27322720617320665F6C780D0A66726F6D2079736D787A20776865726520665F64617465206265747765656E203A646174653120616E64203A64617465320D0A616E6420665F646A6C783D27CFFA270D0A67726F757020627920665F637573746F6D2C665F646174650D0A0D0A6F7264657220627920665F637573746F6D2C665F64617465, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'*', NULL, NULL, -1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'SDS', 20, 20, 40, 39, 1379, 3937, 1, N'宋体,18,0000', N'宋体,10,0000', 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -11753,6 +11785,24 @@ INSERT [dbo].[PRINTPARAME] ([F_BH], [F_DEFAULTFONT], [F_TITLE], [F_TITLEVISIBLE]
 GO
 INSERT [dbo].[PRINTPARAME] ([F_BH], [F_DEFAULTFONT], [F_TITLE], [F_TITLEVISIBLE], [F_TITLEHEIGHT], [F_TITLEFONT], [F_PAPERSIZE], [F_ORIENT], [F_PAPERWIDTH], [F_PAPERLENGTH], [F_PAPERLEFT], [F_PAPERTOP], [F_PRINTQUALITY], [F_FIXROW], [F_MAXROW], [F_LASTROW], [F_ROWHEIGHT], [F_HEADERWIDTH1], [F_HEADERWIDTH2], [F_HEADERWIDTH3], [F_FOOTERWIDTH1], [F_FOOTERWIDTH2], [F_FOOTERWIDTH3], [F_CAPTIONHEIGHT], [F_HEADERHEIGHT], [F_BODYLINEOPTION], [F_FRAMEHLINE], [F_FRAMEVLINE], [F_CAPTIONHLINE], [F_CAPTIONVLINE], [F_BODYHLINE], [F_BODYVLINE], [F_LASTROWLINE]) VALUES (N'ZF        ', N'宋体,10,0000', N'应付款期初余额', N'*', 2, N'宋体,10,0000', 0, 1, 3739, 1740, 2, 2, 0, N' ', 10, N' ', 1.5, 147, 147, 147, 147, 147, 147, 2, 2, N'0', N'*', N'*', N'*', N'*', N'*', N'*', N'*')
 GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'01', N'进货入库', N'S')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'02', N'调拨入库', N'S')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'03', N'赠品入库', N'S')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'04', N'调拨出库', N'F')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'05', N'破损出库', N'F')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'06', N'赠品出库', N'F')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'07', N'结余入库', N'S')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'08', N'护士站出库', N'F')
+GO
+INSERT [dbo].[SFZY] ([F_DM], [F_SFZYMC], [F_SF]) VALUES (N'09', N'调拨入库', N'S')
+GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100001', N'注射用美洛西林钠(二叶)', N'1.0g', N'苏州二叶', N'支', NULL, 0, NULL, 0, NULL, N'ZSYMLXLN(E', NULL, N'粉针剂', 0, 0, 20, 0, 0, 1.8, 8, 1.4, 1.4, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'国药准字H10960074')
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100002', N'注射用头孢替唑钠(哈药）', N'1.0g', N'哈药集团', N'支', NULL, 0, NULL, 0, NULL, N'ZSYTBTZN(H', NULL, N'粉针剂', 0, 0, 38, 0, 0, 7, 12, 6, 6, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, N'国药准字H20020592')
@@ -11807,13 +11857,13 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100028', N'注射用辅酶A', N'100单位', N'国药集团            ', N'支', NULL, 0, NULL, 0, NULL, N'ZSYFMA', NULL, N'粉针剂', 0, 0, 3.4, 0, 0, 1.3, 15.81, 0.65, 1.58, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100029', N'复方氨林巴比妥注射液', N'2ml', N'郑州卓峰制药', N'支', NULL, 0, NULL, 0, NULL, N'FFALBBTZSY', NULL, N'水针剂', 0, 0, 0.5, 0, 0, 0.44, 1.8599999999999999, 0.13, 0.36, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100029', N'复方氨林巴比妥注射液', N'2ml', N'郑州卓峰制药', N'支', NULL, 0, NULL, 0, NULL, N'FFALBBTZSY', NULL, N'水针剂', 0, 0, 0.5, 0, 0, 0.44, 1.86, 0.13, 0.36, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100030', N'氨茶碱注射液', N'2ml:0.25g', N'河南润弘', N'支', NULL, 0, NULL, 0, NULL, N'ACJZSY', NULL, N'水针剂', 0, 0, 0.8, 1, 0, 0.6, 1, 0.1, 0.55, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100031', N'氯化钾注射液', N'10ml:1g', N'济南利民            ', N'支', NULL, 0, NULL, 0, NULL, N'LHJZSY', NULL, N'水针剂', 0, 0, 0.4, 0, 0, 0.28, 1.2, 0.18, 0.24, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100032', N'马来酸氯苯那敏注射液', N'1ml:10mg', N'国药集团荣生制药', N'支', NULL, 0, NULL, 0, NULL, N'MLSLBNMZSY', NULL, N'水针剂', 0, 0, 1.5, 1, 0, 0.147, 1.8599999999999999, 0.06, 0.55, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100032', N'马来酸氯苯那敏注射液', N'1ml:10mg', N'国药集团荣生制药', N'支', NULL, 0, NULL, 0, NULL, N'MLSLBNMZSY', NULL, N'水针剂', 0, 0, 1.5, 1, 0, 0.147, 1.86, 0.06, 0.55, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100033', N'<胃复安>盐酸甲氧氯普胺注射液', N'1ml:10mg', N'河南润弘', N'支', NULL, 0, NULL, 0, NULL, N'<WFA>YSJYL', NULL, N'水针剂', 0, 0, 2.6, 0, 0, 0.5, 1.4, 0.18, 1.33, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'100', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -11831,7 +11881,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100041', N'注射用炎琥宁', N'80mg', N'哈尔滨珍宝药业      ', N'支', NULL, 0, NULL, 0, NULL, N'ZSYYHN', NULL, N'粉针剂', 0, 0, 15, 0, 0, 0.88, 32.4, 0.1, 0.95, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100042', N'注射用炎琥宁', N'200mg', N'哈尔滨珍宝药业      ', N'支', NULL, 0, NULL, 0, NULL, N'ZSYYHN', NULL, N'粉针剂', 0, 0, 23, 0, 0, 1.1, 11.88, 1.1, 1.3900000000000001, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100042', N'注射用炎琥宁', N'200mg', N'哈尔滨珍宝药业      ', N'支', NULL, 0, NULL, 0, NULL, N'ZSYYHN', NULL, N'粉针剂', 0, 0, 23, 0, 0, 1.1, 11.88, 1.1, 1.39, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'100043', N'乳糖酸阿奇0.125', N'0.125g', N'东北制药            ', N'支', NULL, 0, NULL, 0, NULL, N'RTSAQ0.125', NULL, N'粉针剂', 0, 0, 24, 0, 0, 8.8, 15, 8, 9.5, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'100                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -11945,7 +11995,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101020', N'头孢泊肟酯片', N'100mg:6片', N'海南海灵', N'盒', NULL, 0, NULL, 0, NULL, N'TBBWZP', NULL, N'片剂', 0, 0, 31, 0, 0, 7.7, 7.7, 7.7, 7.7, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101022', N'(力度伸)维生素C泡腾片', N'1g:10片', N'拜耳医药', N'盒', NULL, 0, NULL, 0, NULL, N'(LDS)WSSCP', NULL, N'泡腾片', 0, 0, 29, 0, 0, 19.2, 20.3, 3.5300000000000002, 20.3, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101022', N'(力度伸)维生素C泡腾片', N'1g:10片', N'拜耳医药', N'盒', NULL, 0, NULL, 0, NULL, N'(LDS)WSSCP', NULL, N'泡腾片', 0, 0, 29, 0, 0, 19.2, 20.3, 3.53, 20.3, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101023', N'沐舒坦片', N'20t:30mg', N'上海勃林格', N'盒', NULL, 0, NULL, 0, NULL, N'MSTP', NULL, N'片剂', 0, 0, 44.5, 0, 0, 39.5, 39.5, 17.8, 39.5, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -11953,11 +12003,11 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101025', N'复方嗜酸乳杆菌片', N'0.5g:24片', N'通化金马药业集团股份', N'盒', NULL, 0, NULL, 0, NULL, N'FFSSRGJP', NULL, N'片剂', 0, 0, 50, 0, 0, 16, 28, 16, 28, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101026', N'罗红霉素片', N'150mg:6片', N'石家庄以岭药业股份有', N'盒', NULL, 0, NULL, 0, NULL, N'LHMSP', NULL, N'片剂', 0, 0, 10, 0, 0, 1.74, 1.8399999999999999, 1.74, 1.8399999999999999, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101026', N'罗红霉素片', N'150mg:6片', N'石家庄以岭药业股份有', N'盒', NULL, 0, NULL, 0, NULL, N'LHMSP', NULL, N'片剂', 0, 0, 10, 0, 0, 1.74, 1.84, 1.74, 1.84, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101027', N'氯雷他定片', N'10mg:8片', N'北京星昊医药股份有限', N'盒', NULL, 0, NULL, 0, NULL, N'LLTDP', NULL, N'片剂', 0, 0, 12, 0, 0, 1.7, 2.3, 1.6, 2.3, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101028', N'消旋山莨菪碱片', N'5mg:100片', N'杭州民生药业有限公司', N'片', NULL, 0, NULL, 0, NULL, N'XXSLDJP', NULL, N'片剂', 0, 0, 0.2, 0, 0, 5.7, 1.1400000000000001, 0.06, 0.13, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101028', N'消旋山莨菪碱片', N'5mg:100片', N'杭州民生药业有限公司', N'片', NULL, 0, NULL, 0, NULL, N'XXSLDJP', NULL, N'片剂', 0, 0, 0.2, 0, 0, 5.7, 1.14, 0.06, 0.13, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'101029', N'五维赖氨酸片', N'36片', N'延边大学草仙药业有限', N'片', NULL, 0, NULL, 0, NULL, N'WWLASP', NULL, N'片剂', 0, 0, 40, 0, 0, 15, 15, 15, 15, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'101', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -12249,7 +12299,7 @@ INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'107008', N'医用体温计', N'', N'东阿阿胶阿华医疗    ', N'支', NULL, 0, NULL, 0, NULL, N'YYTWJ', NULL, N'器械', 0, 0, 5, 0, 0, 3.17, 5, 1.95, 2.67, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1                   ', N'107                 ', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
-INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'107009', N'对乙酰氨基酚栓', N'0.15:10枚', N'四药药业有限公司', N'盒', NULL, 0, NULL, 0, NULL, N'DYXAJFS', NULL, N'栓剂', 0, 0, 8, 0, 0, 1.39, 1.8599999999999999, 0.95, 1.5, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'107009', N'对乙酰氨基酚栓', N'0.15:10枚', N'四药药业有限公司', N'盒', NULL, 0, NULL, 0, NULL, N'DYXAJFS', NULL, N'栓剂', 0, 0, 8, 0, 0, 1.39, 1.86, 0.95, 1.5, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
 INSERT [dbo].[SP] ([F_TM], [F_SPBH], [F_SPMC], [F_SPGG], [F_SPCD], [F_DW], [F_DW2], [F_JSNUMBER], [F_JSDW], [F_JSNUMBER1], [F_JSDW1], [F_ZJM], [F_BGY], [F_JX], [F_SLV], [F_DJ1], [F_DJ2], [F_DJ3], [F_DJ4], [F_DJ5], [F_MAXJJ], [F_MINJJ], [F_RECENTJJ], [F_DWCB], [F_MAXSL], [F_MINSL], [F_CS], [F_BZQ], [F_SPSX1], [F_SPSX2], [F_SPSX3], [F_SPSX4], [F_SPSX5], [F_LB1], [F_LB2], [F_LB3], [F_LB4], [F_LB5], [F_LB6], [F_LB7], [F_LB8], [F_LB9], [F_LB10], [F_UC1], [F_UC2], [F_UC3], [F_UC4], [F_UC5], [F_DRIP], [F_MAXPC], [F_IFJS], [F_ISCB], [F_IFPH], [F_IFPS], [F_RATE], [F_UN1], [F_UN2], [F_UN3], [F_UN4], [F_UN5], [F_GNZZ], [F_YF], [F_BM], [F_FUNCTION], [F_GMP], [F_ISO], [F_PZWH]) VALUES (NULL, N'107010', N'苯扎氯铵贴<邦迪>', N'1t', N'上海', N'帖', NULL, 0, NULL, 0, NULL, N'BZLAT<BD>', NULL, N'贴剂', 0, 0, 0.25, 0, 0, 0.17, 0.23, 0.16, 0.18, NULL, 0, 0, 1, 0, NULL, NULL, NULL, NULL, NULL, N'1', N'107', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, NULL, NULL, N'*', NULL, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
 GO
@@ -12498,6 +12548,30 @@ FROM      ZZD AS A LEFT OUTER JOIN
                 HW AS F ON A.F_HW2 = F.F_DM', N'SELECT * FROM ZZDMX	 
 WHERE F_DJH=:F_DJH', NULL, NULL, NULL, NULL)
 GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ], [F_DEFAULT], [F_ZJM]) VALUES (N'01', N'零售价', 1, N'*', NULL)
+GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ], [F_DEFAULT], [F_ZJM]) VALUES (N'02', N'批发价', 2, NULL, NULL)
+GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ], [F_DEFAULT], [F_ZJM]) VALUES (N'03', N'代理价', 2, NULL, NULL)
+GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ], [F_DEFAULT], [F_ZJM]) VALUES (N'04', N'优惠价', 3, NULL, NULL)
+GO
+INSERT [dbo].[XSLB] ([F_DM], [F_XSLBMC], [F_DJ], [F_DEFAULT], [F_ZJM]) VALUES (N'05', N'特惠价', 4, NULL, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'070', N'马骊', N'07', 0, N'ML')
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'071', N'齐大夫', N'07', 5, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'072', N'梅洪生', N'07', 5, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'073', N'刘吉顺', N'07', 0, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'076', N'栾大夫', N'07', 0, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'077', N'孟大夫', N'07', 5, NULL)
+GO
+INSERT [dbo].[YWY] ([F_DM], [F_YWYMC], [F_BM], [F_DE], [F_ZJM]) VALUES (N'078', N'齐敏', N'07', 0, NULL)
+GO
 INSERT [dbo].[ZNPOWER] ([F_DM], [F_GN], [F_SY], [F_BJ], [F_SH], [F_JZ], [F_DY]) VALUES (N'01', N'D001', N'*', N'*', N'*', N'*', N'*')
 GO
 INSERT [dbo].[ZNPOWER] ([F_DM], [F_GN], [F_SY], [F_BJ], [F_SH], [F_JZ], [F_DY]) VALUES (N'01', N'E001', N'*', N'*', N'*', N'*', N'*')
@@ -12636,14 +12710,14 @@ INSERT [dbo].[ZTCS] ([F_ZTBH], [F_NAME], [F_LBLENGTH], [F_LB1], [F_LB2], [F_LB3]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [KCMXZ_DATE]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [KCMXZ_DATE]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[KCMXZ]') AND name = N'KCMXZ_DATE')
 CREATE NONCLUSTERED INDEX [KCMXZ_DATE] ON [dbo].[KCMXZ]
 (
 	[F_DATE] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [KCMXZ_DJH]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [KCMXZ_DJH]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[KCMXZ]') AND name = N'KCMXZ_DJH')
 CREATE NONCLUSTERED INDEX [KCMXZ_DJH] ON [dbo].[KCMXZ]
 (
@@ -12652,7 +12726,7 @@ CREATE NONCLUSTERED INDEX [KCMXZ_DJH] ON [dbo].[KCMXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [SFZY_MC]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [SFZY_MC]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SFZY]') AND name = N'SFZY_MC')
 CREATE NONCLUSTERED INDEX [SFZY_MC] ON [dbo].[SFZY]
 (
@@ -12661,7 +12735,7 @@ CREATE NONCLUSTERED INDEX [SFZY_MC] ON [dbo].[SFZY]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [SP_TM]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [SP_TM]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SP]') AND name = N'SP_TM')
 CREATE NONCLUSTERED INDEX [SP_TM] ON [dbo].[SP]
 (
@@ -12670,7 +12744,7 @@ CREATE NONCLUSTERED INDEX [SP_TM] ON [dbo].[SP]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [SPMC]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [SPMC]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SP]') AND name = N'SPMC')
 CREATE NONCLUSTERED INDEX [SPMC] ON [dbo].[SP]
 (
@@ -12679,7 +12753,7 @@ CREATE NONCLUSTERED INDEX [SPMC] ON [dbo].[SP]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [ZJM]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [ZJM]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SP]') AND name = N'ZJM')
 CREATE NONCLUSTERED INDEX [ZJM] ON [dbo].[SP]
 (
@@ -12688,7 +12762,7 @@ CREATE NONCLUSTERED INDEX [ZJM] ON [dbo].[SP]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [PK_SPDOWN]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[SPDOWN]') AND name = N'PK_SPDOWN')
 ALTER TABLE [dbo].[SPDOWN] ADD  CONSTRAINT [PK_SPDOWN] PRIMARY KEY NONCLUSTERED 
 (
@@ -12698,14 +12772,14 @@ ALTER TABLE [dbo].[SPDOWN] ADD  CONSTRAINT [PK_SPDOWN] PRIMARY KEY NONCLUSTERED
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [XSMXZ_DATE]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [XSMXZ_DATE]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[XSMXZ]') AND name = N'XSMXZ_DATE')
 CREATE NONCLUSTERED INDEX [XSMXZ_DATE] ON [dbo].[XSMXZ]
 (
 	[F_DATE] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [XSMXZ_DJH]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [XSMXZ_DJH]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[XSMXZ]') AND name = N'XSMXZ_DJH')
 CREATE NONCLUSTERED INDEX [XSMXZ_DJH] ON [dbo].[XSMXZ]
 (
@@ -12714,7 +12788,7 @@ CREATE NONCLUSTERED INDEX [XSMXZ_DJH] ON [dbo].[XSMXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YFHXZ_DATE]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_DATE]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_DATE')
 CREATE NONCLUSTERED INDEX [YFHXZ_DATE] ON [dbo].[YFHXZ]
 (
@@ -12723,7 +12797,7 @@ CREATE NONCLUSTERED INDEX [YFHXZ_DATE] ON [dbo].[YFHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YFHXZ_DATESK]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_DATESK]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_DATESK')
 CREATE NONCLUSTERED INDEX [YFHXZ_DATESK] ON [dbo].[YFHXZ]
 (
@@ -12732,21 +12806,21 @@ CREATE NONCLUSTERED INDEX [YFHXZ_DATESK] ON [dbo].[YFHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YFHXZ_DATEXS]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_DATEXS]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_DATEXS')
 CREATE NONCLUSTERED INDEX [YFHXZ_DATEXS] ON [dbo].[YFHXZ]
 (
 	[F_DATEJH] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [YFHXZ_DJHFK]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_DJHFK]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_DJHFK')
 CREATE NONCLUSTERED INDEX [YFHXZ_DJHFK] ON [dbo].[YFHXZ]
 (
 	[F_DJHFK] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [YFHXZ_DJHJH]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_DJHJH]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_DJHJH')
 CREATE NONCLUSTERED INDEX [YFHXZ_DJHJH] ON [dbo].[YFHXZ]
 (
@@ -12755,7 +12829,7 @@ CREATE NONCLUSTERED INDEX [YFHXZ_DJHJH] ON [dbo].[YFHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YFHXZ_VENDOR]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YFHXZ_VENDOR]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YFHXZ]') AND name = N'YFHXZ_VENDOR')
 CREATE NONCLUSTERED INDEX [YFHXZ_VENDOR] ON [dbo].[YFHXZ]
 (
@@ -12764,7 +12838,7 @@ CREATE NONCLUSTERED INDEX [YFHXZ_VENDOR] ON [dbo].[YFHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YSHXZ_CUSTOM]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_CUSTOM]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_CUSTOM')
 CREATE NONCLUSTERED INDEX [YSHXZ_CUSTOM] ON [dbo].[YSHXZ]
 (
@@ -12773,7 +12847,7 @@ CREATE NONCLUSTERED INDEX [YSHXZ_CUSTOM] ON [dbo].[YSHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YSHXZ_DATE]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_DATE]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_DATE')
 CREATE NONCLUSTERED INDEX [YSHXZ_DATE] ON [dbo].[YSHXZ]
 (
@@ -12782,7 +12856,7 @@ CREATE NONCLUSTERED INDEX [YSHXZ_DATE] ON [dbo].[YSHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YSHXZ_DATESK]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_DATESK]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_DATESK')
 CREATE NONCLUSTERED INDEX [YSHXZ_DATESK] ON [dbo].[YSHXZ]
 (
@@ -12791,21 +12865,21 @@ CREATE NONCLUSTERED INDEX [YSHXZ_DATESK] ON [dbo].[YSHXZ]
 GO
 SET ANSI_PADDING ON
 GO
-/****** Object:  Index [YSHXZ_DATEXS]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_DATEXS]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_DATEXS')
 CREATE NONCLUSTERED INDEX [YSHXZ_DATEXS] ON [dbo].[YSHXZ]
 (
 	[F_DATEXS] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [YSHXZ_DJHSK]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_DJHSK]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_DJHSK')
 CREATE NONCLUSTERED INDEX [YSHXZ_DJHSK] ON [dbo].[YSHXZ]
 (
 	[F_DJHSK] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, SORT_IN_TEMPDB = OFF, DROP_EXISTING = OFF, ONLINE = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
 GO
-/****** Object:  Index [YSHXZ_DJHXS]    Script Date: 2023/5/20 14:25:49 ******/
+/****** Object:  Index [YSHXZ_DJHXS]    Script Date: 2023/5/20 16:10:49 ******/
 IF NOT EXISTS (SELECT * FROM sys.indexes WHERE object_id = OBJECT_ID(N'[dbo].[YSHXZ]') AND name = N'YSHXZ_DJHXS')
 CREATE NONCLUSTERED INDEX [YSHXZ_DJHXS] ON [dbo].[YSHXZ]
 (
@@ -15287,9 +15361,9 @@ BEGIN
 ALTER TABLE [dbo].[RECIPEMX] ADD  CONSTRAINT [DF_RECIPEMX_F_SL2]  DEFAULT ((0)) FOR [F_SL2]
 END
 GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX__F_DAY__0E7913B7]') AND type = 'D')
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX__F_DAY__3572E547]') AND type = 'D')
 BEGIN
-ALTER TABLE [dbo].[RECIPEMX] ADD  DEFAULT ((0)) FOR [F_DAY]
+ALTER TABLE [dbo].[RECIPEMX] ADD  CONSTRAINT [DF__RECIPEMX__F_DAY__3572E547]  DEFAULT ((0)) FOR [F_DAY]
 END
 GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF_RECIPEMX2_F_SL]') AND type = 'D')
@@ -15387,9 +15461,9 @@ BEGIN
 ALTER TABLE [dbo].[RECIPEMX2] ADD  CONSTRAINT [DF_RECIPEMX2_F_SL2]  DEFAULT ((0)) FOR [F_SL2]
 END
 GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX2__F_DAY__0F6D37F0]') AND type = 'D')
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX2__F_DAY__4885B9BB]') AND type = 'D')
 BEGIN
-ALTER TABLE [dbo].[RECIPEMX2] ADD  DEFAULT ((0)) FOR [F_DAY]
+ALTER TABLE [dbo].[RECIPEMX2] ADD  CONSTRAINT [DF__RECIPEMX2__F_DAY__4885B9BB]  DEFAULT ((0)) FOR [F_DAY]
 END
 GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF_RECIPEMX3_F_SL]') AND type = 'D')
@@ -15487,9 +15561,9 @@ BEGIN
 ALTER TABLE [dbo].[RECIPEMX3] ADD  CONSTRAINT [DF_RECIPEMX3_F_SL2]  DEFAULT ((0)) FOR [F_SL2]
 END
 GO
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX3__F_DAY__10615C29]') AND type = 'D')
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF__RECIPEMX3__F_DAY__5B988E2F]') AND type = 'D')
 BEGIN
-ALTER TABLE [dbo].[RECIPEMX3] ADD  DEFAULT ((0)) FOR [F_DAY]
+ALTER TABLE [dbo].[RECIPEMX3] ADD  CONSTRAINT [DF__RECIPEMX3__F_DAY__5B988E2F]  DEFAULT ((0)) FOR [F_DAY]
 END
 GO
 IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[DF_REISGHB_F_AGE]') AND type = 'D')
@@ -17591,6 +17665,55 @@ GO
 IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__QDDMX2__F_SPBH__033C6B35]') AND parent_object_id = OBJECT_ID(N'[dbo].[QDDMX2]'))
 ALTER TABLE [dbo].[QDDMX2] CHECK CONSTRAINT [FK__QDDMX2__F_SPBH__033C6B35]
 GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_BM_I843JK23NE234]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_BM_I843JK23NE234] FOREIGN KEY([F_BM])
+REFERENCES [dbo].[BM] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_BM_I843JK23NE234]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_BM_I843JK23NE234]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_HW_POO9203423984I]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_HW_POO9203423984I] FOREIGN KEY([F_HW])
+REFERENCES [dbo].[HW] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_HW_POO9203423984I]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_HW_POO9203423984I]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_PATINET_FO943K2N34RJ345]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_PATINET_FO943K2N34RJ345] FOREIGN KEY([F_PATIENT])
+REFERENCES [dbo].[PATIENT] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_PATINET_FO943K2N34RJ345]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_PATINET_FO943K2N34RJ345]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_RECIPELB_FH23409234NMJ23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_RECIPELB_FH23409234NMJ23] FOREIGN KEY([F_RECIPELB])
+REFERENCES [dbo].[RECIPELB] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_RECIPELB_FH23409234NMJ23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_RECIPELB_FH23409234NMJ23]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_REISGHB_YI432589345K2435N23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_REISGHB_YI432589345K2435N23] FOREIGN KEY([F_REISGHB])
+REFERENCES [dbo].[REISGHB] ([F_DJH])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_REISGHB_YI432589345K2435N23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_REISGHB_YI432589345K2435N23]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_YWY_OI9089342JK23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_YWY_OI9089342JK23] FOREIGN KEY([F_YWY])
+REFERENCES [dbo].[YWY] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_YWY_OI9089342JK23]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_YWY_OI9089342JK23]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_ZLSC_KH2349234234KSLJDF]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE]  WITH CHECK ADD  CONSTRAINT [FK_RECIPE_F_ZLSC_KH2349234234KSLJDF] FOREIGN KEY([F_ZLSC])
+REFERENCES [dbo].[ZLSC] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_RECIPE_F_ZLSC_KH2349234234KSLJDF]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPE]'))
+ALTER TABLE [dbo].[RECIPE] CHECK CONSTRAINT [FK_RECIPE_F_ZLSC_KH2349234234KSLJDF]
+GO
 IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RECIPEMX__F_SPBH__4CAB505A]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPEMX]'))
 ALTER TABLE [dbo].[RECIPEMX]  WITH CHECK ADD  CONSTRAINT [FK__RECIPEMX__F_SPBH__4CAB505A] FOREIGN KEY([F_SPBH])
 REFERENCES [dbo].[SP] ([F_SPBH])
@@ -17611,6 +17734,41 @@ REFERENCES [dbo].[SP] ([F_SPBH])
 GO
 IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RECIPEMX3__F_SPB__526429B0]') AND parent_object_id = OBJECT_ID(N'[dbo].[RECIPEMX3]'))
 ALTER TABLE [dbo].[RECIPEMX3] CHECK CONSTRAINT [FK__RECIPEMX3__F_SPB__526429B0]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_BM_G56H7J4]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [FK_REISGHB_F_BM_G56H7J4] FOREIGN KEY([F_BM])
+REFERENCES [dbo].[BM] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_BM_G56H7J4]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB] CHECK CONSTRAINT [FK_REISGHB_F_BM_G56H7J4]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_GHLB_GHLB2323489SDF]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [FK_REISGHB_F_GHLB_GHLB2323489SDF] FOREIGN KEY([F_GHLB])
+REFERENCES [dbo].[GHLB] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_GHLB_GHLB2323489SDF]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB] CHECK CONSTRAINT [FK_REISGHB_F_GHLB_GHLB2323489SDF]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_JZYWY_J9843JK34H]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [FK_REISGHB_F_JZYWY_J9843JK34H] FOREIGN KEY([F_JZYWY])
+REFERENCES [dbo].[YWY] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_JZYWY_J9843JK34H]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB] CHECK CONSTRAINT [FK_REISGHB_F_JZYWY_J9843JK34H]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_PATIENT_Y6845JK3]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [FK_REISGHB_F_PATIENT_Y6845JK3] FOREIGN KEY([F_PATIENT])
+REFERENCES [dbo].[PATIENT] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_PATIENT_Y6845JK3]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB] CHECK CONSTRAINT [FK_REISGHB_F_PATIENT_Y6845JK3]
+GO
+IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_YWY_T567UY34]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB]  WITH CHECK ADD  CONSTRAINT [FK_REISGHB_F_YWY_T567UY34] FOREIGN KEY([F_YWY])
+REFERENCES [dbo].[YWY] ([F_DM])
+GO
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_REISGHB_F_YWY_T567UY34]') AND parent_object_id = OBJECT_ID(N'[dbo].[REISGHB]'))
+ALTER TABLE [dbo].[REISGHB] CHECK CONSTRAINT [FK_REISGHB_F_YWY_T567UY34]
 GO
 IF NOT EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK__RKD__F_HW__04308F6E]') AND parent_object_id = OBJECT_ID(N'[dbo].[RKD]'))
 ALTER TABLE [dbo].[RKD]  WITH CHECK ADD  CONSTRAINT [FK__RKD__F_HW__04308F6E] FOREIGN KEY([F_HW])
