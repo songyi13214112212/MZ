@@ -45,15 +45,15 @@ CREATE	TABLE	GHLB
 	F_GBF				FLOAT	DEFAULT	0,
 	PRIMARY KEY(F_DM ASC),
 )
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'挂号类型ID' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_DM'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'挂号类型ID'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_DM'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'类型名称' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_GHLBMC'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'类型名称'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_GHLBMC'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'助记码' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_ZJM'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'助记码'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_ZJM'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'金额' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_JE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'金额'			, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_JE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'工本费' , @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_GBF'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'工本费'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'GHLB', @level2type=N'COLUMN',@level2name=N'F_GBF'
 GO
 --雇员 
 CREATE	TABLE	EMPLOYEE
@@ -135,23 +135,23 @@ CREATE	TABLE	[DIAGNOSIS TREATMENT MANUAL]
 	F_CREATOR			VARCHAR(20)			,
 	PRIMARY KEY (F_DM ASC),
 )
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册编号'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_DM'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册编号'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_DM'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册日期'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_DATE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册日期'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_DATE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册时间'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_TIME'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册时间'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_TIME'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册姓名'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_FULLNAME'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册姓名'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_FULLNAME'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册助记码', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_ZJM'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册助记码'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_ZJM'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册联系电话', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_TELEPHONE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册联系电话'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_TELEPHONE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册性别'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_GENDER'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册性别'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_GENDER'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册年龄'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_AGE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册年龄'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_AGE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册创建人', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_CREATOR'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册创建人'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS TREATMENT MANUAL', @level2type=N'COLUMN',@level2name=N'F_CREATOR'
 GO
 --病人
 CREATE	TABLE	[PATIENT]
@@ -214,32 +214,85 @@ CREATE	TABLE	REISGHB
 	FOREIGN KEY(F_GHLB)			REFERENCES	GHLB(F_DM),
 	PRIMARY	KEY	(F_DJH),
 )
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'单据号', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DJH'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'单据号'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DJH'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'日期', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DATE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'日期'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DATE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'时间', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_TIME'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'时间'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_TIME'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'状态', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_STATE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'状态'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_STATE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'类型', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_TYPE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'类型'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_TYPE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DIAGNOSIS'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗手册'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DIAGNOSIS'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'病人', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_PATIENT'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'病人'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_PATIENT'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'科室', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DEPART'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'科室'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_DEPART'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'雇员', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_EMP'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'雇员'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_EMP'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊室', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_CLINIC'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊室'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_CLINIC'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'金额', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_JE'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'金额'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_JE'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'工本费', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_GBF'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'工本费'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_GBF'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'制单人', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_CREATOR'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'制单人'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_CREATOR'
 GO
-EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'挂号类型', @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_GHLB'
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'挂号类型'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHB', @level2type=N'COLUMN',@level2name=N'F_GHLB'
+GO
+--挂号注册扩展
+CREATE	TABLE	REISGHBEXTEND
+(
+	F_DJH		INT		NOT	NULL,
+	F_ISJZ		VARCHAR(1),
+	F_ISSAVE	VARCHAR(1),
+	F_BRACK		VARCHAR(1),
+	F_ISZF		VARCHAR(1),
+	PRIMARY KEY (F_DJH ASC),
+	FOREIGN KEY(F_DJH)	REFERENCES REISGHB(F_DJH)
+	ON UPDATE CASCADE 
+	ON DELETE CASCADE
+)
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'挂号注册单据号'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHBEXTEND', @level2type=N'COLUMN',@level2name=N'F_DJH'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'接诊'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHBEXTEND', @level2type=N'COLUMN',@level2name=N'F_ISJZ'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'保存'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHBEXTEND', @level2type=N'COLUMN',@level2name=N'F_ISSAVE'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'退号'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHBEXTEND', @level2type=N'COLUMN',@level2name=N'F_BRACK'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'作废'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'REISGHBEXTEND', @level2type=N'COLUMN',@level2name=N'F_ISZF'
+GO
+--诊疗项目类别
+CREATE	TABLE	DIAGNOSIS_ITEM_CATEGORY
+(
+	F_DM						VARCHAR(60)		NOT		NULL,
+	[F_DIAGNOSIS ITEM CATEGORY] VARCHAR(100) NOT NULL,
+	F_JC						INT			,
+	F_KC						BIT			,
+	PRIMARY KEY(F_DM ASC)					,
+	
+)
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗项目类别编号'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS_ITEM_CATEGORY', @level2type=N'COLUMN',@level2name=N'F_DM'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗项目类别名称'	, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS_ITEM_CATEGORY', @level2type=N'COLUMN',@level2name=N'F_DIAGNOSIS ITEM CATEGORY'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'级次'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS_ITEM_CATEGORY', @level2type=N'COLUMN',@level2name=N'F_JC'
+GO
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'库存'				, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS_ITEM_CATEGORY', @level2type=N'COLUMN',@level2name=N'F_KC'
+GO
+--诊疗项目明细
+CREATE	TABLE	DIAGNOSIS_ITEM_DETAIL
+(
+	F_BH				VARCHAR(60)			NOT	NULL,
+	F_DIAGNOSISITEMMC	VARCHAR(100)		NOT	NULL,
+
+
+
+	PRIMARY KEY(F_BH ASC)				,
+)
+EXEC sys.sp_addextendedproperty @name=N'MS_Description', @value=N'诊疗项目编号'		, @level0type=N'SCHEMA',@level0name=N'dbo', @level1type=N'TABLE',@level1name=N'DIAGNOSIS_ITEM_DETAIL', @level2type=N'COLUMN',@level2name=N'F_BH'
 GO
 
