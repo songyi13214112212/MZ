@@ -4161,9 +4161,9 @@ CREATE TABLE [dbo].[BUS_MASTER_TABLE](
 	[F_VENDOR] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YWY] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_HW] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JS] [float] NULL,
-	[F_JSH] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSH] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_SFZY] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_ZD] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_FPXZ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
@@ -4216,9 +4216,9 @@ CREATE TABLE [dbo].[BUS_MASTER_TABLE2](
 	[F_VENDOR] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YWY] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_HW] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JS] [float] NULL,
-	[F_JSH] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSH] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_SFZY] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_ZD] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_FPXZ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
@@ -4271,9 +4271,9 @@ CREATE TABLE [dbo].[BUS_MASTER_TABLE3](
 	[F_VENDOR] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YWY] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_HW] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JS] [float] NULL,
-	[F_JSH] [varchar](6) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSH] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_SFZY] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_ZD] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_FPXZ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
@@ -5011,7 +5011,7 @@ GO
 CREATE TABLE [dbo].[JSFS](
 	[F_DM] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
 	[F_MC] [varchar](10) COLLATE Chinese_PRC_CI_AS NOT NULL,
-	[F_JC] [varchar](4) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JC] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
  CONSTRAINT [PK__JSFS__2C6EEFB6FFC81D56] PRIMARY KEY CLUSTERED 
 (
 	[F_DM] ASC
@@ -5709,7 +5709,7 @@ CREATE TABLE [dbo].[RETAIL](
 	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_DQ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_NEWPC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](8) COLLATE Chinese_PRC_CI_AS NULL
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL
 ) ON [PRIMARY]
 GO
 /****** Object:  Table [dbo].[RETAIL11]    Script Date: 2023/9/13 10:27:26 ******/
@@ -5742,7 +5742,7 @@ CREATE TABLE [dbo].[RETAIL11](
 	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_DQ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_NEWPC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](8) COLLATE Chinese_PRC_CI_AS NULL
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL
 ) ON [PRIMARY]
 GO
 /****** Object:  Table [dbo].[RETAIL2]    Script Date: 2023/9/13 10:27:26 ******/
@@ -5775,7 +5775,7 @@ CREATE TABLE [dbo].[RETAIL2](
 	[F_IFPH] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_DQ] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_NEWPC] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](8) COLLATE Chinese_PRC_CI_AS NULL
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL
 ) ON [PRIMARY]
 GO
 /****** Object:  Table [dbo].[RETAILC]    Script Date: 2023/9/13 10:27:26 ******/
@@ -6636,8 +6636,8 @@ CREATE TABLE [dbo].[YFJSD2](
 	[F_VENDOR] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_TJ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_BM] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSH] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSH] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JSJE] [float] NULL,
 	[F_BZ] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YE] [float] NULL,
@@ -6743,8 +6743,8 @@ CREATE TABLE [dbo].[YSJSD2](
 	[F_CUSTOM] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_TJ] [varchar](1) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_BM] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSFS] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
-	[F_JSH] [varchar](10) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSFS] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
+	[F_JSH] [varchar](20) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_JSJE] [float] NULL,
 	[F_BZ] [varchar](100) COLLATE Chinese_PRC_CI_AS NULL,
 	[F_YE] [float] NULL,
